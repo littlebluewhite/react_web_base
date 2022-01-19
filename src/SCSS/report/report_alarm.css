@@ -1,0 +1,738 @@
+.reportArticle {
+  font-family: Noto Sans SC, sans-serif;
+  width: 97%;
+  height: 100%;
+  background: linear-gradient(64.4deg, #00262F 73.81%, #495B7C 122.59%);
+  border-radius: 5px;
+  color: #8FCDCC;
+  font-size: 1.625rem;
+}
+.reportArticle .scroll {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 99%;
+  height: 100%;
+}
+.reportArticle .scroll .up {
+  display: flex;
+  justify-content: center;
+  margin: 2.25rem 1.52% 0 1.52%;
+  border-bottom: 1px solid rgba(143, 205, 204, 0.26);
+}
+.reportArticle .scroll .up .container {
+  width: 88%;
+}
+.reportArticle .scroll .up .container .reportSearch {
+  background: rgba(143, 205, 204, 0.15);
+  border: 1px solid #8FCDCC;
+  border-radius: 5px;
+}
+.reportArticle .scroll .up .container .reportSearch .searchSelect {
+  display: flex;
+}
+.reportArticle .scroll .up .container .reportSearch .searchSelect .item {
+  cursor: pointer;
+  line-height: 3.1875rem;
+  flex-grow: 1;
+  text-align: center;
+  border-bottom: 1px solid #8FCDCC;
+}
+.reportArticle .scroll .up .container .reportSearch .searchSelect .item.active {
+  border-bottom: none;
+  background: linear-gradient(270deg, rgba(143, 205, 204, 0.26) 0%, rgba(143, 205, 204, 0.052) 31.56%, rgba(143, 205, 204, 0.26) 100%);
+}
+.reportArticle .scroll .up .container .reportSearch .searchSelect .item.fast {
+  border-right: 1px solid #8FCDCC;
+}
+.reportArticle .scroll .up .container .reportSearch .searchSelect .item.self {
+  border-left: 1px solid #8FCDCC;
+}
+.reportArticle .scroll .up .container .reportSearch .searchContext {
+  padding: 1.875rem 1.14% 1rem 1.14%;
+}
+.reportArticle .scroll .up .container .reportSearch .searchContext .searchFast {
+  display: flex;
+  justify-content: space-between;
+}
+.reportArticle .scroll .up .container .reportSearch .searchContext .searchFast .div_input {
+  font-size: 1rem;
+  width: 13%;
+  height: 1.875rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid #8FCDCC;
+  border-radius: 5px;
+}
+.reportArticle .scroll .up .container .reportSearch .searchContext .searchFast .div_input input {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.reportArticle .scroll .up .container .reportSearch .searchContext .searchSelf .div_input {
+  font-size: 1.875rem;
+  font-weight: 700;
+  height: 3.125rem;
+}
+.reportArticle .scroll .up .container .reportSearch .searchContext .searchSelf .div_input .to {
+  margin: 0 1.5%;
+}
+.reportArticle .scroll .up .container .reportSearch .searchContext .searchSelf .div_input input {
+  font-size: 1.25rem;
+  width: 29.3%;
+  height: 2.1875rem;
+  border: 1px solid #8FCDCC;
+  border-radius: 5px;
+  color: #8FCDCC;
+}
+.reportArticle .scroll .up .container .reportSearch .searchContext .text {
+  margin-top: 1.39%;
+  font-size: 1rem;
+  color: #FF4D4D;
+}
+.reportArticle .scroll .up .container .div_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3% 0;
+  text-align: center;
+}
+.reportArticle .scroll .up .container .div_button button {
+  margin: 0 0.714%;
+}
+.reportArticle .scroll .downContainer .filterConditionContainer {
+  padding: 1% 4% 2% 5%;
+  margin: 0 2%;
+}
+.reportArticle .scroll .downContainer .filterConditionContainer .resetContainer {
+  margin-bottom: 0.5%;
+}
+.reportArticle .scroll .downContainer .filterConditionContainer .resetContainer .resetButton {
+  cursor: pointer;
+  width: 5.5%;
+  line-height: 1.4375rem;
+  text-align: center;
+  font-size: 1rem;
+  background: rgba(143, 205, 204, 0.16);
+  border-radius: 14px;
+}
+.reportArticle .scroll .downContainer .filterConditionContainer .resetContainer .resetButton svg {
+  margin-left: 10%;
+}
+.reportArticle .scroll .downContainer .filterConditionContainer .filterCondition {
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+.reportArticle .scroll .downContainer .filterConditionContainer .filterCondition select {
+  margin-left: 0.9375rem;
+  padding-left: 0.9375rem;
+  width: 11.8rem;
+}
+.reportArticle .scroll .downContainer .title {
+  margin: 0 5rem 2rem 5rem;
+  padding: 0 0 0 0;
+  text-align: center;
+  display: flex;
+}
+.reportArticle .scroll .downContainer .title .item1 {
+  width: 25%;
+}
+.reportArticle .scroll .downContainer .title .item2 {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.reportArticle .scroll .downContainer .title .item2 .pageChangeButton {
+  cursor: not-allowed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1a3e4c;
+  width: 2.875rem;
+  height: 2.875rem;
+  border-radius: 50%;
+}
+.reportArticle .scroll .downContainer .title .item2 .pageChangeButton.active {
+  cursor: pointer;
+  background: #587894;
+}
+.reportArticle .scroll .downContainer .title .item2 .pageChangeButton .arrowLeft {
+  width: 0.8125rem;
+  height: 0.8125rem;
+  margin-left: 0.3125rem;
+  border-left: 0.25rem solid #002630;
+  border-bottom: 0.25rem solid #002630;
+  transform: rotate(45deg);
+}
+.reportArticle .scroll .downContainer .title .item2 .pageChangeButton .arrowRight {
+  width: 0.8125rem;
+  height: 0.8125rem;
+  border-top: 0.25rem solid #002630;
+  border-right: 0.25rem solid #002630;
+  margin-right: 0.3125rem;
+  transform: rotate(45deg);
+}
+.reportArticle .scroll .downContainer .title .item2 .text {
+  margin: 0 6.09%;
+}
+.reportArticle .scroll .downContainer .dataTitle {
+  margin: 0;
+}
+.reportArticle .scroll .downContainer .chart {
+  margin: 0 6.5%;
+}
+.reportArticle .scroll .downContainer .downContainerTable {
+  font-family: Noto Sans SC, sans-serif;
+  margin: 0.625rem 8% 2% 8%;
+}
+.reportArticle .scroll .downContainer .downContainerTable .countTotal {
+  color: #8FCDCC;
+  margin: 0.875rem 0;
+  font-size: 1.25rem;
+}
+.reportArticle .scroll .downContainer .downContainerTable .statisticContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.reportArticle .scroll .downContainer .downContainerTable .statisticContainer .statisticTable {
+  width: 48.5%;
+}
+.reportArticle .scroll .downContainer .downContainerTable .statisticContainer .statisticTable .title {
+  display: flex;
+  font-size: 1.625rem;
+  border-bottom: 1px solid #8D97AD;
+}
+.reportArticle .scroll .downContainer .downContainerTable .statisticContainer .statisticTable .title .titleText1 {
+  padding-left: 1.795%;
+  border-right: 1px solid #8FCDCC;
+  margin: 0.625rem 0;
+  width: 59%;
+  text-align: start;
+}
+.reportArticle .scroll .downContainer .downContainerTable .statisticContainer .statisticTable .title .titleText2 {
+  margin: 0.625rem 0 0.625rem 1.795%;
+  flex-grow: 1;
+  text-align: start;
+}
+.reportArticle .scroll .downContainer .downContainerTable .statisticContainer .statisticTable .div_table table {
+  width: 100%;
+  border-spacing: 0;
+  vertical-align: center;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+}
+.reportArticle .scroll .downContainer .downContainerTable .statisticContainer .statisticTable .div_table table tr {
+  cursor: pointer;
+}
+.reportArticle .scroll .downContainer .downContainerTable .statisticContainer .statisticTable .div_table table tr:nth-child(even) {
+  background: #033440;
+}
+.reportArticle .scroll .downContainer .downContainerTable .statisticContainer .statisticTable .div_table table tr:hover {
+  background: #495B7C;
+  box-shadow: 0 0.125rem 1.25rem rgba(0, 0, 0, 0.08);
+}
+.reportArticle .scroll .downContainer .downContainerTable .statisticContainer .statisticTable .div_table table tr td {
+  padding-left: 1.795%;
+  height: 2.5rem;
+}
+.reportArticle .scroll .downContainer .downContainerTable .statisticContainer .statisticTable .div_table table tr td.td1 {
+  width: 60%;
+}
+.reportArticle .scroll .downContainerSelf {
+  font-family: Noto Sans SC, "sans-serif";
+  margin: 0 7%;
+}
+.reportArticle .scroll .downContainerSelf .filterConditionContainer {
+  padding: 1% 4% 2% 5%;
+  margin: 0 2%;
+}
+.reportArticle .scroll .downContainerSelf .filterConditionContainer .resetContainer {
+  margin-bottom: 0.5%;
+}
+.reportArticle .scroll .downContainerSelf .filterConditionContainer .resetContainer .resetButton {
+  cursor: pointer;
+  width: 5.5%;
+  line-height: 1.4375rem;
+  text-align: center;
+  font-size: 1rem;
+  background: rgba(143, 205, 204, 0.16);
+  border-radius: 14px;
+}
+.reportArticle .scroll .downContainerSelf .filterConditionContainer .resetContainer .resetButton svg {
+  margin-left: 10%;
+}
+.reportArticle .scroll .downContainerSelf .filterConditionContainer .filterCondition {
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+.reportArticle .scroll .downContainerSelf .filterConditionContainer .filterCondition select {
+  margin-left: 0.9375rem;
+  padding-left: 0.9375rem;
+  width: 11.8rem;
+}
+.reportArticle .scroll .downContainerSelf .filterConditionContainer {
+  padding: 0;
+  margin: 1% 0 5% 0;
+}
+.reportArticle .scroll .downContainerSelf .selfTitle {
+  display: flex;
+}
+.reportArticle .scroll .downContainerSelf .selfTitle .selfText {
+  font-size: 1.25rem;
+  width: 48.5%;
+}
+.reportArticle .scroll .downContainerSelf .selfTitle .selfText .textContainer {
+  justify-content: space-between;
+  display: flex;
+}
+.reportArticle .scroll .downContainerSelf .selfTitle .selfText .textContainer .textContainer2 {
+  width: 51%;
+}
+.reportArticle .scroll .downContainerSelf .selfTitle .selfText .textContainer .textContainer2 > div {
+  margin: 1rem 0 1rem 0;
+}
+.reportArticle .scroll .downContainerSelf .selfTitle .selfText .textContainer .title1End {
+  display: flex;
+  align-items: center;
+  color: #8FCDCC;
+}
+.reportArticle .scroll .downContainerSelf .selfTitle .selfText .textContainer .title1End .title1EndButton {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  margin-right: 2.5rem;
+  align-items: center;
+}
+.reportArticle .scroll .downContainerSelf .selfTitle .selfText .textContainer .title1End .title1EndButton .arrowContainer {
+  width: 3rem;
+  cursor: not-allowed;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reportArticle .scroll .downContainerSelf .selfTitle .selfText .textContainer .title1End .title1EndButton .arrowContainer.active {
+  cursor: pointer;
+}
+.reportArticle .scroll .downContainerSelf .selfTitle .selfText .textContainer .title1End .title1EndButton .arrowContainer .arrowLeft {
+  cursor: not-allowed;
+  width: 0.4375rem;
+  height: 0.4375rem;
+  border-left: 0.1875rem solid rgba(143, 205, 204, 0.26);
+  border-bottom: 0.1875rem solid rgba(143, 205, 204, 0.26);
+  transform: rotate(45deg);
+}
+.reportArticle .scroll .downContainerSelf .selfTitle .selfText .textContainer .title1End .title1EndButton .arrowContainer .arrowRight {
+  cursor: not-allowed;
+  width: 0.4375rem;
+  height: 0.4375rem;
+  border-top: 0.1875rem solid rgba(143, 205, 204, 0.26);
+  border-right: 0.1875rem solid rgba(143, 205, 204, 0.26);
+  transform: rotate(45deg);
+}
+.reportArticle .scroll .downContainerSelf .selfTitle .selfText .textContainer .title1End .title1EndButton .arrowContainer .active {
+  cursor: pointer;
+  border-color: #8FCDCC;
+}
+.reportArticle .scroll .downContainerSelf .selfTitle .selfText .textContainer .title1End {
+  padding-bottom: 1rem;
+  flex-grow: 1;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 44%;
+}
+.reportArticle .scroll .downContainerSelf .selfTitle .selfText .textContainer .title1End .title1EndButton {
+  align-items: flex-end;
+  margin-right: 0;
+}
+.reportArticle .scroll .downContainerSelf .selfTitle .selfText .textContainer .title1End .title1EndButton .arrowContainer {
+  height: 2.5rem;
+  flex-grow: 1;
+}
+.reportArticle .scroll .downContainerSelf .chartAndTable {
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+.reportArticle .scroll .downContainerSelf .chartAndTable .statisticTable {
+  width: 48.5%;
+}
+.reportArticle .scroll .downContainerSelf .chartAndTable .statisticTable .title {
+  display: flex;
+  font-size: 1.625rem;
+  border-bottom: 1px solid #8D97AD;
+}
+.reportArticle .scroll .downContainerSelf .chartAndTable .statisticTable .title .titleText1 {
+  padding-left: 1.795%;
+  border-right: 1px solid #8FCDCC;
+  margin: 0.625rem 0;
+  width: 59%;
+  text-align: start;
+}
+.reportArticle .scroll .downContainerSelf .chartAndTable .statisticTable .title .titleText2 {
+  margin: 0.625rem 0 0.625rem 1.795%;
+  flex-grow: 1;
+  text-align: start;
+}
+.reportArticle .scroll .downContainerSelf .chartAndTable .statisticTable .div_table table {
+  width: 100%;
+  border-spacing: 0;
+  vertical-align: center;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+}
+.reportArticle .scroll .downContainerSelf .chartAndTable .statisticTable .div_table table tr {
+  cursor: pointer;
+}
+.reportArticle .scroll .downContainerSelf .chartAndTable .statisticTable .div_table table tr:nth-child(even) {
+  background: #033440;
+}
+.reportArticle .scroll .downContainerSelf .chartAndTable .statisticTable .div_table table tr:hover {
+  background: #495B7C;
+  box-shadow: 0 0.125rem 1.25rem rgba(0, 0, 0, 0.08);
+}
+.reportArticle .scroll .downContainerSelf .chartAndTable .statisticTable .div_table table tr td {
+  padding-left: 1.795%;
+  height: 2.5rem;
+}
+.reportArticle .scroll .downContainerSelf .chartAndTable .statisticTable .div_table table tr td.td1 {
+  width: 60%;
+}
+.reportArticle .scroll .downContainerSelf .chartAndTable .right {
+  width: 50%;
+}
+.reportArticle .scroll .downContainerSelf .chartAndTable .right .chart {
+  margin-left: 12%;
+}
+.reportArticle .scroll .downContainerSelf .chartAndTable .right .chart .text {
+  font-size: 1.25rem;
+}
+.reportArticle .scroll .downContainerSelf .chartAndTable .right .chartData {
+  display: flex;
+  height: 50%;
+}
+.reportArticle .scroll .downContainerSelf .chartAndTable .right .chartData .color {
+  height: 100%;
+  width: 0.5rem;
+  margin-right: 0.3rem;
+}
+.reportArticle .scroll .downContainerSelf .chartAndTable .right .chartData .text {
+  background: rgba(143, 205, 204, 0.16);
+  box-shadow: 0 0.3rem 0.3rem rgba(143, 205, 204, 0.15);
+  border-radius: 0.45rem;
+  padding: 0 1rem;
+  font-size: 1rem;
+}
+.reportArticle .scroll .downContainerSelf .chartAndTable .right .chartData .numberWord {
+  color: #05CCFF;
+}
+.reportArticle .scroll .downContainerSelf .chartAndTable .right .chartData {
+  margin-top: 2rem;
+  padding-left: 17%;
+  height: 2rem;
+}
+.reportArticle .scroll .downContainerSelf .chartAndTable .right .chartData .color {
+  margin-right: 0.45rem;
+  width: 0.6rem;
+  height: 100%;
+}
+.reportArticle .scroll .downContainerSelf .chartAndTable .right .chartData .text {
+  flex-grow: 1;
+  padding-left: 3%;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.model2 .eventListContainer {
+  position: relative;
+  color: #8FCDCC;
+  height: 65%;
+  width: 76%;
+  background: linear-gradient(64.4deg, #00262F 73.81%, #495B7C 122.59%);
+  box-shadow: 0 0.75rem 0.75rem 0.1875rem rgba(3, 13, 27, 0.6);
+  border-radius: 15px;
+}
+.model2 .eventListContainer .eventList {
+  height: 92%;
+  margin: 2%;
+}
+.model2 .eventListContainer .eventList .title {
+  display: flex;
+  padding-right: 4%;
+}
+.model2 .eventListContainer .eventList .title .titleText {
+  font-size: 1rem;
+}
+.model2 .eventListContainer .eventList .title .titleText2 {
+  flex-grow: 1;
+  font-size: 1.625rem;
+  text-align: center;
+}
+.model2 .eventListContainer .eventList .title .printDownloadContainer {
+  flex-grow: 0;
+}
+.model2 .eventListContainer .eventList .showEventContainer {
+  height: 100%;
+  width: 100%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .title {
+  margin-top: 1%;
+  margin-right: 3%;
+  height: 2.1875rem;
+  border-bottom: 1px solid #8D97AD;
+  padding-right: 1%;
+  display: flex;
+  font-size: 1.625rem;
+  color: #8FCDCC;
+}
+.model2 .eventListContainer .eventList .showEventContainer .title .title2Text {
+  cursor: pointer;
+  border-right: solid 1px #8FCDCC;
+  padding-left: 0.8%;
+  display: flex;
+  box-sizing: border-box;
+}
+.model2 .eventListContainer .eventList .showEventContainer .title .title2Text .div_triangle {
+  margin: 0.45rem 0 0.45rem 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.model2 .eventListContainer .eventList .showEventContainer .title .title2Text .div_triangle .triangle {
+  border-left: 0.1875rem solid transparent;
+  border-right: 0.1875rem solid transparent;
+}
+.model2 .eventListContainer .eventList .showEventContainer .title .title2Text .div_triangle .triangle.triangleUp {
+  border-bottom: 0.25rem solid rgba(143, 205, 204, 0.26);
+}
+.model2 .eventListContainer .eventList .showEventContainer .title .title2Text .div_triangle .triangle.triangleUp.active {
+  border-bottom: 0.25rem solid #05CCFF;
+}
+.model2 .eventListContainer .eventList .showEventContainer .title .title2Text .div_triangle .triangle.triangleDown {
+  border-top: 0.25rem solid rgba(143, 205, 204, 0.26);
+}
+.model2 .eventListContainer .eventList .showEventContainer .title .title2Text .div_triangle .triangle.triangleDown.active {
+  border-top: 0.25rem solid #05CCFF;
+}
+.model2 .eventListContainer .eventList .showEventContainer .title .text1 {
+  width: 19.4%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .title .text2 {
+  width: 12.5%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .title .text3 {
+  width: 25.4%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .title .text4 {
+  width: 42.7%;
+  border-right: none;
+}
+.model2 .eventListContainer .eventList .showEventContainer .title .text5 {
+  width: 15%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .title .text6 {
+  width: 13%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .title .text7 {
+  width: 13%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .title .text8 {
+  width: 15%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .title .text9 {
+  width: 9%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .title .text10 {
+  width: 7%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .title .text11 {
+  width: 15%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .title .text12 {
+  width: 13%;
+  border-right: none;
+}
+.model2 .eventListContainer .eventList .showEventContainer .title .text13 {
+  width: 45%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .title .text14 {
+  width: 38%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 88%;
+  padding-right: 1.5%;
+  margin-right: 2%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table {
+  width: 100%;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+  border-spacing: 0;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr:nth-child(even) {
+  background: #033440;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr:hover {
+  background: #495B7C;
+  box-shadow: 0 0.125rem 1.25rem rgba(0, 0, 0, 0.08);
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr.active {
+  background: #495B7C;
+  box-shadow: inset 0 0 8px 3px rgba(143, 205, 204, 0.55);
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td {
+  font-family: Poppins, sans-serif;
+  height: 2.5rem;
+  padding-left: 1%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td.td1 {
+  width: 19.4%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td.td2 {
+  width: 12.5%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td.td3 {
+  width: 25.4%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td.td4 {
+  width: 42.7%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td .td4Text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td .td4Text .status {
+  flex-grow: 1;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td .td4Text .td4TextImage {
+  width: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob {
+  cursor: pointer;
+  position: relative;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .operatorTitle {
+  position: absolute;
+  font-family: Noto Sans SC, sans-serif;
+  background: #8FCDCC;
+  border: 1px solid #000000;
+  border-radius: 0.125rem;
+  color: #000000;
+  width: 3.5rem;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  text-align: center;
+  font-size: 1rem;
+  top: 1rem;
+  right: 0;
+  z-index: 3;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob {
+  font-family: Noto Sans SC, sans-serif;
+  z-index: 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  position: absolute;
+  top: 1.125rem;
+  right: -0.1875rem;
+  font-size: 1rem;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context {
+  width: 22.125rem;
+  height: 10.8125rem;
+  background: #033440;
+  border-radius: 5px;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title1 {
+  text-align: center;
+  color: #8FCDCC;
+  font-weight: 500;
+  height: 30%;
+  line-height: 4rem;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 {
+  font-weight: normal;
+  height: 30%;
+  line-height: 1.25rem;
+  display: flex;
+  align-items: center;
+  color: rgba(143, 205, 204, 0.35);
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 .title2Text1 {
+  padding-left: 1.5625rem;
+  width: 40%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 .title2Text2 {
+  text-align: center;
+  width: 60%;
+  border-bottom: 1px solid #8FCDCC;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .div_button {
+  font-weight: 500;
+  text-align: center;
+  height: 30%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .div_button button {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .triangle {
+  width: 1px;
+  border-bottom: 1.75rem solid #033440;
+  border-left: 0.875rem solid transparent;
+  border-right: 0.875rem solid transparent;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td.td5 {
+  width: 15%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td.td6 {
+  width: 13%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td.td7 {
+  width: 13%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td.td8 {
+  width: 15%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td.td9 {
+  width: 9%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td.td10 {
+  width: 7%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td.td11 {
+  width: 15%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td.td12 {
+  width: 13%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td.td13 {
+  width: 45%;
+}
+.model2 .eventListContainer .eventList .showEventContainer .showEventTable table tr td.td14 {
+  width: 38%;
+}
+.model2 .eventListContainer .close {
+  cursor: pointer;
+  z-index: 60;
+  position: absolute;
+  top: 0.625rem;
+  right: 2%;
+  width: 2.125rem;
+  height: 2.125rem;
+  border-radius: 50%;
+  box-shadow: 0 0.5rem 0.4375rem -1px rgba(20, 22, 22, 0.8);
+}
+
+/*# sourceMappingURL=report_alarm.css.map */

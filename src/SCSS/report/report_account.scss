@@ -1,0 +1,133 @@
+@import "../mixin";
+
+.reportArticle{
+  .accountScroll{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 99%;
+    height: 100%;
+    .accountUp {
+      .searchContainer {
+        display: flex;
+        justify-content: center;
+        margin: 2.5% 0 1% 0;
+        input.search {
+          font-size: 1rem;
+          width: 45.4%;
+          height: 2.1875rem;
+        }
+      }
+      @include filterSelect;
+      .filterConditionContainer{
+        border-bottom: 1px solid rgba(143, 205, 204, 0.26);
+      }
+    }
+    .downAccountStatistic{
+      margin: 2% 6% 1% 7%;
+      .title{
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: space-between;
+      }
+      .accountChartsContainer{
+        display: flex;
+        .accountChart{
+          font-size: 1.25rem;
+          width: 40%;
+          height: 17rem;
+          &.last{
+            margin-right: 0;
+          }
+        }
+      }
+    }
+    .downAccountTable{
+      width: 100%;
+      height: 85%;
+      margin: 2.5% 4% 4% 4%;
+      .count{
+        font-size: 1.25rem;
+        margin-left: 0.8%;
+      }
+      .accountContainer{
+        height: 95%;
+        width: 100%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        position: relative;
+        padding-top: 2%;
+        &::-webkit-scrollbar-thumb {
+          background: rgba(141, 205, 204, 0.4);
+          border-radius: 0.625rem;
+        }
+        &::-webkit-scrollbar-thumb:hover {
+          background: rgba(75, 108, 108, 0.4);
+        }
+        .sortTitle{
+          position: -webkit-sticky;
+          position:sticky;
+          top: 0;
+          line-height: 2rem;
+          border-bottom: 1px solid #8D97AD;
+          padding-bottom: 0.6%;
+          width: 100%;
+          .title2{
+            @include sortTitle();
+            color: white;
+            .text5{
+              width: 20%;
+            }
+            .text6{
+              width: 20%;
+            }
+            .text7{
+              width: 15%;
+            }
+            .text10{
+              width: 20%;
+            }
+            .text8{
+              width: 25%;
+              border-right: none;
+            }
+          }
+        }
+        .showAccountTable{
+          @include scroll();
+          width: 100%;
+          height: 94%;
+          table{
+            tr{
+              td{
+                &.td5 {
+                  width: 20%;
+                }
+                &.td6{
+                  width: 20%;
+                }
+                &.td7{
+                  width: 15%;
+                }
+                &.td10{
+                  width: 20%;
+                }
+                &.td8{
+                  width: 25%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .searchSelf{
+    select.marginLeft{
+      margin-left: 1.6875rem;
+    }
+    .hourMinute{
+      font-size: 1.25rem;
+      margin: 0 0.5rem;
+    }
+  }
+}

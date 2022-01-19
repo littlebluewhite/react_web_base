@@ -1,0 +1,225 @@
+.articleSystemSettingUrl {
+  font-family: Noto Sans SC, sans-serif;
+  width: 97%;
+  height: 100%;
+  background: linear-gradient(64.4deg, #00262F 73.81%, #495B7C 122.59%);
+  border-radius: 5px;
+  color: #8FCDCC;
+  font-size: 1.625rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.articleSystemSettingUrl .titleContainer {
+  display: flex;
+  margin-top: 1.25rem;
+  margin-left: 1.8%;
+}
+.articleSystemSettingUrl .titleContainer .title {
+  font-weight: bold;
+  font-size: 1.625rem;
+  color: #FFFFFF;
+}
+.articleSystemSettingUrl .titleContainer .svgContainer {
+  cursor: pointer;
+  margin-left: 1.5rem;
+}
+.articleSystemSettingUrl .urlDataContainer {
+  margin: 0 3.3%;
+  padding-top: 1rem;
+}
+.articleSystemSettingUrl .urlDataContainer.add {
+  padding: 0;
+}
+.articleSystemSettingUrl .urlDataContainer .urlElement {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: flex-end;
+}
+.articleSystemSettingUrl .urlDataContainer .urlElement .controlContainer {
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+.articleSystemSettingUrl .urlDataContainer .urlElement .controlContainer .block {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.articleSystemSettingUrl .urlDataContainer .urlElement .name {
+  width: 35%;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+.articleSystemSettingUrl .urlDataContainer .urlElement .name input {
+  height: 100%;
+  width: 70%;
+  color: #8FCDCC;
+  font-size: 1.625rem;
+  border-bottom: 1px solid #8FCDCC;
+}
+.articleSystemSettingUrl .urlDataContainer .urlElement .name input:focus {
+  box-shadow: 0 2px rgba(143, 205, 204, 0.65);
+}
+.articleSystemSettingUrl .urlDataContainer .urlElement .url {
+  word-break: break-all;
+  word-wrap: break-word;
+  width: 75%;
+  flex-grow: 1;
+}
+.articleSystemSettingUrl .urlDataContainer .urlElement .url input {
+  border-bottom: 1px solid #8FCDCC;
+  width: 100%;
+  display: block;
+  color: #8FCDCC;
+  font-size: 1.625rem;
+}
+.articleSystemSettingUrl .urlDataContainer .urlElement .url input:focus {
+  box-shadow: 0 4px rgba(143, 205, 204, 0.65);
+}
+.articleSystemSettingUrl .urlDataContainer .urlElement .upDownButtonContainer {
+  display: flex;
+  margin-left: 0.5625rem;
+}
+.articleSystemSettingUrl .urlDataContainer .urlElement .upDownButtonContainer .upButton {
+  cursor: pointer;
+  margin-right: 1.125rem;
+}
+.articleSystemSettingUrl .urlDataContainer .urlElement .upDownButtonContainer .downButton {
+  cursor: pointer;
+}
+.articleSystemSettingUrl .addButtonContainer {
+  margin: 2.5rem 0 1.88rem 0;
+  display: flex;
+  justify-content: center;
+}
+.articleSystemSettingUrl .addButtonContainer .addButton {
+  cursor: pointer;
+  height: 2.7rem;
+  width: 2.7rem;
+  border: solid 0.45rem #00EAFF;
+  border-radius: 50%;
+  font-size: 1.9rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #00EAFF;
+}
+.articleSystemSettingUrl .addButtonContainer .addButton.inactive {
+  opacity: 0.2;
+  cursor: not-allowed;
+}
+.articleSystemSettingUrl .createButtonContainer {
+  display: flex;
+  justify-content: center;
+}
+.articleSystemSettingUrl .createButtonContainer .button {
+  margin: 0.6%;
+}
+
+.article_container1 {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding-top: 1rem;
+  justify-content: center;
+}
+.article_container1 .system_article_container2 {
+  box-sizing: border-box;
+  width: 97%;
+  background: linear-gradient(64.4deg, #00262F 73.81%, #495B7C 122.59%);
+  box-shadow: 0 0.125rem 1.25px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  font-family: Noto Sans SC, sans-serif;
+  font-size: 1.625rem;
+  padding: 1.25rem 0 2.25rem 1.744%;
+}
+.article_container1 .system_article_container2 .url_title {
+  width: 30%;
+  height: 2.625rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+}
+.article_container1 .system_article_container2 .url_title .url_title2 {
+  cursor: pointer;
+  width: 88%;
+  border-bottom: solid 1px #8FCDCC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.article_container1 .system_article_container2 .div_table {
+  margin-top: 0.3125rem;
+  margin-left: 1.546%;
+  color: #8FCDCC;
+}
+.article_container1 .system_article_container2 .div_table table {
+  width: 99%;
+}
+.article_container1 .system_article_container2 .div_table table td {
+  height: 3.125rem;
+  vertical-align: bottom;
+}
+.article_container1 .system_article_container2 .div_table table .td1 {
+  width: 36%;
+  font-size: 1.625rem;
+}
+.article_container1 .system_article_container2 .div_table table .td2 {
+  width: 64%;
+  font-family: Poppins, sans-serif;
+  font-size: 1.25rem;
+  border-bottom: 1px solid #8FCDCC;
+}
+.article_container1 .system_article_container2 .title {
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.article_container1 .system_article_container2 .explain {
+  color: #8FCDCC;
+}
+.article_container1 .system_article_container2 .explain > div {
+  margin: 1.237%;
+}
+.article_container1 .system_article_container2 .explain > div input {
+  display: none;
+}
+.article_container1 .system_article_container2 .explain .hrContainer {
+  margin: 2.5rem 2% 1rem 2.5%;
+}
+.article_container1 .system_article_container2 .explain .hrContainer hr {
+  border-top: 1px solid rgba(143, 205, 204, 0.3);
+  border-bottom: 0;
+}
+.article_container1 .system_article_container2 .explain .div_update_picture > div {
+  margin: 1.269%;
+}
+.article_container1 .system_article_container2 .explain .div_update_picture .picture {
+  padding: 0 1rem;
+  border: solid 1px #8FCDCC;
+  border-radius: 5px;
+  width: fit-content;
+  height: 5.95rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.article_container1 .system_article_container2 .explain .div_update_picture .picture img {
+  height: 54%;
+}
+.article_container1 .system_article_container2 .explain .div_update_picture .picture span {
+  margin-left: 1rem;
+}
+.article_container1 .system_article_container2 .explain .item2 {
+  font-size: 1rem;
+}
+.article_container1 .system_article_container2 .explain .item3 {
+  color: #3f94f9;
+}
+.article_container1 .system_article_container2 .div_button {
+  display: flex;
+  justify-content: center;
+}
+.article_container1 .system_article_container2 .div_button .button {
+  margin: 0 0.75rem;
+}
+
+/*# sourceMappingURL=systemSetting.css.map */

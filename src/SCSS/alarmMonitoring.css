@@ -1,0 +1,1101 @@
+.articleAlarmMonitoringEvent {
+  width: 97%;
+  height: 100%;
+  background: linear-gradient(64.4deg, #00262F 73.81%, #495B7C 122.59%);
+  border-radius: 5px;
+}
+.articleAlarmMonitoringEvent .nav {
+  display: flex;
+  align-items: center;
+  height: 2.875rem;
+  background: rgba(143, 205, 204, 0.1);
+  color: #8FCDCC;
+  font-size: 0.875rem;
+  border-radius: 5px 5px 0 0;
+}
+.articleAlarmMonitoringEvent .nav .item {
+  cursor: pointer;
+  margin: 0 0.6%;
+  display: flex;
+  line-height: 1.875rem;
+  border: 1px solid #8FCDCC;
+  border-radius: 5px;
+  height: 1.875rem;
+  align-items: center;
+}
+.articleAlarmMonitoringEvent .nav .item .colorDiv {
+  margin: 0.3rem;
+  width: 1rem;
+  height: 1rem;
+}
+.articleAlarmMonitoringEvent .nav .item .colorDiv .up {
+  border-radius: 1rem 1rem 0 0;
+}
+.articleAlarmMonitoringEvent .nav .item .colorDiv .down {
+  border-radius: 0 0 1rem 1rem;
+}
+.articleAlarmMonitoringEvent .nav .item .count {
+  margin: 0 0.375rem;
+  font-family: Poppins, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: #FFFFFF;
+}
+.articleAlarmMonitoringEvent .nav .synButtonContainer {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+.articleAlarmMonitoringEvent .nav .synButtonContainer .synButton {
+  margin-right: 3.5%;
+  height: 2rem;
+  cursor: pointer;
+  width: auto;
+  padding: 0 1.25rem 0 1.25rem;
+  display: flex;
+}
+.articleAlarmMonitoringEvent .nav .synButtonContainer .synButton .svgContainer2 {
+  display: flex;
+  align-items: center;
+}
+.articleAlarmMonitoringEvent .nav .synButtonContainer .synButton .text {
+  display: flex;
+  align-items: center;
+}
+.articleAlarmMonitoringEvent .articleAlarmMonitoringEventInnerContainer {
+  display: flex;
+  align-items: center;
+  margin: 0 1.5%;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(143, 205, 204, 0.26);
+}
+.articleAlarmMonitoringEvent .articleAlarmMonitoringEventInnerContainer table {
+  width: 88%;
+  line-height: 1.8125rem;
+  font-size: 1.25rem;
+  border-spacing: 0 1rem;
+}
+.articleAlarmMonitoringEvent .articleAlarmMonitoringEventInnerContainer table th {
+  vertical-align: bottom;
+  text-align: left;
+  font-weight: 500;
+  color: rgba(143, 205, 204, 0.35);
+}
+.articleAlarmMonitoringEvent .articleAlarmMonitoringEventInnerContainer table td {
+  padding-right: 3%;
+}
+.articleAlarmMonitoringEvent .articleAlarmMonitoringEventInnerContainer table td.td1 {
+  width: 23%;
+}
+.articleAlarmMonitoringEvent .articleAlarmMonitoringEventInnerContainer table td.td2 {
+  width: 18%;
+}
+.articleAlarmMonitoringEvent .articleAlarmMonitoringEventInnerContainer table td.td3 {
+  width: 10%;
+}
+.articleAlarmMonitoringEvent .articleAlarmMonitoringEventInnerContainer table td.td4 {
+  width: 20%;
+}
+.articleAlarmMonitoringEvent .articleAlarmMonitoringEventInnerContainer table td.td5 {
+  width: 18%;
+}
+.articleAlarmMonitoringEvent .articleAlarmMonitoringEventInnerContainer table td.td6 {
+  width: 5%;
+  padding: 0;
+}
+.articleAlarmMonitoringEvent .articleAlarmMonitoringEventInnerContainer table td input.search {
+  background-image: url("../image/svg/search.svg");
+  color: #8FCDCC;
+  width: 100%;
+  height: 2.375rem;
+  border: 1px solid #8FCDCC;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-color: #00262f;
+  background-position-y: center;
+  background-position-x: 0.8125rem;
+}
+.articleAlarmMonitoringEvent .articleAlarmMonitoringEventInnerContainer table td select {
+  width: 100%;
+}
+.articleAlarmMonitoringEvent .articleAlarmMonitoringEventInnerContainer .updateTime {
+  justify-content: center;
+  font-family: Noto Sans SC, "sans-serif";
+  display: flex;
+  flex-grow: 1;
+  font-style: normal;
+  font-size: 1rem;
+  color: rgba(143, 205, 204, 0.3);
+}
+.articleAlarmMonitoringEvent .articleAlarmMonitoringEventInnerContainer .updateTime .datetime {
+  animation-name: updateTime;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  margin-top: 2%;
+}
+@keyframes updateTime {
+  0% {
+    color: rgba(143, 205, 204, 0.8);
+  }
+  15% {
+    color: rgba(143, 205, 204, 0.6);
+  }
+  50% {
+    color: rgba(143, 205, 204, 0.4);
+  }
+  100% {
+    color: rgba(143, 205, 204, 0.3);
+  }
+}
+.articleAlarmMonitoringEvent .articleAlarmMonitoringEventInnerContainer .updateTime .datetime .time {
+  margin-top: 2%;
+}
+.articleAlarmMonitoringEvent .eventInformation {
+  position: relative;
+  height: 73%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.375rem;
+  margin-left: 1.56%;
+}
+.articleAlarmMonitoringEvent .eventInformation .floorContainer {
+  width: 11.2%;
+  margin-right: 1.58%;
+}
+.articleAlarmMonitoringEvent .eventInformation .floorContainer .floorTitle {
+  color: #8FCDCC;
+  border-bottom: 1px solid #8D97AD;
+}
+.articleAlarmMonitoringEvent .eventInformation .floorContainer .floorTitle .title1 {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.articleAlarmMonitoringEvent .eventInformation .floorContainer .floorTitle .title1 .pageButton {
+  padding-left: 3.9%;
+  width: 33%;
+  display: flex;
+  justify-content: space-between;
+}
+.articleAlarmMonitoringEvent .eventInformation .floorContainer .floorTitle .title1 .pageButton .div_svg {
+  display: flex;
+  align-items: flex-end;
+}
+.articleAlarmMonitoringEvent .eventInformation .floorContainer .floorTitle .title2 {
+  line-height: 97%;
+  height: 2.5rem;
+  display: flex;
+  font-size: 1.125rem;
+  align-items: center;
+  margin-top: 0.625rem;
+  margin-bottom: 0.5rem;
+}
+.articleAlarmMonitoringEvent .eventInformation .floorContainer .floorTitle .title2 .title2Text1 {
+  line-height: normal;
+  margin-right: 0.2rem;
+}
+.articleAlarmMonitoringEvent .eventInformation .floorContainer .floorTitle .title2 .title2Text2 {
+  padding-left: 2px;
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+.articleAlarmMonitoringEvent .eventInformation .floorContainer .floorTitle .title2 .title2Text3 {
+  text-align: end;
+  flex-grow: 1;
+  line-height: normal;
+}
+.articleAlarmMonitoringEvent .eventInformation .floorContainer .floorInformation {
+  height: 88%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.articleAlarmMonitoringEvent .eventInformation .floorContainer .floorInformation::-webkit-scrollbar {
+  width: 0.3125rem;
+}
+.articleAlarmMonitoringEvent .eventInformation .floorContainer .floorInformation .element {
+  cursor: pointer;
+  background: linear-gradient(26.58deg, #00262F 54.44%, #495B7C 100%);
+  line-height: 3.125rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.75rem 0;
+  width: 96.2%;
+  height: 3.125rem;
+  color: #FFFFFF;
+  font-size: 1.625rem;
+}
+.articleAlarmMonitoringEvent .eventInformation .floorContainer .floorInformation .element.active {
+  background: linear-gradient(26.58deg, #00262F 54.44%, #EC0000 100%);
+}
+.articleAlarmMonitoringEvent .eventInformation .floorContainer .floorInformation .element .elementImage {
+  background-image: url("../image/png/floor.png");
+  background-size: 3.125rem 3.125rem;
+  background-repeat: no-repeat;
+  width: 3.125rem;
+  height: 3.125rem;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.4375rem;
+  line-height: 3.125rem;
+  color: #84E2F7;
+  text-shadow: 0.125rem 0.125rem 0.125rem rgba(44, 69, 194, 0.5);
+}
+.articleAlarmMonitoringEvent .eventInformation .floorContainer .floorInformation .element .elementNumber {
+  flex-grow: 1;
+  text-align: right;
+  padding-right: 1.625rem;
+}
+@media (max-width: 1080px) {
+  .articleAlarmMonitoringEvent .eventInformation .floorContainer .floorInformation {
+    height: 75%;
+  }
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer {
+  width: 88%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle {
+  margin-right: 3.5%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title2Text {
+  box-sizing: border-box;
+  margin-bottom: 0.5rem;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title1 {
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title1 select {
+  background: #495B7C;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title1 .title1Front {
+  width: 19%;
+  color: #FFFFFF;
+  line-height: 1.5rem;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title1 .title1Front select {
+  margin: 0 5.5%;
+  padding-left: 5%;
+  width: 25%;
+  border-radius: 3px;
+  color: #FFFFFF;
+  background-image: url("../image/svg/number.svg");
+  background-size: 0.9375rem 0.625rem;
+  background-repeat: no-repeat;
+  background-position: bottom 50% right 10%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title1 .title1End {
+  display: flex;
+  align-items: center;
+  color: #8FCDCC;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title1 .title1End .title1EndButton {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  margin-right: 2.5rem;
+  align-items: center;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title1 .title1End .title1EndButton .arrowContainer {
+  width: 3rem;
+  cursor: not-allowed;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title1 .title1End .title1EndButton .arrowContainer.active {
+  cursor: pointer;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title1 .title1End .title1EndButton .arrowContainer .arrowLeft {
+  cursor: not-allowed;
+  width: 0.4375rem;
+  height: 0.4375rem;
+  border-left: 0.1875rem solid rgba(143, 205, 204, 0.26);
+  border-bottom: 0.1875rem solid rgba(143, 205, 204, 0.26);
+  transform: rotate(45deg);
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title1 .title1End .title1EndButton .arrowContainer .arrowRight {
+  cursor: not-allowed;
+  width: 0.4375rem;
+  height: 0.4375rem;
+  border-top: 0.1875rem solid rgba(143, 205, 204, 0.26);
+  border-right: 0.1875rem solid rgba(143, 205, 204, 0.26);
+  transform: rotate(45deg);
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title1 .title1End .title1EndButton .arrowContainer .active {
+  cursor: pointer;
+  border-color: #8FCDCC;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title2 {
+  padding-right: 1%;
+  display: flex;
+  font-size: 1.625rem;
+  color: #8FCDCC;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title2 .title2Text {
+  cursor: pointer;
+  border-right: solid 1px #8FCDCC;
+  padding-left: 0.8%;
+  display: flex;
+  box-sizing: border-box;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title2 .title2Text .div_triangle {
+  margin: 0.45rem 0 0.45rem 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title2 .title2Text .div_triangle .triangle {
+  border-left: 0.1875rem solid transparent;
+  border-right: 0.1875rem solid transparent;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title2 .title2Text .div_triangle .triangle.triangleUp {
+  border-bottom: 0.25rem solid rgba(143, 205, 204, 0.26);
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title2 .title2Text .div_triangle .triangle.triangleUp.active {
+  border-bottom: 0.25rem solid #05CCFF;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title2 .title2Text .div_triangle .triangle.triangleDown {
+  border-top: 0.25rem solid rgba(143, 205, 204, 0.26);
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title2 .title2Text .div_triangle .triangle.triangleDown.active {
+  border-top: 0.25rem solid #05CCFF;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title2 .text1 {
+  width: 19.4%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title2 .text2 {
+  width: 12.5%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title2 .text3 {
+  width: 25.4%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title2 .text4 {
+  width: 42.7%;
+  border-right: none;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title2 .text5 {
+  width: 15%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title2 .text6 {
+  width: 13%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title2 .text7 {
+  width: 13%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title2 .text8 {
+  width: 15%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title2 .text9 {
+  width: 9%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title2 .text10 {
+  width: 7%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title2 .text11 {
+  width: 15%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title2 .text12 {
+  width: 13%;
+  border-right: none;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title2 .text13 {
+  width: 45%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title2 .text14 {
+  width: 38%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .noData {
+  margin: 0.625rem 0 1rem 0;
+  border: 1px solid #8FCDCC;
+  text-align: center;
+  line-height: 2.4375rem;
+  font-family: Noto Sans SC, sans-serif;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTitle .title2 {
+  border-bottom: 1px solid #8D97AD;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 88%;
+  padding-right: 1.5%;
+  margin-right: 2%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table {
+  width: 100%;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+  border-spacing: 0;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr:nth-child(even) {
+  background: #033440;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr:hover {
+  background: #495B7C;
+  box-shadow: 0 0.125rem 1.25rem rgba(0, 0, 0, 0.08);
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr.active {
+  background: #495B7C;
+  box-shadow: inset 0 0 8px 3px rgba(143, 205, 204, 0.55);
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td {
+  font-family: Poppins, sans-serif;
+  height: 2.5rem;
+  padding-left: 1%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td.td1 {
+  width: 19.4%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td.td2 {
+  width: 12.5%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td.td3 {
+  width: 25.4%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td.td4 {
+  width: 42.7%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td .td4Text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td .td4Text .status {
+  flex-grow: 1;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td .td4Text .td4TextImage {
+  width: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob {
+  cursor: pointer;
+  position: relative;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .operatorTitle {
+  position: absolute;
+  font-family: Noto Sans SC, sans-serif;
+  background: #8FCDCC;
+  border: 1px solid #000000;
+  border-radius: 0.125rem;
+  color: #000000;
+  width: 3.5rem;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  text-align: center;
+  font-size: 1rem;
+  top: 1rem;
+  right: 0;
+  z-index: 3;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob {
+  font-family: Noto Sans SC, sans-serif;
+  z-index: 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  position: absolute;
+  top: 1.125rem;
+  right: -0.1875rem;
+  font-size: 1rem;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context {
+  width: 22.125rem;
+  height: 10.8125rem;
+  background: #033440;
+  border-radius: 5px;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title1 {
+  text-align: center;
+  color: #8FCDCC;
+  font-weight: 500;
+  height: 30%;
+  line-height: 4rem;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 {
+  font-weight: normal;
+  height: 30%;
+  line-height: 1.25rem;
+  display: flex;
+  align-items: center;
+  color: rgba(143, 205, 204, 0.35);
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 .title2Text1 {
+  padding-left: 1.5625rem;
+  width: 40%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 .title2Text2 {
+  text-align: center;
+  width: 60%;
+  border-bottom: 1px solid #8FCDCC;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .div_button {
+  font-weight: 500;
+  text-align: center;
+  height: 30%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .div_button button {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .triangle {
+  width: 1px;
+  border-bottom: 1.75rem solid #033440;
+  border-left: 0.875rem solid transparent;
+  border-right: 0.875rem solid transparent;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td.td5 {
+  width: 15%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td.td6 {
+  width: 13%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td.td7 {
+  width: 13%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td.td8 {
+  width: 15%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td.td9 {
+  width: 9%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td.td10 {
+  width: 7%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td.td11 {
+  width: 15%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td.td12 {
+  width: 13%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td.td13 {
+  width: 45%;
+}
+.articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable table tr td.td14 {
+  width: 38%;
+}
+@media (max-width: 1080px) {
+  .articleAlarmMonitoringEvent .eventInformation .showEventContainer .showEventTable {
+    height: 75%;
+  }
+}
+
+.articleAlarmHistorySearch {
+  width: 97%;
+  height: 100%;
+  background: linear-gradient(64.4deg, #00262F 73.81%, #495B7C 122.59%);
+  border-radius: 5px;
+}
+.articleAlarmHistorySearch .searchConditionContainer {
+  margin: 1.25rem 5% 1.125rem 5%;
+  border-bottom: 1px solid rgba(143, 205, 204, 0.26);
+}
+.articleAlarmHistorySearch .searchConditionContainer .searchCondition .AlarmHistoryTable {
+  width: 100%;
+}
+.articleAlarmHistorySearch .searchConditionContainer .searchCondition .AlarmHistoryTable table {
+  width: 100%;
+  font-family: Noto Sans SC, sans-serif;
+  font-size: 1.625rem;
+  color: #8FCDCC;
+}
+.articleAlarmHistorySearch .searchConditionContainer .searchCondition .AlarmHistoryTable table tr td {
+  padding: 0.5rem 0;
+}
+.articleAlarmHistorySearch .searchConditionContainer .searchCondition .AlarmHistoryTable table tr td.td1 {
+  width: 8%;
+}
+.articleAlarmHistorySearch .searchConditionContainer .searchCondition .AlarmHistoryTable table tr td.td2 {
+  width: 18%;
+}
+.articleAlarmHistorySearch .searchConditionContainer .searchCondition .AlarmHistoryTable table tr td.td3 {
+  width: 8%;
+}
+.articleAlarmHistorySearch .searchConditionContainer .searchCondition .AlarmHistoryTable table tr td.td4 {
+  width: 18%;
+}
+.articleAlarmHistorySearch .searchConditionContainer .searchCondition .AlarmHistoryTable table tr td.td5 {
+  width: 8%;
+}
+.articleAlarmHistorySearch .searchConditionContainer .searchCondition .AlarmHistoryTable table tr td.td6 {
+  width: 18%;
+}
+.articleAlarmHistorySearch .searchConditionContainer .searchCondition .AlarmHistoryTable table tr td.td7 {
+  width: 8%;
+}
+.articleAlarmHistorySearch .searchConditionContainer .searchCondition .AlarmHistoryTable table tr td select {
+  width: 13rem;
+}
+.articleAlarmHistorySearch .searchConditionContainer .searchCondition .AlarmHistoryTable table tr td input {
+  font-size: 1.25rem;
+  width: 13rem;
+  color: #8FCDCC;
+  background-color: rgba(143, 205, 204, 0.16);
+  border-radius: 20px;
+  padding-left: 0.9375rem;
+  padding-right: 0.5rem;
+  line-height: 2.375rem;
+}
+.articleAlarmHistorySearch .searchConditionContainer .searchCondition .AlarmHistoryTable table tr td input:focus {
+  background-color: #495b7c;
+}
+.articleAlarmHistorySearch .searchConditionContainer .searchCondition .div_button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+}
+.articleAlarmHistorySearch .searchConditionContainer .searchCondition .div_button button.buttonRight {
+  margin-left: 1rem;
+}
+.articleAlarmHistorySearch .searchConditionContainer .searchCondition .foot {
+  font-size: 1rem;
+  height: 8.8%;
+  color: #FF4D4D;
+  margin: 1rem;
+}
+.articleAlarmHistorySearch .historyEvent {
+  margin: 0.5rem 0 2% 3%;
+  height: 60%;
+}
+.articleAlarmHistorySearch .historyEvent .downloadContainer {
+  width: 100%;
+  display: flex;
+  padding-right: 3.5%;
+  box-sizing: border-box;
+  margin-bottom: 0.3rem;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer {
+  width: 100%;
+  height: 100%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle {
+  margin-right: 3.5%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title2Text {
+  box-sizing: border-box;
+  margin-bottom: 0.5rem;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title1 {
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title1 select {
+  background: #495B7C;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title1 .title1Front {
+  width: 19%;
+  color: #FFFFFF;
+  line-height: 1.5rem;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title1 .title1Front select {
+  margin: 0 5.5%;
+  padding-left: 5%;
+  width: 25%;
+  border-radius: 3px;
+  color: #FFFFFF;
+  background-image: url("../image/svg/number.svg");
+  background-size: 0.9375rem 0.625rem;
+  background-repeat: no-repeat;
+  background-position: bottom 50% right 10%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title1 .title1End {
+  display: flex;
+  align-items: center;
+  color: #8FCDCC;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title1 .title1End .title1EndButton {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  margin-right: 2.5rem;
+  align-items: center;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title1 .title1End .title1EndButton .arrowContainer {
+  width: 3rem;
+  cursor: not-allowed;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title1 .title1End .title1EndButton .arrowContainer.active {
+  cursor: pointer;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title1 .title1End .title1EndButton .arrowContainer .arrowLeft {
+  cursor: not-allowed;
+  width: 0.4375rem;
+  height: 0.4375rem;
+  border-left: 0.1875rem solid rgba(143, 205, 204, 0.26);
+  border-bottom: 0.1875rem solid rgba(143, 205, 204, 0.26);
+  transform: rotate(45deg);
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title1 .title1End .title1EndButton .arrowContainer .arrowRight {
+  cursor: not-allowed;
+  width: 0.4375rem;
+  height: 0.4375rem;
+  border-top: 0.1875rem solid rgba(143, 205, 204, 0.26);
+  border-right: 0.1875rem solid rgba(143, 205, 204, 0.26);
+  transform: rotate(45deg);
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title1 .title1End .title1EndButton .arrowContainer .active {
+  cursor: pointer;
+  border-color: #8FCDCC;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title2 {
+  padding-right: 1%;
+  display: flex;
+  font-size: 1.625rem;
+  color: #8FCDCC;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title2 .title2Text {
+  cursor: pointer;
+  border-right: solid 1px #8FCDCC;
+  padding-left: 0.8%;
+  display: flex;
+  box-sizing: border-box;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title2 .title2Text .div_triangle {
+  margin: 0.45rem 0 0.45rem 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title2 .title2Text .div_triangle .triangle {
+  border-left: 0.1875rem solid transparent;
+  border-right: 0.1875rem solid transparent;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title2 .title2Text .div_triangle .triangle.triangleUp {
+  border-bottom: 0.25rem solid rgba(143, 205, 204, 0.26);
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title2 .title2Text .div_triangle .triangle.triangleUp.active {
+  border-bottom: 0.25rem solid #05CCFF;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title2 .title2Text .div_triangle .triangle.triangleDown {
+  border-top: 0.25rem solid rgba(143, 205, 204, 0.26);
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title2 .title2Text .div_triangle .triangle.triangleDown.active {
+  border-top: 0.25rem solid #05CCFF;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title2 .text1 {
+  width: 19.4%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title2 .text2 {
+  width: 12.5%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title2 .text3 {
+  width: 25.4%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title2 .text4 {
+  width: 42.7%;
+  border-right: none;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title2 .text5 {
+  width: 15%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title2 .text6 {
+  width: 13%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title2 .text7 {
+  width: 13%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title2 .text8 {
+  width: 15%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title2 .text9 {
+  width: 9%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title2 .text10 {
+  width: 7%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title2 .text11 {
+  width: 15%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title2 .text12 {
+  width: 13%;
+  border-right: none;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title2 .text13 {
+  width: 45%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title2 .text14 {
+  width: 38%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .noData {
+  margin: 0.625rem 0 1rem 0;
+  border: 1px solid #8FCDCC;
+  text-align: center;
+  line-height: 2.4375rem;
+  font-family: Noto Sans SC, sans-serif;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTitle .title2 {
+  border-bottom: 1px solid #8D97AD;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 88%;
+  padding-right: 1.5%;
+  margin-right: 2%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table {
+  width: 100%;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+  border-spacing: 0;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr:nth-child(even) {
+  background: #033440;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr:hover {
+  background: #495B7C;
+  box-shadow: 0 0.125rem 1.25rem rgba(0, 0, 0, 0.08);
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr.active {
+  background: #495B7C;
+  box-shadow: inset 0 0 8px 3px rgba(143, 205, 204, 0.55);
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td {
+  font-family: Poppins, sans-serif;
+  height: 2.5rem;
+  padding-left: 1%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td.td1 {
+  width: 19.4%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td.td2 {
+  width: 12.5%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td.td3 {
+  width: 25.4%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td.td4 {
+  width: 42.7%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td .td4Text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td .td4Text .status {
+  flex-grow: 1;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td .td4Text .td4TextImage {
+  width: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob {
+  cursor: pointer;
+  position: relative;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .operatorTitle {
+  position: absolute;
+  font-family: Noto Sans SC, sans-serif;
+  background: #8FCDCC;
+  border: 1px solid #000000;
+  border-radius: 0.125rem;
+  color: #000000;
+  width: 3.5rem;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  text-align: center;
+  font-size: 1rem;
+  top: 1rem;
+  right: 0;
+  z-index: 3;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob {
+  font-family: Noto Sans SC, sans-serif;
+  z-index: 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  position: absolute;
+  top: 1.125rem;
+  right: -0.1875rem;
+  font-size: 1rem;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context {
+  width: 22.125rem;
+  height: 10.8125rem;
+  background: #033440;
+  border-radius: 5px;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title1 {
+  text-align: center;
+  color: #8FCDCC;
+  font-weight: 500;
+  height: 30%;
+  line-height: 4rem;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 {
+  font-weight: normal;
+  height: 30%;
+  line-height: 1.25rem;
+  display: flex;
+  align-items: center;
+  color: rgba(143, 205, 204, 0.35);
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 .title2Text1 {
+  padding-left: 1.5625rem;
+  width: 40%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 .title2Text2 {
+  text-align: center;
+  width: 60%;
+  border-bottom: 1px solid #8FCDCC;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .div_button {
+  font-weight: 500;
+  text-align: center;
+  height: 30%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .div_button button {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .triangle {
+  width: 1px;
+  border-bottom: 1.75rem solid #033440;
+  border-left: 0.875rem solid transparent;
+  border-right: 0.875rem solid transparent;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td.td5 {
+  width: 15%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td.td6 {
+  width: 13%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td.td7 {
+  width: 13%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td.td8 {
+  width: 15%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td.td9 {
+  width: 9%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td.td10 {
+  width: 7%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td.td11 {
+  width: 15%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td.td12 {
+  width: 13%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td.td13 {
+  width: 45%;
+}
+.articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable table tr td.td14 {
+  width: 38%;
+}
+@media (max-width: 1080px) {
+  .articleAlarmHistorySearch .historyEvent .showEventContainer .showEventTable {
+    height: 75%;
+  }
+}
+
+.model2 .alarmOperate {
+  position: relative;
+  font-family: Noto Sans SC, sans-serif;
+  background: #2b2b2c;
+  width: 55%;
+  height: 50%;
+  display: flex;
+  box-shadow: 1rem 1rem 0.25rem rgba(3, 13, 27, 0.6);
+  border-radius: 1rem;
+  justify-content: space-between;
+  font-size: 1.34rem;
+  color: #8FCDCC;
+}
+.model2 .alarmOperate .leftContainer {
+  width: 35%;
+  border-radius: 1rem 0 0 1rem;
+  background: #00262F;
+  box-shadow: 0.3rem 0 1rem rgba(0, 0, 0, 0.25);
+  padding: 3% 2rem 0 2rem;
+  box-sizing: border-box;
+}
+.model2 .alarmOperate .leftContainer .target {
+  cursor: pointer;
+  line-height: 2.5rem;
+  border-radius: 0.417rem;
+  padding-left: 0.55rem;
+}
+.model2 .alarmOperate .leftContainer .target.active {
+  background: rgba(143, 205, 204, 0.25);
+}
+.model2 .alarmOperate .rightContainer {
+  box-sizing: border-box;
+  width: 65%;
+  background: #002D38;
+  border-radius: 0 1rem 1rem 0;
+  padding: 3.67rem 0 0 0;
+}
+.model2 .alarmOperate .rightContainer .contextDispatch .title, .model2 .alarmOperate .rightContainer .contextRemove .title {
+  padding-left: 4rem;
+}
+.model2 .alarmOperate .rightContainer .contextDispatch .information, .model2 .alarmOperate .rightContainer .contextRemove .information {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 18rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+  padding: 0 28% 0 4rem;
+  color: rgba(143, 205, 204, 0.35);
+}
+.model2 .alarmOperate .rightContainer .contextDispatch .information::-webkit-scrollbar-thumb, .model2 .alarmOperate .rightContainer .contextRemove .information::-webkit-scrollbar-thumb {
+  background: #005265;
+}
+.model2 .alarmOperate .rightContainer .contextDispatch .information .itemContainer, .model2 .alarmOperate .rightContainer .contextRemove .information .itemContainer {
+  margin: 1.1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.model2 .alarmOperate .rightContainer .contextDispatch .information .itemContainer .key.active, .model2 .alarmOperate .rightContainer .contextRemove .information .itemContainer .key.active {
+  color: #8FCDCC;
+}
+.model2 .alarmOperate .rightContainer .contextDispatch .information .itemContainer .value, .model2 .alarmOperate .rightContainer .contextRemove .information .itemContainer .value {
+  width: 65%;
+  border-bottom: 1px solid #8FCDCC;
+}
+.model2 .alarmOperate .rightContainer .contextDispatch .information .itemContainer .value.active, .model2 .alarmOperate .rightContainer .contextRemove .information .itemContainer .value.active {
+  border: none;
+}
+.model2 .alarmOperate .rightContainer .contextDispatch .information .itemContainer .value.active textarea, .model2 .alarmOperate .rightContainer .contextRemove .information .itemContainer .value.active textarea {
+  border: 1px solid #8FCDCC;
+  background-color: transparent;
+  font-size: 1.34rem;
+  color: #8FCDCC;
+  border-radius: 0.25rem;
+}
+.model2 .alarmOperate .close {
+  cursor: pointer;
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+}
+.model2 .alarmOperate .buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=alarmMonitoring.css.map */

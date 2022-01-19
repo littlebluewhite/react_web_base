@@ -1,0 +1,737 @@
+.reportArticle .loadingContainer {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+}
+.reportArticle .downContainerAccess .accessFilter {
+  font-family: Noto Sans SC, sans-serif;
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 2.375rem 5% 4rem 7%;
+}
+.reportArticle .downContainerAccess .accessFilter select {
+  margin-left: 1rem;
+  width: 10.65625rem;
+  padding-left: 1rem;
+}
+.reportArticle .downContainerAccess .accessFilter input {
+  width: 38.8125rem;
+}
+.reportArticle .downContainerAccess .accessTitle {
+  align-items: center;
+  margin: 0 5%;
+  text-align: center;
+  display: flex;
+}
+.reportArticle .downContainerAccess .accessTitle .block {
+  width: 25%;
+}
+.reportArticle .downContainerAccess .accessTitle .block .selectTitle {
+  width: 11rem;
+}
+.reportArticle .downContainerAccess .accessTitle .textContainer {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.reportArticle .downContainerAccess .accessTitle .textContainer .pageChangeButton {
+  cursor: not-allowed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1a3e4c;
+  width: 2.875rem;
+  height: 2.875rem;
+  border-radius: 50%;
+}
+.reportArticle .downContainerAccess .accessTitle .textContainer .pageChangeButton.active {
+  cursor: pointer;
+  background: #587894;
+}
+.reportArticle .downContainerAccess .accessTitle .textContainer .pageChangeButton .arrowLeft {
+  width: 0.8125rem;
+  height: 0.8125rem;
+  margin-left: 0.3125rem;
+  border-left: 0.25rem solid #002630;
+  border-bottom: 0.25rem solid #002630;
+  transform: rotate(45deg);
+}
+.reportArticle .downContainerAccess .accessTitle .textContainer .pageChangeButton .arrowRight {
+  width: 0.8125rem;
+  height: 0.8125rem;
+  border-top: 0.25rem solid #002630;
+  border-right: 0.25rem solid #002630;
+  margin-right: 0.3125rem;
+  transform: rotate(45deg);
+}
+.reportArticle .downContainerAccess .accessTitle .textContainer .text {
+  margin: 0 6.09%;
+}
+.reportArticle .downContainerAccess .accessTitle .div_button {
+  width: 30%;
+}
+.reportArticle .downContainerAccess .accessChart {
+  margin: 2rem 0;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+}
+.reportArticle .downContainerAccess .accessChart .chartPageButton {
+  display: flex;
+  justify-content: center;
+  width: 7%;
+}
+.reportArticle .downContainerAccess .accessChart .chartPageButton .pageChangeButton {
+  cursor: not-allowed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1a3e4c;
+  width: 2.875rem;
+  height: 2.875rem;
+  border-radius: 50%;
+}
+.reportArticle .downContainerAccess .accessChart .chartPageButton .pageChangeButton.active {
+  cursor: pointer;
+  background: #587894;
+}
+.reportArticle .downContainerAccess .accessChart .chartPageButton .pageChangeButton .arrowLeft {
+  width: 0.8125rem;
+  height: 0.8125rem;
+  margin-left: 0.3125rem;
+  border-left: 0.25rem solid #002630;
+  border-bottom: 0.25rem solid #002630;
+  transform: rotate(45deg);
+}
+.reportArticle .downContainerAccess .accessChart .chartPageButton .pageChangeButton .arrowRight {
+  width: 0.8125rem;
+  height: 0.8125rem;
+  border-top: 0.25rem solid #002630;
+  border-right: 0.25rem solid #002630;
+  margin-right: 0.3125rem;
+  transform: rotate(45deg);
+}
+.reportArticle .downContainerAccess .accessChart .accessChartsContainer {
+  display: flex;
+  width: 86%;
+}
+.reportArticle .downContainerAccess .accessChart .accessChartsContainer .chart {
+  width: 45%;
+  box-sizing: border-box;
+  margin-right: 5%;
+  height: 18rem;
+}
+.reportArticle .downContainerAccess .accessChart .accessChartsContainer .chart.one {
+  padding-right: 5%;
+}
+.reportArticle .downContainerAccess .accessChart .accessChartsContainer .chart.two {
+  padding-right: 12%;
+}
+.reportArticle .downContainerAccess .accessChart .accessChartContainer {
+  width: 100%;
+  overflow-x: scroll;
+}
+.reportArticle .downContainerAccess .accessChart .accessChartContainer > div {
+  height: 40rem;
+}
+.reportArticle .downContainerAccess .accessTable .title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  margin: 1rem 4%;
+}
+.reportArticle .downContainerAccess .accessTable .title .title1End {
+  display: flex;
+  align-items: center;
+  color: #8FCDCC;
+}
+.reportArticle .downContainerAccess .accessTable .title .title1End .title1EndButton {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  margin-right: 2.5rem;
+  align-items: center;
+}
+.reportArticle .downContainerAccess .accessTable .title .title1End .title1EndButton .arrowContainer {
+  width: 3rem;
+  cursor: not-allowed;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reportArticle .downContainerAccess .accessTable .title .title1End .title1EndButton .arrowContainer.active {
+  cursor: pointer;
+}
+.reportArticle .downContainerAccess .accessTable .title .title1End .title1EndButton .arrowContainer .arrowLeft {
+  cursor: not-allowed;
+  width: 0.4375rem;
+  height: 0.4375rem;
+  border-left: 0.1875rem solid rgba(143, 205, 204, 0.26);
+  border-bottom: 0.1875rem solid rgba(143, 205, 204, 0.26);
+  transform: rotate(45deg);
+}
+.reportArticle .downContainerAccess .accessTable .title .title1End .title1EndButton .arrowContainer .arrowRight {
+  cursor: not-allowed;
+  width: 0.4375rem;
+  height: 0.4375rem;
+  border-top: 0.1875rem solid rgba(143, 205, 204, 0.26);
+  border-right: 0.1875rem solid rgba(143, 205, 204, 0.26);
+  transform: rotate(45deg);
+}
+.reportArticle .downContainerAccess .accessTable .title .title1End .title1EndButton .arrowContainer .active {
+  cursor: pointer;
+  border-color: #8FCDCC;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer {
+  margin-left: 3%;
+  margin-bottom: 3rem;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .sortTitle {
+  margin-right: 3%;
+  line-height: 2rem;
+  border-bottom: 1px solid #8D97AD;
+  padding-bottom: 0.6%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .sortTitle .title2 {
+  padding-right: 1%;
+  display: flex;
+  font-size: 1.625rem;
+  color: #8FCDCC;
+  color: white;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .sortTitle .title2 .title2Text {
+  cursor: pointer;
+  border-right: solid 1px #8FCDCC;
+  padding-left: 0.8%;
+  display: flex;
+  box-sizing: border-box;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .sortTitle .title2 .title2Text .div_triangle {
+  margin: 0.45rem 0 0.45rem 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .sortTitle .title2 .title2Text .div_triangle .triangle {
+  border-left: 0.1875rem solid transparent;
+  border-right: 0.1875rem solid transparent;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .sortTitle .title2 .title2Text .div_triangle .triangle.triangleUp {
+  border-bottom: 0.25rem solid rgba(143, 205, 204, 0.26);
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .sortTitle .title2 .title2Text .div_triangle .triangle.triangleUp.active {
+  border-bottom: 0.25rem solid #05CCFF;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .sortTitle .title2 .title2Text .div_triangle .triangle.triangleDown {
+  border-top: 0.25rem solid rgba(143, 205, 204, 0.26);
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .sortTitle .title2 .title2Text .div_triangle .triangle.triangleDown.active {
+  border-top: 0.25rem solid #05CCFF;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .sortTitle .title2 .text1 {
+  width: 19.4%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .sortTitle .title2 .text2 {
+  width: 12.5%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .sortTitle .title2 .text3 {
+  width: 25.4%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .sortTitle .title2 .text4 {
+  width: 42.7%;
+  border-right: none;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .sortTitle .title2 .text5 {
+  width: 15%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .sortTitle .title2 .text6 {
+  width: 13%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .sortTitle .title2 .text7 {
+  width: 13%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .sortTitle .title2 .text8 {
+  width: 15%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .sortTitle .title2 .text9 {
+  width: 9%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .sortTitle .title2 .text10 {
+  width: 7%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .sortTitle .title2 .text11 {
+  width: 15%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .sortTitle .title2 .text12 {
+  width: 13%;
+  border-right: none;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .sortTitle .title2 .text13 {
+  width: 45%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .sortTitle .title2 .text14 {
+  width: 38%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .sortTitle .title2 .text2 {
+  width: 17%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .sortTitle .title2 .text14 {
+  border-right: none;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 88%;
+  padding-right: 1.5%;
+  margin-right: 2%;
+  margin-right: 3%;
+  padding-right: 0;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table {
+  width: 100%;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+  border-spacing: 0;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr:nth-child(even) {
+  background: #033440;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr:hover {
+  background: #495B7C;
+  box-shadow: 0 0.125rem 1.25rem rgba(0, 0, 0, 0.08);
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr.active {
+  background: #495B7C;
+  box-shadow: inset 0 0 8px 3px rgba(143, 205, 204, 0.55);
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td {
+  font-family: Poppins, sans-serif;
+  height: 2.5rem;
+  padding-left: 1%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td.td1 {
+  width: 19.4%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td.td2 {
+  width: 12.5%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td.td3 {
+  width: 25.4%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td.td4 {
+  width: 42.7%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td .td4Text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td .td4Text .status {
+  flex-grow: 1;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td .td4Text .td4TextImage {
+  width: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td .td4Text .td4TextImage .div_assignJob {
+  cursor: pointer;
+  position: relative;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td .td4Text .td4TextImage .div_assignJob .operatorTitle {
+  position: absolute;
+  font-family: Noto Sans SC, sans-serif;
+  background: #8FCDCC;
+  border: 1px solid #000000;
+  border-radius: 0.125rem;
+  color: #000000;
+  width: 3.5rem;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  text-align: center;
+  font-size: 1rem;
+  top: 1rem;
+  right: 0;
+  z-index: 3;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob {
+  font-family: Noto Sans SC, sans-serif;
+  z-index: 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  position: absolute;
+  top: 1.125rem;
+  right: -0.1875rem;
+  font-size: 1rem;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context {
+  width: 22.125rem;
+  height: 10.8125rem;
+  background: #033440;
+  border-radius: 5px;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title1 {
+  text-align: center;
+  color: #8FCDCC;
+  font-weight: 500;
+  height: 30%;
+  line-height: 4rem;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 {
+  font-weight: normal;
+  height: 30%;
+  line-height: 1.25rem;
+  display: flex;
+  align-items: center;
+  color: rgba(143, 205, 204, 0.35);
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 .title2Text1 {
+  padding-left: 1.5625rem;
+  width: 40%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 .title2Text2 {
+  text-align: center;
+  width: 60%;
+  border-bottom: 1px solid #8FCDCC;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .div_button {
+  font-weight: 500;
+  text-align: center;
+  height: 30%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .div_button button {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .triangle {
+  width: 1px;
+  border-bottom: 1.75rem solid #033440;
+  border-left: 0.875rem solid transparent;
+  border-right: 0.875rem solid transparent;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td.td5 {
+  width: 15%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td.td6 {
+  width: 13%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td.td7 {
+  width: 13%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td.td8 {
+  width: 15%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td.td9 {
+  width: 9%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td.td10 {
+  width: 7%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td.td11 {
+  width: 15%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td.td12 {
+  width: 13%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td.td13 {
+  width: 45%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td.td14 {
+  width: 38%;
+}
+.reportArticle .downContainerAccess .accessTable .accessInstantContainer .showAccessInstantTable table tr td.td2 {
+  width: 17%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer {
+  margin-left: 3%;
+  margin-bottom: 3rem;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle {
+  margin-right: 2.7%;
+  line-height: 2rem;
+  border-bottom: 1px solid #8D97AD;
+  padding-bottom: 0.6%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 {
+  padding-right: 1%;
+  display: flex;
+  font-size: 1.625rem;
+  color: #8FCDCC;
+  color: white;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .title2Text {
+  cursor: pointer;
+  border-right: solid 1px #8FCDCC;
+  padding-left: 0.8%;
+  display: flex;
+  box-sizing: border-box;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .title2Text .div_triangle {
+  margin: 0.45rem 0 0.45rem 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .title2Text .div_triangle .triangle {
+  border-left: 0.1875rem solid transparent;
+  border-right: 0.1875rem solid transparent;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .title2Text .div_triangle .triangle.triangleUp {
+  border-bottom: 0.25rem solid rgba(143, 205, 204, 0.26);
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .title2Text .div_triangle .triangle.triangleUp.active {
+  border-bottom: 0.25rem solid #05CCFF;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .title2Text .div_triangle .triangle.triangleDown {
+  border-top: 0.25rem solid rgba(143, 205, 204, 0.26);
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .title2Text .div_triangle .triangle.triangleDown.active {
+  border-top: 0.25rem solid #05CCFF;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .text1 {
+  width: 19.4%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .text2 {
+  width: 12.5%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .text3 {
+  width: 25.4%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .text4 {
+  width: 42.7%;
+  border-right: none;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .text5 {
+  width: 15%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .text6 {
+  width: 13%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .text7 {
+  width: 13%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .text8 {
+  width: 15%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .text9 {
+  width: 9%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .text10 {
+  width: 7%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .text11 {
+  width: 15%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .text12 {
+  width: 13%;
+  border-right: none;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .text13 {
+  width: 45%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .text14 {
+  width: 38%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .text1 {
+  width: 25%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .text2 {
+  width: 15%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .text13 {
+  width: 25%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .text5 {
+  width: 20%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .sortTitle .title2 .text15 {
+  width: 15%;
+  border-right: 0;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 88%;
+  padding-right: 1.5%;
+  margin-right: 2%;
+  margin-right: 3%;
+  padding-right: 0;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table {
+  width: 100%;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+  border-spacing: 0;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr:nth-child(even) {
+  background: #033440;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr:hover {
+  background: #495B7C;
+  box-shadow: 0 0.125rem 1.25rem rgba(0, 0, 0, 0.08);
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr.active {
+  background: #495B7C;
+  box-shadow: inset 0 0 8px 3px rgba(143, 205, 204, 0.55);
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td {
+  font-family: Poppins, sans-serif;
+  height: 2.5rem;
+  padding-left: 1%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td.td1 {
+  width: 19.4%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td.td2 {
+  width: 12.5%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td.td3 {
+  width: 25.4%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td.td4 {
+  width: 42.7%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td .td4Text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td .td4Text .status {
+  flex-grow: 1;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td .td4Text .td4TextImage {
+  width: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td .td4Text .td4TextImage .div_assignJob {
+  cursor: pointer;
+  position: relative;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td .td4Text .td4TextImage .div_assignJob .operatorTitle {
+  position: absolute;
+  font-family: Noto Sans SC, sans-serif;
+  background: #8FCDCC;
+  border: 1px solid #000000;
+  border-radius: 0.125rem;
+  color: #000000;
+  width: 3.5rem;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  text-align: center;
+  font-size: 1rem;
+  top: 1rem;
+  right: 0;
+  z-index: 3;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob {
+  font-family: Noto Sans SC, sans-serif;
+  z-index: 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  position: absolute;
+  top: 1.125rem;
+  right: -0.1875rem;
+  font-size: 1rem;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context {
+  width: 22.125rem;
+  height: 10.8125rem;
+  background: #033440;
+  border-radius: 5px;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title1 {
+  text-align: center;
+  color: #8FCDCC;
+  font-weight: 500;
+  height: 30%;
+  line-height: 4rem;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 {
+  font-weight: normal;
+  height: 30%;
+  line-height: 1.25rem;
+  display: flex;
+  align-items: center;
+  color: rgba(143, 205, 204, 0.35);
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 .title2Text1 {
+  padding-left: 1.5625rem;
+  width: 40%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 .title2Text2 {
+  text-align: center;
+  width: 60%;
+  border-bottom: 1px solid #8FCDCC;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .div_button {
+  font-weight: 500;
+  text-align: center;
+  height: 30%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .div_button button {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .triangle {
+  width: 1px;
+  border-bottom: 1.75rem solid #033440;
+  border-left: 0.875rem solid transparent;
+  border-right: 0.875rem solid transparent;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td.td5 {
+  width: 15%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td.td6 {
+  width: 13%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td.td7 {
+  width: 13%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td.td8 {
+  width: 15%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td.td9 {
+  width: 9%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td.td10 {
+  width: 7%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td.td11 {
+  width: 15%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td.td12 {
+  width: 13%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td.td13 {
+  width: 45%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td.td14 {
+  width: 38%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td.td1 {
+  width: 25%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td.td2 {
+  width: 15%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td.td13 {
+  width: 25%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td.td5 {
+  width: 20%;
+}
+.reportArticle .downContainerAccess .accessTable .accessPeriodContainer .showAccessPeriodTable table tr td.td15 {
+  width: 15%;
+}
+
+/*# sourceMappingURL=report_access.css.map */

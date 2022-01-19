@@ -1,0 +1,183 @@
+@import "../mixin.scss";
+
+.reportArticle{
+  .loadingContainer{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+  }
+  .downContainerAccess{
+    .accessFilter{
+      font-family: Noto Sans SC, sans-serif;
+      font-size: 1.25rem;
+      display: flex;
+      justify-content: space-between;
+      margin: 2.375rem 5% 4rem 7%;
+      select{
+        margin-left: 1rem;
+        width: 10.65625rem;
+        padding-left: 1rem;
+      }
+      input{
+        width: 38.8125rem;
+      }
+    }
+    .accessTitle {
+      align-items: center;
+      margin: 0 5%;
+      text-align: center;
+      display: flex;
+      .block{
+        width: 25%;
+        .selectTitle{
+          width: 11rem;
+        }
+
+      }
+      .textContainer {
+        width: 50%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        @include reportPage();
+        .text{
+          margin: 0 6.09%;
+        }
+      }
+      .div_button{
+        width: 30%;
+      }
+    }
+    .accessChart{
+      margin: 2rem 0;
+      font-size: 1.25rem;
+      display: flex;
+      align-items: center;
+      .chartPageButton{
+        display: flex;
+        justify-content: center;
+        width: 7%;
+        @include reportPage();
+      }
+      .accessChartsContainer{
+        display: flex;
+        width: 86%;
+        .chart{
+          width: 45%;
+          box-sizing: border-box;
+          margin-right: 5%;
+          height: 18rem;
+          &.one{
+            padding-right: 5%;
+          }
+          &.two{
+            padding-right: 12%;
+          }
+        }
+      }
+      .accessChartContainer{
+        width: 100%;
+        overflow-x: scroll;
+        >div{
+          height: 40rem;
+        }
+      }
+    }
+    .accessTable{
+      .title{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.25rem;
+        margin: 1rem 4%;
+        @include page();
+      }
+      .accessInstantContainer{
+        margin-left: 3%;
+        margin-bottom: 3rem;
+        .sortTitle{
+          margin-right: 3%;
+          line-height: 2rem;
+          border-bottom: 1px solid #8D97AD;
+          padding-bottom: 0.6%;
+          .title2{
+            @include sortTitle();
+            color: white;
+            .text2{
+              width: 17%;
+            }
+            .text14{
+              border-right: none;
+            }
+          }
+        }
+        .showAccessInstantTable{
+          @include scroll();
+          margin-right: 3%;
+          padding-right: 0;
+          table{
+            tr{
+              td.td2{
+                width: 17%;
+              }
+            }
+          }
+        }
+      }
+      .accessPeriodContainer {
+        margin-left: 3%;
+        margin-bottom: 3rem;
+
+        .sortTitle {
+          margin-right: 2.7%;
+          line-height: 2rem;
+          border-bottom: 1px solid #8D97AD;
+          padding-bottom: 0.6%;
+          .title2 {
+            @include sortTitle();
+            color: white;
+            .text1{
+              width: 25%;
+            }
+            .text2{
+              width: 15%;
+            }
+            .text13{
+              width: 25%;
+            }
+            .text5{
+              width: 20%;
+            }
+            .text15{
+              width: 15%;
+              border-right: 0;
+            }
+          }
+        }
+        .showAccessPeriodTable{
+          @include scroll();
+          margin-right: 3%;
+          padding-right: 0;
+          table{
+            tr{
+              td.td1{
+                width: 25%
+              }
+              td.td2{
+                width: 15%;
+              }
+              td.td13{
+                width: 25%;
+              }
+              td.td5{
+                width: 20%;
+              }
+              td.td15{
+                width: 15%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

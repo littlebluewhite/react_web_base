@@ -1,0 +1,402 @@
+.accountSettingPlugins {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: Noto Sans SC, sans-serif;
+  width: 97%;
+  height: 100%;
+  background: linear-gradient(64.4deg, #00262F 73.81%, #495B7C 122.59%);
+  border-radius: 5px;
+  color: #8FCDCC;
+  font-size: 1.625rem;
+}
+.accountSettingPlugins .pluginsFilter {
+  display: flex;
+  margin: 0 0 2rem 2%;
+  font-size: 1.25rem;
+}
+.accountSettingPlugins .pluginsFilter .selectFilter {
+  margin-left: 1rem;
+  margin-right: 3rem;
+  width: 12rem;
+}
+.accountSettingPlugins .pluginsLayers {
+  margin: 1rem 0 1rem 2%;
+  width: 100%;
+  overflow: scroll;
+}
+.accountSettingPlugins .pluginsLayers .link {
+  cursor: pointer;
+  color: #104fde;
+}
+.accountSettingPlugins .pluginsLayers .link .slash {
+  cursor: default;
+  color: #8FCDCC;
+}
+.accountSettingPlugins .scrollContainer {
+  height: 80%;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: relative;
+}
+.accountSettingPlugins .scrollContainer .sortContainer {
+  margin-left: 1.5%;
+  padding-bottom: 0.4rem;
+  border-bottom: solid 1px #8FCDCC;
+  padding-right: 1%;
+  display: flex;
+  font-size: 1.625rem;
+  color: #8FCDCC;
+  color: white;
+  margin-right: 10px;
+  padding-right: 0;
+}
+.accountSettingPlugins .scrollContainer .sortContainer .title2Text {
+  cursor: pointer;
+  border-right: solid 1px #8FCDCC;
+  padding-left: 0.8%;
+  display: flex;
+  box-sizing: border-box;
+}
+.accountSettingPlugins .scrollContainer .sortContainer .title2Text .div_triangle {
+  margin: 0.45rem 0 0.45rem 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.accountSettingPlugins .scrollContainer .sortContainer .title2Text .div_triangle .triangle {
+  border-left: 0.1875rem solid transparent;
+  border-right: 0.1875rem solid transparent;
+}
+.accountSettingPlugins .scrollContainer .sortContainer .title2Text .div_triangle .triangle.triangleUp {
+  border-bottom: 0.25rem solid rgba(143, 205, 204, 0.26);
+}
+.accountSettingPlugins .scrollContainer .sortContainer .title2Text .div_triangle .triangle.triangleUp.active {
+  border-bottom: 0.25rem solid #05CCFF;
+}
+.accountSettingPlugins .scrollContainer .sortContainer .title2Text .div_triangle .triangle.triangleDown {
+  border-top: 0.25rem solid rgba(143, 205, 204, 0.26);
+}
+.accountSettingPlugins .scrollContainer .sortContainer .title2Text .div_triangle .triangle.triangleDown.active {
+  border-top: 0.25rem solid #05CCFF;
+}
+.accountSettingPlugins .scrollContainer .sortContainer .text1 {
+  width: 19.4%;
+}
+.accountSettingPlugins .scrollContainer .sortContainer .text2 {
+  width: 12.5%;
+}
+.accountSettingPlugins .scrollContainer .sortContainer .text3 {
+  width: 25.4%;
+}
+.accountSettingPlugins .scrollContainer .sortContainer .text4 {
+  width: 42.7%;
+  border-right: none;
+}
+.accountSettingPlugins .scrollContainer .sortContainer .text5 {
+  width: 15%;
+}
+.accountSettingPlugins .scrollContainer .sortContainer .text6 {
+  width: 13%;
+}
+.accountSettingPlugins .scrollContainer .sortContainer .text7 {
+  width: 13%;
+}
+.accountSettingPlugins .scrollContainer .sortContainer .text8 {
+  width: 15%;
+}
+.accountSettingPlugins .scrollContainer .sortContainer .text9 {
+  width: 9%;
+}
+.accountSettingPlugins .scrollContainer .sortContainer .text10 {
+  width: 7%;
+}
+.accountSettingPlugins .scrollContainer .sortContainer .text11 {
+  width: 15%;
+}
+.accountSettingPlugins .scrollContainer .sortContainer .text12 {
+  width: 13%;
+  border-right: none;
+}
+.accountSettingPlugins .scrollContainer .sortContainer .text13 {
+  width: 45%;
+}
+.accountSettingPlugins .scrollContainer .sortContainer .text14 {
+  width: 38%;
+}
+.accountSettingPlugins .scrollContainer .sortContainer .text29_1 {
+  padding-left: 3.5rem;
+  width: 50%;
+}
+.accountSettingPlugins .scrollContainer .sortContainer .text29_2 {
+  width: 50%;
+  border-right: none;
+}
+.accountSettingPlugins .scrollContainer .pluginsData {
+  margin-left: 1.5%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 88%;
+  padding-right: 1.5%;
+  margin-right: 2%;
+  padding-right: 0;
+  margin-right: 0;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table {
+  width: 100%;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+  border-spacing: 0;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr:nth-child(even) {
+  background: #033440;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr:hover {
+  background: #495B7C;
+  box-shadow: 0 0.125rem 1.25rem rgba(0, 0, 0, 0.08);
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr.active {
+  background: #495B7C;
+  box-shadow: inset 0 0 8px 3px rgba(143, 205, 204, 0.55);
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td {
+  font-family: Poppins, sans-serif;
+  height: 2.5rem;
+  padding-left: 1%;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td.td1 {
+  width: 19.4%;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td.td2 {
+  width: 12.5%;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td.td3 {
+  width: 25.4%;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td.td4 {
+  width: 42.7%;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td .td4Text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td .td4Text .status {
+  flex-grow: 1;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td .td4Text .td4TextImage {
+  width: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td .td4Text .td4TextImage .div_assignJob {
+  cursor: pointer;
+  position: relative;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td .td4Text .td4TextImage .div_assignJob .operatorTitle {
+  position: absolute;
+  font-family: Noto Sans SC, sans-serif;
+  background: #8FCDCC;
+  border: 1px solid #000000;
+  border-radius: 0.125rem;
+  color: #000000;
+  width: 3.5rem;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  text-align: center;
+  font-size: 1rem;
+  top: 1rem;
+  right: 0;
+  z-index: 3;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td .td4Text .td4TextImage .div_assignJob .assignJob {
+  font-family: Noto Sans SC, sans-serif;
+  z-index: 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  position: absolute;
+  top: 1.125rem;
+  right: -0.1875rem;
+  font-size: 1rem;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context {
+  width: 22.125rem;
+  height: 10.8125rem;
+  background: #033440;
+  border-radius: 5px;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title1 {
+  text-align: center;
+  color: #8FCDCC;
+  font-weight: 500;
+  height: 30%;
+  line-height: 4rem;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 {
+  font-weight: normal;
+  height: 30%;
+  line-height: 1.25rem;
+  display: flex;
+  align-items: center;
+  color: rgba(143, 205, 204, 0.35);
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 .title2Text1 {
+  padding-left: 1.5625rem;
+  width: 40%;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 .title2Text2 {
+  text-align: center;
+  width: 60%;
+  border-bottom: 1px solid #8FCDCC;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .div_button {
+  font-weight: 500;
+  text-align: center;
+  height: 30%;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .div_button button {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td .td4Text .td4TextImage .div_assignJob .assignJob .triangle {
+  width: 1px;
+  border-bottom: 1.75rem solid #033440;
+  border-left: 0.875rem solid transparent;
+  border-right: 0.875rem solid transparent;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td.td5 {
+  width: 15%;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td.td6 {
+  width: 13%;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td.td7 {
+  width: 13%;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td.td8 {
+  width: 15%;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td.td9 {
+  width: 9%;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td.td10 {
+  width: 7%;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td.td11 {
+  width: 15%;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td.td12 {
+  width: 13%;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td.td13 {
+  width: 45%;
+}
+.accountSettingPlugins .scrollContainer .pluginsData table tr td.td14 {
+  width: 38%;
+}
+.accountSettingPlugins .scrollContainer .pluginsData .pluginsTable {
+  width: 100%;
+}
+.accountSettingPlugins .scrollContainer .pluginsData .pluginsTable .td1 {
+  padding-left: 1rem;
+  width: 50%;
+}
+.accountSettingPlugins .scrollContainer .pluginsData .pluginsTable .td1 .td1Container {
+  display: flex;
+  align-items: center;
+}
+.accountSettingPlugins .scrollContainer .pluginsData .pluginsTable .td1 .td1Container .name {
+  margin-left: 1rem;
+}
+.accountSettingPlugins .scrollContainer .pluginsData .pluginsTable .td2 {
+  width: 50%;
+}
+
+.accountSettingPluginsEditor {
+  font-family: Noto Sans SC, sans-serif;
+  width: 97%;
+  height: 100%;
+  background: linear-gradient(64.4deg, #00262F 73.81%, #495B7C 122.59%);
+  border-radius: 5px;
+  color: #8FCDCC;
+  font-size: 1.625rem;
+  overflow: scroll;
+}
+.accountSettingPluginsEditor .pluginsSchemasName {
+  display: flex;
+  margin: 2rem 0 1rem 3rem;
+}
+.accountSettingPluginsEditor .pluginsSchemasName .title {
+  color: white;
+}
+.accountSettingPluginsEditor .pluginsSchemasName .value {
+  margin: 0 0 0 1rem;
+  width: 10rem;
+}
+.accountSettingPluginsEditor .pluginsSchemasName .value input {
+  width: 100%;
+  color: #8FCDCC;
+  font-size: 1.625rem;
+  border: 1px solid #45547e;
+}
+.accountSettingPluginsEditor .pluginsSchemas {
+  width: 50%;
+  margin: 0 0 0 5rem;
+}
+.accountSettingPluginsEditor .pluginsSchemas .schemasField {
+  margin: 0 0 0 2.5rem;
+  display: flex;
+  color: white;
+}
+.accountSettingPluginsEditor .pluginsSchemas .schemasField div {
+  width: 50%;
+}
+.accountSettingPluginsEditor .pluginsSchemas .schemasRow {
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+}
+.accountSettingPluginsEditor .pluginsSchemas .schemasRow div {
+  width: 49%;
+}
+.accountSettingPluginsEditor .pluginsSchemas .schemasRow div input {
+  width: 90%;
+  color: #8FCDCC;
+  font-size: 1.625rem;
+  border-bottom: 1px solid #c9f1f0;
+}
+.accountSettingPluginsEditor .pluginsSchemas .schemasRow .svgContainer {
+  cursor: pointer;
+  width: fit-content;
+  margin: 0 1rem 0 0;
+}
+.accountSettingPluginsEditor .pluginsSchemas .addButtonContainer {
+  margin: 2.5rem 0 1.88rem 0;
+  display: flex;
+  justify-content: center;
+}
+.accountSettingPluginsEditor .pluginsSchemas .addButtonContainer .addButton {
+  cursor: pointer;
+  height: 2.7rem;
+  width: 2.7rem;
+  border: solid 0.45rem #00EAFF;
+  border-radius: 50%;
+  font-size: 1.9rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #00EAFF;
+}
+.accountSettingPluginsEditor .pluginsButton {
+  margin: 0 0 0 5rem;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.accountSettingPluginsEditor .pluginsButton .button {
+  margin: 0 1rem;
+}
+
+/*# sourceMappingURL=accountSetting_plugins.css.map */

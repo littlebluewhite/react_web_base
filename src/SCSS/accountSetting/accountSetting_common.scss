@@ -1,0 +1,111 @@
+@import "../mixin";
+
+.accountSettingTitle{
+  margin: 1.5rem 3.5% 1.875rem 1.8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .leftContainer{
+    display: flex;
+    .searchDiv {
+      height: 2.375rem;
+      line-height: 2.375rem;
+      width: 17.5rem;
+      input {
+        width: 100%;
+        height: 100%;
+        font-size: 1rem;
+      }
+    }
+    .svgContainer{
+      cursor: pointer;
+      margin-left: 1rem;
+    }
+  }
+  .rightContainer{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    font-size: 1rem;
+    .createFolderButtonContainer{
+      cursor: pointer;
+      margin: 0 1.5rem 0;
+    }
+    .createUserButtonContainer{
+      margin-right: 1rem;
+      width: 3rem;
+      border-right: solid 1px rgba(255, 255, 255, 0.35);
+    }
+    @include page();
+  }
+}
+
+
+.model2{
+  .alarmSettingModel{
+    box-shadow: 0 .625rem 1.875rem .625rem rgba(0, 25, 31, 0.8);
+    border-radius: 10px;
+    background: #FFFFFF;
+    color: #FFFFFF;
+    font-size: 2.125rem;
+    button{
+      margin: 0 1.5rem;
+      display: block;
+    }
+    .title {
+      @include model2Title();
+    }
+    .buttonContainer {
+      @include model2buttonContainer();
+    }
+    .title2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 33.125rem;
+      height: 15.1875rem;
+      background: linear-gradient(57.58deg, #00262F 53.44%, #495B7C 100%);
+      border-radius: 10px 10px 0 0;
+    }
+    .buttonContainer2{
+      width: 33.125rem;
+      height: 19.1875rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .text{
+        margin-bottom: 2.875rem;
+        color: #8D97AD;
+        font-size: 1.5rem;
+      }
+    }
+  }
+  .pluginsFolderModel {
+    box-shadow: 0 .625rem 1.875rem .625rem rgba(0, 25, 31, 0.8);
+    background: white;
+    border-radius: .625rem;
+    position: relative;
+    color: #FFFFFF;
+    font-size: 2.125rem;
+
+    .title{
+      @include model2Title();
+      input{
+        color: #cafae4;
+        font-size: 2.125rem;
+        border: 1px solid #47e7c2;
+        width: 40%;
+        padding: 0 0 0 .4rem;
+      }
+    }
+
+    .buttonContainer {
+      @include model2buttonContainer();
+      .modelButton{
+        margin: 0 1rem;
+      }
+    }
+  }
+}

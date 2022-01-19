@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+}
+
+#root {
+  color: #FFFFFF;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.loginContainer {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../image/png/index_background.jpg");
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+}
+.loginContainer .imageContainer {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.loginContainer .imageContainer img {
+  height: 5.6rem;
+}
+
+.div_table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.div_table .usernameContainer {
+  margin: 2rem 0;
+}
+.div_table .messageContainer {
+  font-family: Roboto, sans-serif;
+  font-size: 1.25rem;
+  color: #FF4D4D;
+  margin-bottom: 2rem;
+  width: 31.875rem;
+  height: 2rem;
+  text-align: end;
+  line-height: 2rem;
+}
+
+.point {
+  text-align: right;
+}
+
+.helpText {
+  margin-top: 2rem;
+  font-family: Roboto, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.4375rem;
+  color: #8FCDCC;
+  opacity: 0.8;
+}
+.helpText > a {
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  font-size: 1.25rem;
+  line-height: 1.4375rem;
+  text-decoration-line: none;
+  color: #8FCDCC;
+  opacity: 0.9;
+}
+
+.login_input {
+  position: static;
+  width: 31.875rem;
+  height: 3.125rem;
+  left: 0;
+  top: 0;
+  background: #414A4C;
+  border: 2px solid #E6E6E6;
+  box-sizing: border-box;
+  border-radius: 10px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding-left: 4rem;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.75rem;
+  line-height: 3.125rem;
+  color: #8D8D8D;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 1.25rem;
+}
+
+.username {
+  background-image: url("../image/svg/user.svg");
+  background-size: 1.25rem 1.375rem;
+}
+
+.password {
+  background-image: url("../image/svg/password.svg");
+  background-size: 1.0625rem 1.375rem;
+}
+
+.login {
+  position: static;
+  width: 14.5rem;
+  height: 3.125rem;
+  background: linear-gradient(273.63deg, #B30ADD -1.64%, #0A91DD 102.5%);
+  border-radius: 0.625rem;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 1.75rem;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+@media (max-aspect-ratio: 1000/800) {
+  .loginContainer {
+    background-image: url("../image/png/login_patrait.png");
+  }
+  .loginContainer .imageContainer {
+    margin-top: 0;
+    margin-bottom: 8rem;
+  }
+  .loginContainer .imageContainer img {
+    height: 22.4rem;
+  }
+
+  .div_table .usernameContainer {
+    margin: 8rem 0;
+  }
+  .div_table .messageContainer {
+    font-size: 5rem;
+    margin-bottom: 8rem;
+    width: 127.5rem;
+    height: 8rem;
+    line-height: 8rem;
+  }
+
+  .helpText {
+    margin-top: 8rem;
+    font-size: 5rem;
+    line-height: 5.75rem;
+  }
+  .helpText > a {
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 5.75rem;
+  }
+
+  .login_input {
+    width: 127.5rem;
+    height: 12.5rem;
+    border-radius: 10px;
+    padding-left: 16rem;
+    font-size: 7rem;
+    line-height: 12.5rem;
+    background-position-x: 5rem;
+  }
+
+  .username {
+    background-size: 5rem 5.5rem;
+  }
+
+  .password {
+    background-size: 4.25rem 5.5rem;
+  }
+
+  .login {
+    width: 58rem;
+    height: 12.5rem;
+    border-radius: 2.5rem;
+    font-size: 7rem;
+  }
+}
+
+/*# sourceMappingURL=login.css.map */

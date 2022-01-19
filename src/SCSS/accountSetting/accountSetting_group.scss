@@ -1,0 +1,274 @@
+@import "../mixin";
+
+.accountSettingGroup{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: Noto Sans SC, sans-serif;
+  width: 97%;
+  height: 100%;
+  background: linear-gradient(64.4deg, #00262F 73.81%, #495B7C 122.59%);
+  border-radius: 5px;
+  color: #8FCDCC;
+  font-size: 1.625rem;
+  .accountGroupTitle{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 1.2rem 0 1.5rem;
+    margin: 0 0 1.25rem 0;
+    .leftContainer{
+      display: flex;
+      .searchDiv{
+        input{
+          height: 2.375rem;
+          width: 17.5rem;
+        }
+      }
+      .buttonContainer{
+        cursor: pointer;
+        margin: 0 0 0 1.5rem;
+      }
+    }
+    .rightContainer{
+      display: flex;
+      .buttonContainer{
+        cursor: pointer;
+        margin-right: 1.5rem;
+      }
+    }
+  }
+  .noDataContainer{
+    margin: 1.2rem 0 1.5rem 0;
+    border: 1px solid #8FCDCC;
+    text-align: center;
+    color: white;
+    line-height: 2.5rem;
+    font-size: 1.25rem;
+  }
+  .scrollContainer{
+    height: 85%;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: relative;
+    .sortContainer {
+      margin-left: 1.5%;
+      padding-bottom: 0.4rem;
+      border-bottom: solid 1px #8FCDCC;
+      @include sortTitle();
+      color: white;
+      margin-right: 3rem;
+      padding-right: 0;
+      .text29_1{
+        width: 86%;
+      }
+      .text29_2{
+        width: 14%;
+        border-right: none;
+      }
+    }
+    .groupsData{
+      color: white;
+      height: 100%;
+      margin: 0 1rem 0 1.5rem;
+      overflow-y: scroll;
+      padding-bottom: 10rem;
+      .groupCreate{
+        font-size: 1.25rem;
+      }
+      .firstLine{
+        margin: .5rem 2.5rem .5rem .5rem;
+        padding-left: .5rem;
+        height: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &:hover{
+          background: #495B7C;
+        }
+        .leftContainer{
+          display: flex;
+          align-items: center;
+          input{
+            display: block;
+            width: 14.5rem;
+            height: 100%;
+            border: 1px solid #8FCDCC;
+            color: white;
+            font-size: 1.25rem;
+            &:focus {
+              box-shadow: 0 0 2px 3px rgba(143, 205, 204, 0.55);
+            }
+          }
+          .buttonContainer{
+            cursor: pointer;
+            margin-left: .75rem;
+          }
+          .foldButtonContainer{
+            margin-left: .5rem;
+          }
+        }
+        .rightContainer{
+          display: flex;
+          cursor: pointer;
+          button{
+            &.hasMargin{
+              margin: 0 1.25rem;
+            }
+          }
+        }
+      }
+      .groupElementContainer{
+        font-size: 1.25rem;
+        .groupElement{
+          padding: 0 0 0 1rem;
+          display: flex;
+          position: relative;
+          line-height: 2.5rem;
+          &:hover{
+            background: #495B7C;
+          }
+          .groupName{
+            width: 15%;
+            overflow-x: auto;
+            overflow-y: hidden;
+            word-break: keep-all;
+          }
+          .deleteButtonContainer{
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            margin-right: 1rem;
+          }
+          .foldButtonContainer{
+            display: flex;
+            align-items: center;
+          }
+          .updateTime{
+            position: absolute;
+            right: 3%;
+            top: 0
+          }
+        }
+      }
+      .groupFieldContainer{
+        width: 86%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        @include groupField();
+      }
+      .buttonBlock{
+        height: 20rem;
+      }
+    }
+  }
+  .groupsEdit{
+    @include groupsEdit();
+    left: 19%;
+    width: 77%;
+  }
+}
+
+#model-root{
+  font-family: Noto Sans SC, sans-serif;
+  .model2{
+    .setting{
+      .bar{
+        &.bar2{
+          display: block;
+        }
+        .title{
+          margin: 1.5rem 0 1.25rem 1rem;
+          font-size: 1.25rem;
+          color: white;
+        }
+        .information{
+          margin: 0 0 .5rem 1rem;
+          font-size: 1rem;
+          color: #697B7C;
+        }
+        .groupsContainer{
+          height: 87%;
+          overflow-y: scroll;
+          color: #8FCDCC;
+          font-size: 1.125rem;
+          padding: 0 0 0 1rem;
+          .mergeGroupSelect{
+            padding: 0 0 0 1rem;
+            line-height: 2.57rem;
+            position: relative;
+            display: flex;
+            align-items: center;
+            margin: .1rem 1.5rem .1rem 0;
+            input{
+              display: block;
+            }
+            .groupName{
+              margin-left: 0.3rem;
+            }
+          }
+        }
+      }
+      .articleContainer{
+        position: relative;
+        color: white;
+        font-size: 1.25rem;
+        .mergeResult{
+          position: relative;
+          background: linear-gradient(64.4deg, #00262F 73.81%, #495B7C 122.59%);
+          width: 97%;
+          top: 3%;
+          height:97%;
+          .title{
+            margin: 1.5rem 0 0 1.875rem;
+          }
+          .subjectContainer{
+            border-bottom: 1px solid #8D97AD;
+            display: flex;
+            color: #8D97AD;
+            margin: .4rem 1.5rem 0 1.875rem;
+            .block{
+              width: 10%;
+            }
+            .subject{
+              line-height: 2rem;
+              &.s1{
+                width: 10%;
+              }
+              &.s2{
+                width: 15%;
+              }
+            }
+          }
+          .mergeData{
+            height: 83%;
+            overflow: scroll;
+            @include groupField();
+            .groupField{
+              .block{
+                width: 36%;
+              }
+              .triangle {
+                z-index: 3;
+                border-right: 1rem solid #000000;
+                border-top: 0.8rem solid transparent;
+                border-bottom: 0.8rem solid transparent;
+                position: absolute;
+                left: 1rem;
+                top: -.2rem;
+              }
+            }
+            .block{
+              width: 100%;
+              height: 20%;
+            }
+          }
+        }
+        .groupsEdit{
+          @include groupsEdit();
+          position: absolute;
+          width: 92%;
+        }
+      }
+    }
+  }
+}

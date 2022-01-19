@@ -1,0 +1,383 @@
+@import "../mixin";
+
+.reportArticle {
+  .container {
+    .reportSearch {
+      .searchSelect {
+        justify-content: space-between;
+
+        .item {
+          font-weight: 700;
+          border-right: 1px solid #8FCDCC;
+          flex-grow: 1;
+
+          &.borderN {
+            border-right: none;
+          }
+        }
+      }
+
+      .searchContext2 {
+        display: flex;
+        align-items: center;
+
+        .filterContainer {
+          font-size: 1.25rem;
+          display: flex;
+          width: 48%;
+
+          .chargingStation {
+            label {
+              margin: 0 1rem;
+            }
+          }
+
+          .charger {
+            label {
+              margin: 0 1rem 0 2rem;
+            }
+          }
+
+          select {
+            width: 12.5rem;
+          }
+        }
+
+        .context2 {
+          height: 5.75rem;
+          text-align: center;
+          flex-grow: 1;
+        }
+
+        .context3 {
+          display: flex;
+          width: 50%;
+
+          .dateContainer {
+            margin-left: 1.75rem;
+          }
+
+          .rangeContainer {
+            margin: 0 1.5rem 0 .8rem;
+            display: flex;
+            align-items: center;
+
+            .svgContainer {
+              margin: 0 .3rem;
+              line-height: 0;
+            }
+          }
+
+          .fastContainer {
+            display: flex;
+            align-items: center;
+          }
+
+          input {
+            &[type="date"] {
+              width: 11.95rem;
+            }
+
+            box-sizing: border-box;
+            margin: 0 .2rem;
+            display: block;
+            font-size: 1.25rem;
+            border: 1px solid #8FCDCC;
+            border-radius: 0.3125rem;
+          }
+
+          select {
+            font-size: 1rem;
+            width: 9rem;
+          }
+        }
+      }
+    }
+  }
+
+  .downChargerContainer {
+    padding-top: 2rem;
+
+    .downCharger {
+      .mainTitle {
+        display: flex;
+        justify-content: space-between;
+
+        .block {
+          width: 30%;
+        }
+
+        .printDownloadContainer {
+          width: 30%;
+          flex-grow: 0;
+          padding-right: 3rem;
+          box-sizing: border-box;
+        }
+      }
+
+      .chargerChart {
+        position: relative;
+        .dollar{
+          position: absolute;
+          font-size: 1.25rem;
+          top: -5%;
+          left: 1%;
+        }
+        &.usage{
+          overflow-x: scroll;
+        }
+        margin: 2rem 5rem 0 5rem;
+        height: 30rem;
+      }
+
+      .chargerInformationContainer {
+        margin-bottom: 2rem;
+        .informationTitle {
+          font-size: 1.25rem;
+          margin: 1.5rem 5rem 3rem 5rem;
+        }
+        .searchContainer{
+          display: flex;
+          height: 2.4rem;
+          margin: 1.25rem 5rem;
+          input{
+            height: 100%;
+            width: 30%;
+            display: block;
+            margin-right: 2rem;
+          }
+          .text{
+            margin-left: 2rem;
+          }
+          label{
+            margin-right: .5rem;
+          }
+        }
+        .chargerDataContainer {
+          &::-webkit-scrollbar-thumb {
+            background: rgba(141, 205, 204, 0.4);
+          }
+          margin-left: 4rem;
+          overflow-y: hidden;
+          overflow-x: scroll;
+          width: 100%;
+          position: relative;
+
+          .sortTitle {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            line-height: 2rem;
+            border-bottom: 1px solid #8D97AD;
+            padding-bottom: 0.6%;
+            width: 160%;
+
+            .title2 {
+              @include sortTitle();
+              color: white;
+
+              .text30 {
+                width: 7%;
+              }
+
+              .text31 {
+                width: 11%;
+              }
+
+              .text7 {
+                width: 8%;
+              }
+
+              .text32 {
+                width: 6%;
+              }
+
+              .text33 {
+                width: 7%;
+              }
+
+              .text34 {
+                width: 8%;
+              }
+
+              .text35 {
+                width: 12%;
+              }
+
+              .text36 {
+                width: 12%;
+              }
+
+              .text37 {
+                width: 8%;
+              }
+
+              .text38 {
+                width: 7%;
+              }
+
+              .text38_2 {
+                width: 7%;
+              }
+
+              .text39 {
+                width: 7%;
+                border-right: none;
+              }
+            }
+          }
+
+          .showChargerInformation {
+            @include scroll();
+            min-height: 4rem;
+            max-height: 45rem;
+            width: 159%;
+            height: fit-content;
+            position: relative;
+
+
+            .noData{
+              margin-right: 48rem;
+              text-align: center;
+              color: white;
+              font-size: 1.25rem;
+              padding: 1rem 0;
+            }
+
+            table {
+              tr {
+                td {
+                  &.td1 {
+                    width: 7%;
+                  }
+
+                  &.td2 {
+                    width: 11%;
+                  }
+
+                  &.td3 {
+                    width: 8%;
+                  }
+
+                  &.td4 {
+                    width: 6%;
+                  }
+
+                  &.td5 {
+                    width: 7%;
+                  }
+
+                  &.td6 {
+                    width: 8%;
+                  }
+
+                  &.td7 {
+                    width: 12%;
+                  }
+
+                  &.td8 {
+                    width: 12%;
+                  }
+
+                  &.td9 {
+                    width: 8%;
+                  }
+
+                  &.td10 {
+                    width: 7%;
+                  }
+
+                  &.td11 {
+                    width: 7%;
+                  }
+
+                  &.td12 {
+                    width: 7%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.downCharger{
+  .chargerUsageContainer{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    padding: 0 7.5rem;
+    .titleContainer{
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.25rem;
+      .titleItem{
+      }
+      @include page();
+      .title1End {
+      flex-direction: column;
+      align-items: flex-end;
+        .title1EndButton{
+          margin-right: 0;
+        }
+        .title1EndText{
+          padding-right: 1rem;
+        }
+      }
+    }
+    .chargerUsageTableContainer{
+      margin-top: 1.25rem;
+      display: flex;
+      justify-content: space-between;
+      .chargerUsageTable{
+        width: 48%;
+        .sortTitle{
+          line-height: 2rem;
+          border-bottom: 1px solid #8D97AD;
+          padding-bottom: 0.6%;
+          margin-right: 1.5%;
+          .title2{
+            @include sortTitle();
+            color: white;
+            .no_cursor{
+              cursor: default;
+            }
+            .text40{
+              width: 34%;
+            }
+            .text30{
+              width: 33%;
+            }
+            .text41{
+              border-right: none;
+              width: 33%;
+            }
+          }
+        }
+        .showChargerUsage{
+          @include scroll();
+          height: auto;
+          padding-right: 0;
+          margin-right: 0;
+          table{
+            tr{
+              td{
+                &.td1{
+                  width: 34%;
+                }
+                &.td2{
+                  width: 33%;
+                }
+                &.td3{
+                  width: 33%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

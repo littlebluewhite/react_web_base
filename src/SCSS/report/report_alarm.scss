@@ -1,0 +1,277 @@
+@import "../mixin";
+
+.reportArticle{
+  font-family: Noto Sans SC, sans-serif;
+  width: 97%;
+  height: 100%;
+  background: linear-gradient(64.4deg, #00262F 73.81%, #495B7C 122.59%);
+  border-radius: 5px;
+  color: #8FCDCC;
+  font-size: 1.625rem;
+  .scroll{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 99%;
+    height: 100%;
+    .up{
+      display: flex;
+      justify-content: center;
+      margin: 2.25rem 1.52% 0 1.52%;
+      border-bottom: 1px solid rgba(143, 205, 204, 0.26);
+      .container{
+        width: 88%;
+        .reportSearch{
+          background: rgba(143, 205, 204, 0.15);
+          border: 1px solid #8FCDCC;
+          border-radius: 5px;
+          .searchSelect{
+            display: flex;
+            .item{
+              cursor: pointer;
+              line-height: 3.1875rem;
+              flex-grow: 1;
+              text-align: center;
+              border-bottom: 1px solid #8FCDCC;
+              &.active{
+                border-bottom: none;
+                background: linear-gradient(270deg, rgba(143, 205, 204, 0.26) 0%, rgba(143, 205, 204, 0.052) 31.56%, rgba(143, 205, 204, 0.26) 100%);
+              }
+              &.fast{
+                border-right: 1px solid #8FCDCC;
+              }
+              &.self{
+                border-left: 1px solid #8FCDCC;
+              }
+            }
+          }
+          .searchContext{
+            padding: 1.875rem 1.14% 1rem 1.14%;
+            .searchFast{
+              display: flex;
+              justify-content: space-between;
+              .div_input{
+                font-size: 1rem;
+                width: 13%;
+                height: 1.875rem;
+                display: flex;
+                align-items: center;
+                border: 1px solid #8FCDCC;
+                border-radius: 5px;
+                input{
+                  display: block;
+                  margin-top: 0;
+                  margin-bottom: 0;
+                }
+              }
+            }
+            .searchSelf{
+              .div_input{
+                font-size: 1.875rem;
+                font-weight: 700;
+                height: 3.125rem;
+                .to{
+                  margin: 0 1.5%;
+                }
+                input{
+                  font-size: 1.25rem;
+                  width: 29.3%;
+                  height: 2.1875rem;
+                  border: 1px solid #8FCDCC;
+                  border-radius: 5px;
+                  color: #8FCDCC;
+                }
+              }
+            }
+            .text {
+              margin-top: 1.39%;
+              font-size: 1rem;
+              color: #FF4D4D;
+            }
+          }
+        }
+        .div_button{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 3% 0;
+          text-align: center;
+          button{
+            margin: 0 0.714%;
+          }
+        }
+      }
+    }
+    .downContainer{
+      @include filterSelect();
+      .title{
+        margin: 0 5rem 2rem 5rem;
+        padding: 0 0 0 0;
+        text-align: center;
+        display: flex;
+        .item1{
+          width: 25%;
+        }
+        .item2{
+          width: 50%;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+          @include reportPage();
+          .text{
+            margin: 0 6.09%;
+          }
+        }
+      }
+      .dataTitle{
+        margin: 0;
+      }
+      .chart{
+        margin: 0 6.5%;
+      }
+      .downContainerTable{
+        font-family: Noto Sans SC, sans-serif;
+        margin: 0.625rem 8% 2% 8%;
+        .countTotal{
+          color: #8FCDCC;
+          margin: 0.875rem 0;
+          font-size: 1.25rem;
+        }
+        .statisticContainer{
+          @include reportAlarmTable()
+        }
+      }
+    }
+    .downContainerSelf{
+      font-family: Noto Sans SC, "sans-serif";
+      margin: 0 7%;
+      @include filterSelect();
+      .filterConditionContainer{
+        padding: 0;
+        margin: 1% 0 5% 0;
+      }
+      .selfTitle{
+        display: flex;
+        .selfText{
+          font-size: 1.25rem;
+          width: 48.5%;
+          .textContainer{
+            justify-content: space-between;
+            display: flex;
+            .textContainer2{
+              width: 51%;
+              &>div{
+                margin: 1rem 0 1rem 0;
+              }
+            }
+            @include page();
+            .title1End{
+              padding-bottom: 1rem;
+              flex-grow: 1;
+              justify-content: flex-end;
+              flex-direction: column;
+              align-items: flex-end;
+              width: 44%;
+              .title1EndButton{
+                align-items: flex-end;
+                margin-right: 0;
+                .arrowContainer{
+                  height: 2.5rem;
+                  flex-grow: 1;
+                }
+              }
+              .title1EndText{
+              }
+            }
+          }
+        }
+        .div_button{
+        }
+      }
+      .chartAndTable{
+        margin-bottom:2%;
+        @include reportAlarmTable();
+        .right{
+          width: 50%;
+          .chart{
+            margin-left: 12%;
+            .text{
+              font-size: 1.25rem;
+            }
+          }
+          @include chartData();
+          .chartData{
+            margin-top: 2rem;
+            padding-left: 17%;
+            height: 2rem;
+            .color{
+              margin-right: 0.45rem;
+              width: 0.6rem;
+              height: 100%;
+            }
+            .text {
+              flex-grow: 1;
+              padding-left: 3%;
+              font-size: 1rem;
+              line-height: 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.model2{
+  .eventListContainer{
+    position: relative;
+    color: #8FCDCC;
+    height: 65%;
+    width: 76%;
+    background: linear-gradient(64.4deg, #00262F 73.81%, #495B7C 122.59%);
+    box-shadow: 0 0.75rem 0.75rem 0.1875rem rgba(3, 13, 27, 0.6);
+    border-radius: 15px;
+    .eventList{
+      height: 92%;
+      margin: 2%;
+      .title{
+        display: flex;
+        padding-right: 4%;
+        .titleText{
+          font-size: 1rem;
+        }
+        .titleText2{
+          flex-grow: 1;
+          font-size: 1.625rem;
+          text-align: center;
+        }
+        .printDownloadContainer{
+          flex-grow: 0;
+        }
+      }
+      .showEventContainer{
+        height: 100%;
+        width: 100%;
+        .title{
+          margin-top: 1%;
+          margin-right: 3%;
+          height: 2.1875rem;
+          border-bottom: 1px solid #8D97AD;
+          @include sortTitle()
+        }
+        .showEventTable{
+          @include scroll()
+        }
+      }
+    }
+    .close{
+      cursor: pointer;
+      z-index: 60;
+      position: absolute;
+      top: 0.625rem;
+      right: 2%;
+      width: 2.125rem;
+      height: 2.125rem;
+      border-radius: 50%;
+      box-shadow: 0 0.5rem 0.4375rem -1px rgba(20, 22, 22, 0.8);
+    }
+  }
+}

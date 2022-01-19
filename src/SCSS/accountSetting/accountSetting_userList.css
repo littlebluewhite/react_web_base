@@ -1,0 +1,453 @@
+.accountSettingUserList {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: Noto Sans SC, sans-serif;
+  width: 97%;
+  height: 100%;
+  background: linear-gradient(64.4deg, #00262F 73.81%, #495B7C 122.59%);
+  border-radius: 5px;
+  color: #8FCDCC;
+  font-size: 1.625rem;
+}
+.accountSettingUserList .accountFilter {
+  display: flex;
+  margin: 0 0 2rem 2%;
+  font-size: 1.25rem;
+}
+.accountSettingUserList .accountFilter .selectFilter {
+  margin-left: 1rem;
+  margin-right: 3rem;
+  width: 12rem;
+}
+.accountSettingUserList .scrollContainer {
+  height: 80%;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: relative;
+}
+.accountSettingUserList .scrollContainer .sortContainer {
+  margin-left: 1.5%;
+  padding-bottom: 0.4rem;
+  border-bottom: solid 1px #8FCDCC;
+  padding-right: 1%;
+  display: flex;
+  font-size: 1.625rem;
+  color: #8FCDCC;
+  color: white;
+  margin-right: 10px;
+  padding-right: 0;
+}
+.accountSettingUserList .scrollContainer .sortContainer .title2Text {
+  cursor: pointer;
+  border-right: solid 1px #8FCDCC;
+  padding-left: 0.8%;
+  display: flex;
+  box-sizing: border-box;
+}
+.accountSettingUserList .scrollContainer .sortContainer .title2Text .div_triangle {
+  margin: 0.45rem 0 0.45rem 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.accountSettingUserList .scrollContainer .sortContainer .title2Text .div_triangle .triangle {
+  border-left: 0.1875rem solid transparent;
+  border-right: 0.1875rem solid transparent;
+}
+.accountSettingUserList .scrollContainer .sortContainer .title2Text .div_triangle .triangle.triangleUp {
+  border-bottom: 0.25rem solid rgba(143, 205, 204, 0.26);
+}
+.accountSettingUserList .scrollContainer .sortContainer .title2Text .div_triangle .triangle.triangleUp.active {
+  border-bottom: 0.25rem solid #05CCFF;
+}
+.accountSettingUserList .scrollContainer .sortContainer .title2Text .div_triangle .triangle.triangleDown {
+  border-top: 0.25rem solid rgba(143, 205, 204, 0.26);
+}
+.accountSettingUserList .scrollContainer .sortContainer .title2Text .div_triangle .triangle.triangleDown.active {
+  border-top: 0.25rem solid #05CCFF;
+}
+.accountSettingUserList .scrollContainer .sortContainer .text1 {
+  width: 19.4%;
+}
+.accountSettingUserList .scrollContainer .sortContainer .text2 {
+  width: 12.5%;
+}
+.accountSettingUserList .scrollContainer .sortContainer .text3 {
+  width: 25.4%;
+}
+.accountSettingUserList .scrollContainer .sortContainer .text4 {
+  width: 42.7%;
+  border-right: none;
+}
+.accountSettingUserList .scrollContainer .sortContainer .text5 {
+  width: 15%;
+}
+.accountSettingUserList .scrollContainer .sortContainer .text6 {
+  width: 13%;
+}
+.accountSettingUserList .scrollContainer .sortContainer .text7 {
+  width: 13%;
+}
+.accountSettingUserList .scrollContainer .sortContainer .text8 {
+  width: 15%;
+}
+.accountSettingUserList .scrollContainer .sortContainer .text9 {
+  width: 9%;
+}
+.accountSettingUserList .scrollContainer .sortContainer .text10 {
+  width: 7%;
+}
+.accountSettingUserList .scrollContainer .sortContainer .text11 {
+  width: 15%;
+}
+.accountSettingUserList .scrollContainer .sortContainer .text12 {
+  width: 13%;
+  border-right: none;
+}
+.accountSettingUserList .scrollContainer .sortContainer .text13 {
+  width: 45%;
+}
+.accountSettingUserList .scrollContainer .sortContainer .text14 {
+  width: 38%;
+}
+.accountSettingUserList .scrollContainer .sortContainer .text5 {
+  padding-left: 3.2rem;
+  width: 20%;
+  box-sizing: border-box;
+}
+.accountSettingUserList .scrollContainer .sortContainer .text6 {
+  width: 20%;
+  box-sizing: border-box;
+}
+.accountSettingUserList .scrollContainer .sortContainer .text7 {
+  width: 15%;
+  box-sizing: border-box;
+}
+.accountSettingUserList .scrollContainer .sortContainer .text10 {
+  width: 20%;
+  box-sizing: border-box;
+}
+.accountSettingUserList .scrollContainer .sortContainer .text8 {
+  width: 25%;
+  box-sizing: border-box;
+  border-right: none;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData {
+  margin-left: 1.5%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 88%;
+  padding-right: 1.5%;
+  margin-right: 2%;
+  padding-right: 0;
+  margin-right: 0;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table {
+  width: 100%;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+  border-spacing: 0;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr:nth-child(even) {
+  background: #033440;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr:hover {
+  background: #495B7C;
+  box-shadow: 0 0.125rem 1.25rem rgba(0, 0, 0, 0.08);
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr.active {
+  background: #495B7C;
+  box-shadow: inset 0 0 8px 3px rgba(143, 205, 204, 0.55);
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td {
+  font-family: Poppins, sans-serif;
+  height: 2.5rem;
+  padding-left: 1%;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td.td1 {
+  width: 19.4%;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td.td2 {
+  width: 12.5%;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td.td3 {
+  width: 25.4%;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td.td4 {
+  width: 42.7%;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td .td4Text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td .td4Text .status {
+  flex-grow: 1;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td .td4Text .td4TextImage {
+  width: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td .td4Text .td4TextImage .div_assignJob {
+  cursor: pointer;
+  position: relative;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td .td4Text .td4TextImage .div_assignJob .operatorTitle {
+  position: absolute;
+  font-family: Noto Sans SC, sans-serif;
+  background: #8FCDCC;
+  border: 1px solid #000000;
+  border-radius: 0.125rem;
+  color: #000000;
+  width: 3.5rem;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  text-align: center;
+  font-size: 1rem;
+  top: 1rem;
+  right: 0;
+  z-index: 3;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td .td4Text .td4TextImage .div_assignJob .assignJob {
+  font-family: Noto Sans SC, sans-serif;
+  z-index: 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  position: absolute;
+  top: 1.125rem;
+  right: -0.1875rem;
+  font-size: 1rem;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context {
+  width: 22.125rem;
+  height: 10.8125rem;
+  background: #033440;
+  border-radius: 5px;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title1 {
+  text-align: center;
+  color: #8FCDCC;
+  font-weight: 500;
+  height: 30%;
+  line-height: 4rem;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 {
+  font-weight: normal;
+  height: 30%;
+  line-height: 1.25rem;
+  display: flex;
+  align-items: center;
+  color: rgba(143, 205, 204, 0.35);
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 .title2Text1 {
+  padding-left: 1.5625rem;
+  width: 40%;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 .title2Text2 {
+  text-align: center;
+  width: 60%;
+  border-bottom: 1px solid #8FCDCC;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .div_button {
+  font-weight: 500;
+  text-align: center;
+  height: 30%;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .div_button button {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td .td4Text .td4TextImage .div_assignJob .assignJob .triangle {
+  width: 1px;
+  border-bottom: 1.75rem solid #033440;
+  border-left: 0.875rem solid transparent;
+  border-right: 0.875rem solid transparent;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td.td5 {
+  width: 15%;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td.td6 {
+  width: 13%;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td.td7 {
+  width: 13%;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td.td8 {
+  width: 15%;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td.td9 {
+  width: 9%;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td.td10 {
+  width: 7%;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td.td11 {
+  width: 15%;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td.td12 {
+  width: 13%;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td.td13 {
+  width: 45%;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData table tr td.td14 {
+  width: 38%;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData .accountSettingTable {
+  width: 100%;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData .accountSettingTable .td5 {
+  padding-left: 1rem;
+  width: 20%;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData .accountSettingTable .td5 .td5Container {
+  display: flex;
+  align-items: center;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData .accountSettingTable .td5 .td5Container .name {
+  margin-left: 1rem;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData .accountSettingTable .td6 {
+  width: 20%;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData .accountSettingTable .td7 {
+  width: 15%;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData .accountSettingTable .td10 {
+  width: 20%;
+}
+.accountSettingUserList .scrollContainer .accountSettingUserListData .accountSettingTable .td8 {
+  width: 25%;
+}
+
+.accountSettingUserListEditor, .accountSettingUserListCreate {
+  font-family: Noto Sans SC, sans-serif;
+  width: 97%;
+  height: 100%;
+  background: linear-gradient(64.4deg, #00262F 73.81%, #495B7C 122.59%);
+  border-radius: 5px;
+  color: #8FCDCC;
+  font-size: 1.625rem;
+}
+.accountSettingUserListEditor form, .accountSettingUserListCreate form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.accountSettingUserListEditor form input, .accountSettingUserListCreate form input {
+  font-size: 1.25rem;
+  color: #8FCDCC;
+  width: 100%;
+}
+.accountSettingUserListEditor form select, .accountSettingUserListCreate form select {
+  width: 100%;
+  background-image: url("../../image/svg/selectDown.svg");
+  background-size: 0.625rem 0.4375rem;
+  background-position: top 60% right 2%;
+  background-repeat: no-repeat;
+}
+.accountSettingUserListEditor .upContainer, .accountSettingUserListCreate .upContainer {
+  padding: 0 1.9% 0 1.9%;
+}
+.accountSettingUserListEditor .upContainer .title, .accountSettingUserListCreate .upContainer .title {
+  font-weight: bold;
+  color: #FFFFFF;
+  margin: 1.25rem 0 0 0;
+}
+.accountSettingUserListEditor .upContainer .informationContainer, .accountSettingUserListCreate .upContainer .informationContainer {
+  display: flex;
+}
+.accountSettingUserListEditor .upContainer .informationContainer .leftContainer, .accountSettingUserListCreate .upContainer .informationContainer .leftContainer {
+  box-sizing: border-box;
+  width: 50%;
+  padding: 0 3% 0 2%;
+}
+.accountSettingUserListEditor .upContainer .informationContainer .leftContainer .item, .accountSettingUserListCreate .upContainer .informationContainer .leftContainer .item {
+  align-items: center;
+  margin: 1rem 0;
+  justify-content: space-between;
+  display: flex;
+}
+.accountSettingUserListEditor .upContainer .informationContainer .leftContainer .item .name, .accountSettingUserListCreate .upContainer .informationContainer .leftContainer .item .name {
+  width: 40%;
+  color: #8FCDCC;
+}
+.accountSettingUserListEditor .upContainer .informationContainer .leftContainer .item .name.user, .accountSettingUserListCreate .upContainer .informationContainer .leftContainer .item .name.user {
+  color: rgba(143, 205, 204, 0.35);
+}
+.accountSettingUserListEditor .upContainer .informationContainer .leftContainer .item .name.accountLevel, .accountSettingUserListCreate .upContainer .informationContainer .leftContainer .item .name.accountLevel {
+  display: flex;
+}
+.accountSettingUserListEditor .upContainer .informationContainer .leftContainer .item .value, .accountSettingUserListCreate .upContainer .informationContainer .leftContainer .item .value {
+  width: 60%;
+  border-bottom: 1px solid #8FCDCC;
+  position: relative;
+}
+.accountSettingUserListEditor .upContainer .informationContainer .leftContainer .item .value .correctContainer, .accountSettingUserListCreate .upContainer .informationContainer .leftContainer .item .value .correctContainer {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.accountSettingUserListEditor .upContainer .informationContainer .leftContainer .item .value.user, .accountSettingUserListCreate .upContainer .informationContainer .leftContainer .item .value.user {
+  color: rgba(143, 205, 204, 0.35);
+}
+.accountSettingUserListEditor .upContainer .informationContainer .leftContainer .item .value.checkPassword, .accountSettingUserListCreate .upContainer .informationContainer .leftContainer .item .value.checkPassword {
+  position: relative;
+}
+.accountSettingUserListEditor .upContainer .informationContainer .leftContainer .item .value .message, .accountSettingUserListCreate .upContainer .informationContainer .leftContainer .item .value .message {
+  font-size: 1rem;
+  color: red;
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  width: fit-content;
+}
+.accountSettingUserListEditor .upContainer .informationContainer .leftContainer.address, .accountSettingUserListCreate .upContainer .informationContainer .leftContainer.address {
+  width: 100%;
+  padding-right: 2%;
+}
+.accountSettingUserListEditor .upContainer .informationContainer .leftContainer.address .item, .accountSettingUserListCreate .upContainer .informationContainer .leftContainer.address .item {
+  margin-top: 0;
+}
+.accountSettingUserListEditor .upContainer .informationContainer .leftContainer.address .item .name, .accountSettingUserListCreate .upContainer .informationContainer .leftContainer.address .item .name {
+  width: 18.7%;
+}
+.accountSettingUserListEditor .upContainer .informationContainer .leftContainer.address .item .value, .accountSettingUserListCreate .upContainer .informationContainer .leftContainer.address .item .value {
+  width: 81.3%;
+}
+.accountSettingUserListEditor .upContainer .informationContainer .rightContainer, .accountSettingUserListCreate .upContainer .informationContainer .rightContainer {
+  box-sizing: border-box;
+  width: 50%;
+  padding: 0 2% 0 3%;
+}
+.accountSettingUserListEditor .upContainer .informationContainer .rightContainer .item, .accountSettingUserListCreate .upContainer .informationContainer .rightContainer .item {
+  align-items: center;
+  margin: 1rem 0;
+  display: flex;
+}
+.accountSettingUserListEditor .upContainer .informationContainer .rightContainer .item .name, .accountSettingUserListCreate .upContainer .informationContainer .rightContainer .item .name {
+  width: 40%;
+}
+.accountSettingUserListEditor .upContainer .informationContainer .rightContainer .item .value, .accountSettingUserListCreate .upContainer .informationContainer .rightContainer .item .value {
+  width: 60%;
+  border-bottom: 1px solid #8FCDCC;
+}
+.accountSettingUserListEditor .downContainer, .accountSettingUserListCreate .downContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.accountSettingUserListEditor .downContainer .buttonContainer, .accountSettingUserListCreate .downContainer .buttonContainer {
+  display: flex;
+}
+.accountSettingUserListEditor .downContainer .buttonContainer .button, .accountSettingUserListCreate .downContainer .buttonContainer .button {
+  margin: 0 1rem;
+}
+
+/*# sourceMappingURL=accountSetting_userList.css.map */

@@ -1,0 +1,410 @@
+@import "mixin.scss";
+
+.alarmSettingCategory, .alarmSettingRuleIndex, .alarmSettingAdd{
+  font-family: Noto Sans SC, sans-serif;
+  width: 97%;
+  height: 100%;
+  background: linear-gradient(64.4deg, #00262F 73.81%, #495B7C 122.59%);
+  border-radius: 5px;
+  color: #8FCDCC;
+  font-size: 1.625rem;
+  .loadingContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+  }
+}
+.searchEditorContainer{
+  margin: 1.6875rem 0 1.9rem 1.62%;
+  display: flex;
+
+  .inputContainer {
+    width: 17.1%;
+    height: 2.375rem;
+    line-height: 2.375rem;
+
+    input {
+      width: 100%;
+      height: 100%;
+      font-size: 1rem;
+    }
+  }
+
+  .editor {
+    cursor: pointer;
+    margin-left: 1.5%;
+    line-height: 2.375rem;
+    height: 2.375rem;
+  }
+}
+
+.alarmSettingCategory{
+  .sortContainer {
+    margin-left: 1.5%;
+    margin-right: 4%;
+    padding-bottom: 0.4rem;
+    border-bottom: solid 1px #8FCDCC;
+    @include sortTitle();
+    color: white;
+
+    .switchTitle {
+      width: 8%;
+    }
+
+    .text16 {
+      width: 12%;
+    }
+
+    .text17 {
+      width: 15%;
+    }
+
+    .text18 {
+      width: 65%;
+      border-right: none;
+    }
+  }
+}
+
+.categoryContainer {
+  @include scroll();
+  margin-left: 1.5%;
+
+  .alarmSettingTable {
+    td {
+      height: 3rem;
+
+      input[type="range"] {
+        height: 100%;
+        width: 50%;
+      }
+
+      .colorContainer {
+        &.editor {
+          padding-left: .5rem;
+          border-radius: 5px;
+          border: 1px solid #8FCDCC;
+        }
+        height: 2.5rem;
+        display: flex;
+        align-items: center;
+
+        .colorDiv {
+          margin-right: 0.5rem;
+        }
+        select{
+          flex-grow: 1;
+          width: 70%;
+          height: 2.5rem;
+        }
+      }
+
+      .notificationContainer {
+        input {
+          padding-left: .5rem;
+          border-radius: 5px;
+          border: 1px solid #8FCDCC;
+          font-size: 1.25rem;
+          color: white;
+          width: 50%;
+          height: 2.5rem;
+
+          &:focus {
+            border-radius: 5px;
+            border: 1px solid #8FCDCC;
+            box-shadow: 0 0 2px 3px rgba(143, 205, 204, 0.55);
+          }
+        }
+      }
+
+      &.td1 {
+        width: 8%;
+      }
+
+      &.td2 {
+        width: 12%;
+      }
+
+      &.td3 {
+        width: 15%;
+      }
+
+      &.td4 {
+        width: 65%;
+      }
+    }
+  }
+}
+.categoryContainer{
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.8rem;
+    margin-bottom: 6rem;
+
+    button {
+      margin: 0 1%;
+    }
+  }
+}
+
+// rule
+.searchEditorDownloadContainer{
+  margin: 1.6875rem 0 1.9rem 1.62%;
+  display: flex;
+  justify-content: space-between;
+  .svgContainer{
+    cursor: pointer;
+    margin: 0 0 0 1.5rem;
+  }
+  .leftContainer{
+    display: flex;
+    .inputContainer {
+      height: 2.375rem;
+      line-height: 2.375rem;
+      width: 17.5rem;
+      input{
+        width: 100%;
+        height: 100%;
+        font-size: 1rem;
+      }
+    }
+  }
+  .rightContainer{
+    display: flex;
+    margin-right: 2%;
+  }
+}
+
+.alarmSettingRuleIndex{
+  .scrollContainer{
+    height: 87%;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    position: relative;
+    .sortContainer{
+      margin-left: 1.5%;
+      margin-right: 4%;
+      padding-bottom: 0.4rem;
+      border-bottom: solid 1px #8FCDCC;
+      @include sortTitle();
+      color: white;
+      width: 150%;
+      padding-right: 0;
+      .block{
+        width: 2.2%;
+      }
+      .text19{
+        width: 10%;
+      }
+      .text20{
+        width: 10%;
+      }
+      .text21{
+        width: 10%;
+      }
+      .text22{
+        width: 10%;
+      }
+      .text23{
+        width: 7.8%;
+      }
+      .text24{
+        width: 10%;
+      }
+      .text25{
+        width: 10%;
+      }
+      .text26{
+        width: 10%;
+      }
+      .text27{
+        width: 10%;
+      }
+      .text28{
+        width: 10.1%;
+        border-right: none;
+      }
+    }
+    .ruleContainer{
+      @include scroll();
+      height: 93%;
+      margin-left: 1.5%;
+      width: 150%;
+      .alarmSettingRuleTable{
+        table-layout: fixed;
+        td{
+          word-wrap: break-word;
+          .colorContainer{
+            display: flex;
+            .block{
+              width: 4%;
+            }
+          }
+          input{
+            width: 1rem;
+            height: 1rem;
+          }
+        }
+        .td0{
+          width: 2%;
+        }
+        .td1{
+          width: 10%;
+        }
+        .td2{
+          width: 10%;
+        }
+        .td3{
+          width: 10%;
+        }
+        .td4{
+          width: 10%;
+        }
+        .td5{
+          width: 8%;
+        }
+        .td6{
+          width: 10%;
+        }
+        .td7{
+          width: 10%;
+        }
+        .td8{
+          width: 10%;
+        }
+        .td9{
+          width: 10%;
+        }
+        .td10{
+          width: 10%;
+        }
+      }
+    }
+  }
+}
+
+// rule/update
+.alarmSettingUpdate{
+  font-family: Noto Sans SC, sans-serif;
+  width: 97%;
+  height: 100%;
+  background: linear-gradient(64.4deg, #00262F 73.81%, #495B7C 122.59%);
+  border-radius: 5px;
+  color: #8FCDCC;
+  font-size: 1.625rem;
+  overflow-x: scroll;
+  &>.editorTitle{
+    margin: 1.5rem 0 1rem 1.75rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.625rem;
+  }
+  .ruleItemContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 1.5%;
+    .alarmSettingRuleItem{
+      margin-bottom: 2rem;
+      padding: .2rem .5rem 0 .8rem;
+      width: 49.5%;
+      background: rgba(143, 205, 204, 0.15);
+      border: 1px solid #8FCDCC;
+      box-sizing: border-box;
+      border-radius: 5px;
+      .item{
+        width: 96%;
+        margin: .75rem;
+        input[disabled]{
+          cursor: not-allowed;
+          color: #75908f;
+        }
+        select[disabled]{
+          cursor: not-allowed;
+          color: #75908f;
+        }
+      }
+      .buttonContainer{
+        display: flex;
+        justify-content: center;
+        margin: 1.0625rem 0 1.25rem 0;
+      }
+    }
+    @media(max-width: 1080px) {
+      .alarmSettingRuleItem{
+        width: 100%;
+      }
+    }
+  }
+  .updateButtonContainer{
+    margin: 0 0 4rem 0;
+    display: flex;
+    justify-content: center;
+    .button{
+      margin: 0 .65rem;
+    }
+  }
+}
+
+.forUpdateData, .alarmSettingRuleItem {
+  width: 100%;
+  height: 60%;
+  padding-left: 3.4375rem;
+
+  .item {
+    margin: .9rem 0;
+    width: 50%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+
+    .title {
+      width: 40%;
+    }
+
+    .colorContainer {
+      display: flex;
+
+      .colorDiv {
+        margin-right: 2%;
+      }
+    }
+
+    .context {
+      width: 60%;
+      border-bottom: 1px solid #8FCDCC;
+
+      input {
+        color: #8FCDCC;
+        font-size: 1.25rem;
+        width: 100%;
+      }
+
+      select {
+        color: #8FCDCC;
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+// rule/add
+.alarmSettingAdd{
+  &>.title {
+    margin: 1.5rem 0 0 1.75rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.625rem;
+  }
+  .updateButton{
+    margin-top: 2.75rem;
+    display: flex;
+    justify-content: center;
+    .button{
+      margin: 0 1rem;
+    }
+  }
+}

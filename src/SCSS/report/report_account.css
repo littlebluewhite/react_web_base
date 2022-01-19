@@ -1,0 +1,384 @@
+.reportArticle .accountScroll {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 99%;
+  height: 100%;
+}
+.reportArticle .accountScroll .accountUp .searchContainer {
+  display: flex;
+  justify-content: center;
+  margin: 2.5% 0 1% 0;
+}
+.reportArticle .accountScroll .accountUp .searchContainer input.search {
+  font-size: 1rem;
+  width: 45.4%;
+  height: 2.1875rem;
+}
+.reportArticle .accountScroll .accountUp .filterConditionContainer {
+  padding: 1% 4% 2% 5%;
+  margin: 0 2%;
+}
+.reportArticle .accountScroll .accountUp .filterConditionContainer .resetContainer {
+  margin-bottom: 0.5%;
+}
+.reportArticle .accountScroll .accountUp .filterConditionContainer .resetContainer .resetButton {
+  cursor: pointer;
+  width: 5.5%;
+  line-height: 1.4375rem;
+  text-align: center;
+  font-size: 1rem;
+  background: rgba(143, 205, 204, 0.16);
+  border-radius: 14px;
+}
+.reportArticle .accountScroll .accountUp .filterConditionContainer .resetContainer .resetButton svg {
+  margin-left: 10%;
+}
+.reportArticle .accountScroll .accountUp .filterConditionContainer .filterCondition {
+  font-size: 1.25rem;
+  display: flex;
+  justify-content: space-between;
+}
+.reportArticle .accountScroll .accountUp .filterConditionContainer .filterCondition select {
+  margin-left: 0.9375rem;
+  padding-left: 0.9375rem;
+  width: 11.8rem;
+}
+.reportArticle .accountScroll .accountUp .filterConditionContainer {
+  border-bottom: 1px solid rgba(143, 205, 204, 0.26);
+}
+.reportArticle .accountScroll .downAccountStatistic {
+  margin: 2% 6% 1% 7%;
+}
+.reportArticle .accountScroll .downAccountStatistic .title {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.reportArticle .accountScroll .downAccountStatistic .accountChartsContainer {
+  display: flex;
+}
+.reportArticle .accountScroll .downAccountStatistic .accountChartsContainer .accountChart {
+  font-size: 1.25rem;
+  width: 40%;
+  height: 17rem;
+}
+.reportArticle .accountScroll .downAccountStatistic .accountChartsContainer .accountChart.last {
+  margin-right: 0;
+}
+.reportArticle .accountScroll .downAccountTable {
+  width: 100%;
+  height: 85%;
+  margin: 2.5% 4% 4% 4%;
+}
+.reportArticle .accountScroll .downAccountTable .count {
+  font-size: 1.25rem;
+  margin-left: 0.8%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer {
+  height: 95%;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: relative;
+  padding-top: 2%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer::-webkit-scrollbar-thumb {
+  background: rgba(141, 205, 204, 0.4);
+  border-radius: 0.625rem;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer::-webkit-scrollbar-thumb:hover {
+  background: rgba(75, 108, 108, 0.4);
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  line-height: 2rem;
+  border-bottom: 1px solid #8D97AD;
+  padding-bottom: 0.6%;
+  width: 100%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 {
+  padding-right: 1%;
+  display: flex;
+  font-size: 1.625rem;
+  color: #8FCDCC;
+  color: white;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .title2Text {
+  cursor: pointer;
+  border-right: solid 1px #8FCDCC;
+  padding-left: 0.8%;
+  display: flex;
+  box-sizing: border-box;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .title2Text .div_triangle {
+  margin: 0.45rem 0 0.45rem 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .title2Text .div_triangle .triangle {
+  border-left: 0.1875rem solid transparent;
+  border-right: 0.1875rem solid transparent;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .title2Text .div_triangle .triangle.triangleUp {
+  border-bottom: 0.25rem solid rgba(143, 205, 204, 0.26);
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .title2Text .div_triangle .triangle.triangleUp.active {
+  border-bottom: 0.25rem solid #05CCFF;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .title2Text .div_triangle .triangle.triangleDown {
+  border-top: 0.25rem solid rgba(143, 205, 204, 0.26);
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .title2Text .div_triangle .triangle.triangleDown.active {
+  border-top: 0.25rem solid #05CCFF;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .text1 {
+  width: 19.4%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .text2 {
+  width: 12.5%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .text3 {
+  width: 25.4%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .text4 {
+  width: 42.7%;
+  border-right: none;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .text5 {
+  width: 15%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .text6 {
+  width: 13%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .text7 {
+  width: 13%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .text8 {
+  width: 15%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .text9 {
+  width: 9%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .text10 {
+  width: 7%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .text11 {
+  width: 15%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .text12 {
+  width: 13%;
+  border-right: none;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .text13 {
+  width: 45%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .text14 {
+  width: 38%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .text5 {
+  width: 20%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .text6 {
+  width: 20%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .text7 {
+  width: 15%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .text10 {
+  width: 20%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .sortTitle .title2 .text8 {
+  width: 25%;
+  border-right: none;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 88%;
+  padding-right: 1.5%;
+  margin-right: 2%;
+  width: 100%;
+  height: 94%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table {
+  width: 100%;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+  border-spacing: 0;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr:nth-child(even) {
+  background: #033440;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr:hover {
+  background: #495B7C;
+  box-shadow: 0 0.125rem 1.25rem rgba(0, 0, 0, 0.08);
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr.active {
+  background: #495B7C;
+  box-shadow: inset 0 0 8px 3px rgba(143, 205, 204, 0.55);
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td {
+  font-family: Poppins, sans-serif;
+  height: 2.5rem;
+  padding-left: 1%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td.td1 {
+  width: 19.4%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td.td2 {
+  width: 12.5%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td.td3 {
+  width: 25.4%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td.td4 {
+  width: 42.7%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td .td4Text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td .td4Text .status {
+  flex-grow: 1;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td .td4Text .td4TextImage {
+  width: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td .td4Text .td4TextImage .div_assignJob {
+  cursor: pointer;
+  position: relative;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td .td4Text .td4TextImage .div_assignJob .operatorTitle {
+  position: absolute;
+  font-family: Noto Sans SC, sans-serif;
+  background: #8FCDCC;
+  border: 1px solid #000000;
+  border-radius: 0.125rem;
+  color: #000000;
+  width: 3.5rem;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  text-align: center;
+  font-size: 1rem;
+  top: 1rem;
+  right: 0;
+  z-index: 3;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob {
+  font-family: Noto Sans SC, sans-serif;
+  z-index: 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  position: absolute;
+  top: 1.125rem;
+  right: -0.1875rem;
+  font-size: 1rem;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context {
+  width: 22.125rem;
+  height: 10.8125rem;
+  background: #033440;
+  border-radius: 5px;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title1 {
+  text-align: center;
+  color: #8FCDCC;
+  font-weight: 500;
+  height: 30%;
+  line-height: 4rem;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 {
+  font-weight: normal;
+  height: 30%;
+  line-height: 1.25rem;
+  display: flex;
+  align-items: center;
+  color: rgba(143, 205, 204, 0.35);
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 .title2Text1 {
+  padding-left: 1.5625rem;
+  width: 40%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 .title2Text2 {
+  text-align: center;
+  width: 60%;
+  border-bottom: 1px solid #8FCDCC;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .div_button {
+  font-weight: 500;
+  text-align: center;
+  height: 30%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .div_button button {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .triangle {
+  width: 1px;
+  border-bottom: 1.75rem solid #033440;
+  border-left: 0.875rem solid transparent;
+  border-right: 0.875rem solid transparent;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td.td5 {
+  width: 15%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td.td6 {
+  width: 13%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td.td7 {
+  width: 13%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td.td8 {
+  width: 15%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td.td9 {
+  width: 9%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td.td10 {
+  width: 7%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td.td11 {
+  width: 15%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td.td12 {
+  width: 13%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td.td13 {
+  width: 45%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td.td14 {
+  width: 38%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td.td5 {
+  width: 20%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td.td6 {
+  width: 20%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td.td7 {
+  width: 15%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td.td10 {
+  width: 20%;
+}
+.reportArticle .accountScroll .downAccountTable .accountContainer .showAccountTable table tr td.td8 {
+  width: 25%;
+}
+.reportArticle .searchSelf select.marginLeft {
+  margin-left: 1.6875rem;
+}
+.reportArticle .searchSelf .hourMinute {
+  font-size: 1.25rem;
+  margin: 0 0.5rem;
+}
+
+/*# sourceMappingURL=report_account.css.map */

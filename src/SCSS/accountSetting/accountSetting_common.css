@@ -1,0 +1,168 @@
+.accountSettingTitle {
+  margin: 1.5rem 3.5% 1.875rem 1.8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accountSettingTitle .leftContainer {
+  display: flex;
+}
+.accountSettingTitle .leftContainer .searchDiv {
+  height: 2.375rem;
+  line-height: 2.375rem;
+  width: 17.5rem;
+}
+.accountSettingTitle .leftContainer .searchDiv input {
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+}
+.accountSettingTitle .leftContainer .svgContainer {
+  cursor: pointer;
+  margin-left: 1rem;
+}
+.accountSettingTitle .rightContainer {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  font-size: 1rem;
+}
+.accountSettingTitle .rightContainer .createFolderButtonContainer {
+  cursor: pointer;
+  margin: 0 1.5rem 0;
+}
+.accountSettingTitle .rightContainer .createUserButtonContainer {
+  margin-right: 1rem;
+  width: 3rem;
+  border-right: solid 1px rgba(255, 255, 255, 0.35);
+}
+.accountSettingTitle .rightContainer .title1End {
+  display: flex;
+  align-items: center;
+  color: #8FCDCC;
+}
+.accountSettingTitle .rightContainer .title1End .title1EndButton {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  margin-right: 2.5rem;
+  align-items: center;
+}
+.accountSettingTitle .rightContainer .title1End .title1EndButton .arrowContainer {
+  width: 3rem;
+  cursor: not-allowed;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.accountSettingTitle .rightContainer .title1End .title1EndButton .arrowContainer.active {
+  cursor: pointer;
+}
+.accountSettingTitle .rightContainer .title1End .title1EndButton .arrowContainer .arrowLeft {
+  cursor: not-allowed;
+  width: 0.4375rem;
+  height: 0.4375rem;
+  border-left: 0.1875rem solid rgba(143, 205, 204, 0.26);
+  border-bottom: 0.1875rem solid rgba(143, 205, 204, 0.26);
+  transform: rotate(45deg);
+}
+.accountSettingTitle .rightContainer .title1End .title1EndButton .arrowContainer .arrowRight {
+  cursor: not-allowed;
+  width: 0.4375rem;
+  height: 0.4375rem;
+  border-top: 0.1875rem solid rgba(143, 205, 204, 0.26);
+  border-right: 0.1875rem solid rgba(143, 205, 204, 0.26);
+  transform: rotate(45deg);
+}
+.accountSettingTitle .rightContainer .title1End .title1EndButton .arrowContainer .active {
+  cursor: pointer;
+  border-color: #8FCDCC;
+}
+
+.model2 .alarmSettingModel {
+  box-shadow: 0 0.625rem 1.875rem 0.625rem rgba(0, 25, 31, 0.8);
+  border-radius: 10px;
+  background: #FFFFFF;
+  color: #FFFFFF;
+  font-size: 2.125rem;
+}
+.model2 .alarmSettingModel button {
+  margin: 0 1.5rem;
+  display: block;
+}
+.model2 .alarmSettingModel .title {
+  text-align: center;
+  width: 40.625rem;
+  height: 11.25rem;
+  line-height: 11.25rem;
+  background: linear-gradient(57.58deg, #00262F 53.44%, #495B7C 100%);
+  border-radius: 0.625rem 0.625rem 0 0;
+}
+.model2 .alarmSettingModel .buttonContainer {
+  margin: 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40.625rem;
+  height: 11.875rem;
+}
+.model2 .alarmSettingModel .title2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 33.125rem;
+  height: 15.1875rem;
+  background: linear-gradient(57.58deg, #00262F 53.44%, #495B7C 100%);
+  border-radius: 10px 10px 0 0;
+}
+.model2 .alarmSettingModel .buttonContainer2 {
+  width: 33.125rem;
+  height: 19.1875rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.model2 .alarmSettingModel .buttonContainer2 .text {
+  margin-bottom: 2.875rem;
+  color: #8D97AD;
+  font-size: 1.5rem;
+}
+.model2 .pluginsFolderModel {
+  box-shadow: 0 0.625rem 1.875rem 0.625rem rgba(0, 25, 31, 0.8);
+  background: white;
+  border-radius: 0.625rem;
+  position: relative;
+  color: #FFFFFF;
+  font-size: 2.125rem;
+}
+.model2 .pluginsFolderModel .title {
+  text-align: center;
+  width: 40.625rem;
+  height: 11.25rem;
+  line-height: 11.25rem;
+  background: linear-gradient(57.58deg, #00262F 53.44%, #495B7C 100%);
+  border-radius: 0.625rem 0.625rem 0 0;
+}
+.model2 .pluginsFolderModel .title input {
+  color: #cafae4;
+  font-size: 2.125rem;
+  border: 1px solid #47e7c2;
+  width: 40%;
+  padding: 0 0 0 0.4rem;
+}
+.model2 .pluginsFolderModel .buttonContainer {
+  margin: 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40.625rem;
+  height: 11.875rem;
+}
+.model2 .pluginsFolderModel .buttonContainer .modelButton {
+  margin: 0 1rem;
+}
+
+/*# sourceMappingURL=accountSetting_common.css.map */

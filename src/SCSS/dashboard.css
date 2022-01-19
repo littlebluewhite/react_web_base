@@ -1,0 +1,1166 @@
+#model-root {
+  position: relative;
+  z-index: 999;
+}
+#model-root .model {
+  font-family: Noto Sans SC, sans-serif;
+  background-color: rgba(0, 0, 0, 0.65);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#model-root .model .select {
+  width: 11.725%;
+  height: 7.5rem;
+  background: linear-gradient(57.58deg, #00262F 53.44%, #495B7C 100%);
+  border: 1px solid rgba(143, 205, 204, 0.25);
+  box-shadow: 0 0.625rem 1.875rem 0.625rem rgba(0, 25, 31, 0.8);
+  border-radius: 5%;
+  position: fixed;
+  top: 9%;
+  right: 2%;
+}
+#model-root .model .select div {
+  cursor: pointer;
+  line-height: 3.8125rem;
+  text-align: center;
+  height: 50%;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+}
+#model-root .model .select div:hover {
+  background: #8FCDCC;
+  color: #000000;
+}
+#model-root .model2 .setting {
+  font-family: Noto Sans SC, sans-serif;
+  display: flex;
+  position: relative;
+  width: 95%;
+  height: 91%;
+  background: #303641;
+  box-shadow: 0 4px 12px 10px rgba(3, 13, 27, 0.6);
+  border-radius: 15px;
+  justify-content: space-between;
+}
+#model-root .model2 .setting .bar {
+  border-radius: 15px 0 0 15px;
+  background: #00262F;
+  box-shadow: 0.25rem 0 0.75rem rgba(0, 0, 0, 0.25);
+  width: 16%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+#model-root .model2 .setting .bar .bar_container {
+  width: 83.6%;
+  position: relative;
+  top: 7%;
+}
+#model-root .model2 .setting .bar .bar_container .title {
+  font-size: 1.125rem;
+  color: #697B7C;
+  margin-bottom: 0.5rem;
+}
+#model-root .model2 .setting .bar .bar_container .title2 {
+  margin-top: 1.875rem;
+}
+#model-root .model2 .setting .bar .bar_container .active {
+  background: rgba(143, 205, 204, 0.25);
+  border-radius: 5px;
+}
+#model-root .model2 .setting .bar .bar_container .content {
+  cursor: pointer;
+  padding-left: 5%;
+  line-height: 2.875rem;
+  height: 2.75rem;
+  font-size: 1.625rem;
+  color: #8FCDCC;
+}
+#model-root .model2 .setting .articleContainer {
+  width: 84%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+#model-root .model2 .setting .articleContainer .information {
+  margin-top: 1.2rem;
+  font-family: Noto Sans SC, sans-serif;
+  width: 97.5%;
+  background: linear-gradient(64.4deg, #00262F 73.81%, #495B7C 122.59%);
+  box-shadow: 0 0.125rem 1.25rem rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+}
+#model-root .model2 .setting .articleContainer .information .container1 {
+  margin: 0 1.7% 2.8125rem 1.75%;
+  color: rgba(143, 205, 204, 0.35);
+  font-size: 1.625rem;
+}
+#model-root .model2 .setting .articleContainer .information .container1 .title {
+  margin-top: 2rem;
+  color: white;
+}
+#model-root .model2 .setting .articleContainer .information .container1 .title.one {
+  margin-top: 1.25rem;
+}
+#model-root .model2 .setting .articleContainer .information .container1 .container2 {
+  display: flex;
+}
+#model-root .model2 .setting .articleContainer .information .container1 .container2 .left {
+  width: 53%;
+}
+#model-root .model2 .setting .articleContainer .information .container1 .container2 .left table {
+  width: 85%;
+}
+#model-root .model2 .setting .articleContainer .information .container1 .container2 .right {
+  flex-grow: 1;
+}
+#model-root .model2 .setting .articleContainer .information .container1 .container2 .right table {
+  width: 95%;
+}
+#model-root .model2 .setting .articleContainer .information .container1 .container2 table td {
+  vertical-align: bottom;
+  height: 3rem;
+}
+#model-root .model2 .setting .articleContainer .information .container1 .container2 table td.td1 {
+  padding-left: 2%;
+  width: 42.5%;
+}
+#model-root .model2 .setting .articleContainer .information .container1 .container2 table td.td2 {
+  font-size: 1.25rem;
+  width: 57.5%;
+  border-bottom: 1px solid #8FCDCC;
+}
+#model-root .model2 .setting .articleContainer .information .container1 .container2.address {
+  margin-top: 1rem;
+}
+#model-root .model2 .setting .articleContainer .information .container1 .container2 .addressTitle {
+  padding-left: 1%;
+  width: 18.2%;
+}
+#model-root .model2 .setting .articleContainer .information .container1 .container2 .addressText {
+  font-size: 1.25rem;
+  width: 78.4%;
+  border-bottom: 1px solid #8FCDCC;
+  display: flex;
+  align-items: flex-end;
+}
+#model-root .model2 .setting .articleContainer .information .div_button {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  text-align: center;
+}
+#model-root .model2 .setting .articleContainer .information .div_button button {
+  margin: 0 1.5%;
+}
+#model-root .model2 .setting .articleContainer .setting_language {
+  margin-top: 1.2rem;
+  font-family: Noto Sans SC, sans-serif;
+  width: 97.5%;
+  height: 40%;
+  background: linear-gradient(64.4deg, #00262F 73.81%, #495B7C 122.59%);
+  border-radius: 15px;
+  font-size: 1.625rem;
+}
+#model-root .model2 .setting .articleContainer .setting_language .title {
+  margin-top: 1.25rem;
+  margin-left: 2%;
+  color: #FFFFFF;
+}
+#model-root .model2 .setting .articleContainer .setting_language .language {
+  width: 41%;
+  color: #8FCDCC;
+  margin: 1rem 1% 0 3.5%;
+  height: 4.0625rem;
+  padding-left: 1.5%;
+  background: linear-gradient(77.98deg, rgba(73, 91, 124, 0.21) 7.17%, rgba(0, 38, 47, 0.3) 55.42%, rgba(73, 91, 124, 0.21) 116.94%, rgba(73, 91, 124, 0.21) 116.94%);
+  border-radius: 5px;
+  line-height: 3.75rem;
+}
+#model-root .model2 .setting .articleContainer .setting_language .language input {
+  margin-right: 2%;
+}
+#model-root .model2 .setting .close {
+  width: 2.125rem;
+  height: 2.125rem;
+  cursor: pointer;
+  z-index: 60;
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  border-radius: 50%;
+  box-shadow: 0 0.5rem 0.4375rem -0.0625rem rgba(20, 22, 22, 0.8);
+}
+
+header {
+  z-index: 4;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(57.58deg, #024A5B 53.44%, #495B7C 100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 9%;
+}
+header .item {
+  display: flex;
+  align-items: center;
+}
+header .controlAside {
+  width: 4.5%;
+  justify-content: center;
+  cursor: pointer;
+}
+header .icon {
+  justify-content: flex-start;
+  width: 11.5%;
+}
+header .icon .icon_svg img {
+  height: 2.5rem;
+}
+header .title {
+  padding-left: 1.8%;
+  font-family: Noto Sans SC, sans-serif;
+  font-size: 1.875rem;
+  line-height: 100%;
+  color: #FFFFFF;
+  width: 59%;
+}
+header .alarm {
+  width: 5.5%;
+}
+header .alarm a {
+  width: 100%;
+  display: flex;
+}
+header .alarm a .circle {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  color: white;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  text-align: center;
+  line-height: 2.25rem;
+}
+header .alarm a .circle_fill {
+  background-color: #FF4D4D;
+  color: white;
+}
+header .alarm a .headerUp {
+  margin-left: 8%;
+}
+header .alarm a .rectangle {
+  margin: 0 24px;
+}
+header .alarm a .icon_urgent {
+  margin-right: 13px;
+}
+header .user {
+  font-family: Poppins, sans-serif;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  color: #FFFFFF;
+  width: 15.5%;
+}
+header .user_icon {
+  width: 4%;
+}
+header .user_icon svg {
+  cursor: pointer;
+}
+header a {
+  text-decoration: none;
+}
+
+.articleAsideContainer {
+  position: fixed;
+  top: 9%;
+  right: 0;
+  height: 91%;
+  display: flex;
+  width: 100%;
+}
+
+article {
+  font-family: Noto Sans SC, sans-serif;
+  width: 84%;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: flex-start;
+  background: #303641;
+  position: relative;
+  height: 100%;
+}
+article .articleContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+article .articleContainer .updateTime {
+  font-size: 1rem;
+  padding-right: 10%;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  height: 4%;
+  color: rgba(143, 205, 204, 0.3);
+}
+article .articleContainer .updateTime .datetimeTitle {
+  flex-grow: 1;
+  padding-right: 1.5rem;
+  text-align: end;
+  font-size: 1rem;
+  color: rgba(143, 205, 204, 0.3);
+}
+article .articleContainer .updateTime .datetime {
+  animation-name: updateTime;
+  animation-timing-function: linear;
+  animation-iteration-count: initial;
+  color: rgba(143, 205, 204, 0.3);
+}
+@keyframes updateTime {
+  0% {
+    color: #8fcdcc;
+  }
+  15% {
+    color: rgba(143, 205, 204, 0.7);
+  }
+  50% {
+    color: rgba(143, 205, 204, 0.5);
+  }
+  100% {
+    color: rgba(143, 205, 204, 0.3);
+  }
+}
+article .articleContainer .cardContainer {
+  display: flex;
+  height: 96%;
+  width: 97%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+article .articleContainer .cardContainer .buildingInformation {
+  width: 28.5%;
+  height: 46%;
+}
+article .articleContainer .cardContainer .equipmentStatus {
+  width: 39%;
+  height: 48%;
+}
+article .articleContainer .cardContainer .environment {
+  width: 28.5%;
+  height: 48%;
+}
+article .articleContainer .cardContainer .accessStatistic {
+  width: 28.5%;
+  height: 48%;
+}
+article .articleContainer .cardContainer .articleItem {
+  background: #002933;
+  box-shadow: 0 10px 30px 10px rgba(0, 25, 31, 0.8);
+  border-radius: 1rem;
+  font-size: 1.625rem;
+  display: flex;
+  flex-direction: column;
+}
+article .articleContainer .cardContainer .articleItem .indexItemTitleContainer {
+  padding: 1.5rem 6% 0 6%;
+  display: flex;
+}
+article .articleContainer .cardContainer .articleItem .indexItemTitleContainer .indexItemTitle {
+  padding-right: 1.25rem;
+}
+article .articleContainer .cardContainer .articleItem .indexItemTitleContainer .svgContainer {
+  display: flex;
+  align-items: center;
+}
+article .articleContainer .cardContainer .articleItem .indexItemTitleContainer .nowFloor {
+  flex-grow: 1;
+  text-align: end;
+  color: #8FCDCC;
+}
+article .articleContainer .cardContainer .articleItem .buildingDownContainer {
+  flex-grow: 1;
+  color: #8FCDCC;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-around;
+}
+article .articleContainer .cardContainer .articleItem .buildingDownContainer .buildingItem {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  height: 8.3rem;
+}
+article .articleContainer .cardContainer .articleItem .buildingDownContainer .buildingItem .title {
+  width: 100%;
+  line-height: 1.1rem;
+  font-size: 1rem;
+  word-wrap: break-word;
+}
+article .articleContainer .cardContainer .articleItem .buildingDownContainer .buildingItem .svgContainer {
+  width: 6.25rem;
+  height: 6.25rem;
+}
+article .articleContainer .cardContainer .articleItem .buildingDownContainer .buildingItem .circleContainer {
+  font-size: 2rem;
+  border-radius: 50%;
+  line-height: 5rem;
+  height: 6rem;
+  width: 6rem;
+  box-sizing: border-box;
+  border: 0.37rem solid rgba(143, 205, 204, 0.3);
+}
+article .articleContainer .cardContainer .articleItem .equipmentDownContainer {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+article .articleContainer .cardContainer .articleItem .equipmentDownContainer .equipmentChart {
+  margin-right: 1rem;
+  width: 95%;
+  height: 95%;
+}
+article .articleContainer .cardContainer .articleItem .equipmentDownContainer .totalCount {
+  font-size: 1rem;
+  color: #8FCDCC;
+}
+article .articleContainer .cardContainer .articleItem .environmentDownContainer {
+  font-size: 1.33rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+article .articleContainer .cardContainer .articleItem .environmentDownContainer .changePageInformationContainer {
+  display: flex;
+  height: 80%;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-around;
+}
+article .articleContainer .cardContainer .articleItem .environmentDownContainer .changePageInformationContainer .pageChangeButton {
+  cursor: not-allowed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1a3e4c;
+  width: 2.875rem;
+  height: 2.875rem;
+  border-radius: 50%;
+}
+article .articleContainer .cardContainer .articleItem .environmentDownContainer .changePageInformationContainer .pageChangeButton.active {
+  cursor: pointer;
+  background: #587894;
+}
+article .articleContainer .cardContainer .articleItem .environmentDownContainer .changePageInformationContainer .pageChangeButton .arrowLeft {
+  width: 0.8125rem;
+  height: 0.8125rem;
+  margin-left: 0.3125rem;
+  border-left: 0.25rem solid #002630;
+  border-bottom: 0.25rem solid #002630;
+  transform: rotate(45deg);
+}
+article .articleContainer .cardContainer .articleItem .environmentDownContainer .changePageInformationContainer .pageChangeButton .arrowRight {
+  width: 0.8125rem;
+  height: 0.8125rem;
+  border-top: 0.25rem solid #002630;
+  border-right: 0.25rem solid #002630;
+  margin-right: 0.3125rem;
+  transform: rotate(45deg);
+}
+article .articleContainer .cardContainer .articleItem .environmentDownContainer .environmentInformationContainer {
+  box-sizing: border-box;
+  width: 60%;
+  height: 100%;
+  color: #8FCDCC;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+article .articleContainer .cardContainer .articleItem .environmentDownContainer .environmentInformationContainer .airItem {
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+article .articleContainer .cardContainer .articleItem .environmentDownContainer .environmentInformationContainer .airItem.even {
+  background: #033440;
+}
+article .articleContainer .cardContainer .articleItem .environmentDownContainer .environmentInformationContainer .airItem .titleName {
+  width: 50%;
+}
+article .articleContainer .cardContainer .articleItem .environmentDownContainer .environmentInformationContainer .airItem .titleName .small {
+  font-size: 0.8rem;
+}
+article .articleContainer .cardContainer .articleItem .environmentDownContainer .environmentInformationContainer .airItem .valueContainer {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+article .articleContainer .cardContainer .articleItem .environmentDownContainer .environmentInformationContainer .airItem .valueContainer.danger {
+  background: linear-gradient(34.81deg, transparent 31.07%, #EC0000 112.08%);
+}
+article .articleContainer .cardContainer .articleItem .environmentDownContainer .environmentInformationContainer .airItem .valueContainer.warning {
+  background: linear-gradient(34.81deg, transparent 31.07%, #EC8E00 112.08%);
+}
+article .articleContainer .cardContainer .articleItem .environmentDownContainer .environmentInformationContainer .airItem .valueContainer .value {
+  width: 50%;
+  text-align: end;
+}
+article .articleContainer .cardContainer .articleItem .environmentDownContainer .environmentInformationContainer .airItem .valueContainer .unit {
+  box-sizing: border-box;
+  padding-left: 1rem;
+  flex-grow: 1;
+  font-size: 1rem;
+}
+article .articleContainer .cardContainer .articleItem .environmentDownContainer .floorContainer {
+  display: flex;
+  width: 85%;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+article .articleContainer .cardContainer .articleItem .environmentDownContainer .floorContainer .circle {
+  margin: 0 0.5rem;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  background: rgba(143, 205, 204, 0.36);
+  cursor: pointer;
+}
+article .articleContainer .cardContainer .articleItem .environmentDownContainer .floorContainer .circle.active {
+  background: #8FCDCC;
+}
+article .articleContainer .cardContainer .articleItem .environmentDownContainer .floorContainer .circle.danger {
+  box-shadow: inset 0 0 5px rgba(236, 0, 0, 0.85);
+}
+article .articleContainer .cardContainer .articleItem .environmentDownContainer .floorContainer .circle.warning {
+  box-shadow: inset 0 0 5px #9a7502;
+}
+article .articleContainer .cardContainer .articleItem .accessDownContainer {
+  font-family: Noto Sans SC, sans-serif;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+article .articleContainer .cardContainer .articleItem .accessDownContainer .chartContainer {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  padding-right: 1.5rem;
+  height: 80%;
+}
+article .articleContainer .cardContainer .articleItem .accessDownContainer .chartContainer .differenceTitle {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 1rem;
+  color: #B56E36;
+}
+article .articleContainer .cardContainer .articleItem .accessDownContainer .hoverData {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  height: 3rem;
+  color: #8FCDCC;
+}
+article .articleContainer .cardContainer .articleItem .accessDownContainer .hoverData .chartData {
+  display: flex;
+  height: 50%;
+}
+article .articleContainer .cardContainer .articleItem .accessDownContainer .hoverData .chartData .color {
+  height: 100%;
+  width: 0.5rem;
+  margin-right: 0.3rem;
+}
+article .articleContainer .cardContainer .articleItem .accessDownContainer .hoverData .chartData .text {
+  background: rgba(143, 205, 204, 0.16);
+  box-shadow: 0 0.3rem 0.3rem rgba(143, 205, 204, 0.15);
+  border-radius: 0.45rem;
+  padding: 0 1rem;
+  font-size: 1rem;
+}
+article .articleContainer .cardContainer .articleItem .accessDownContainer .hoverData .chartData .numberWord {
+  color: #05CCFF;
+}
+article .articleContainer .cardContainer .articleTable {
+  width: 69.5%;
+  height: 46%;
+  background: #002933;
+  box-shadow: 0 0.625rem 1.875rem 0.625rem rgba(0, 25, 31, 0.8);
+  border-radius: 15px;
+}
+article .articleContainer .cardContainer .articleTable .tableTitle {
+  padding-right: 4.5%;
+  margin: 2% 0 0 2%;
+  display: flex;
+  align-items: center;
+  font-family: Noto Sans SC, "sans-serif";
+}
+article .articleContainer .cardContainer .articleTable .tableTitle .alarmNotification {
+  width: 4%;
+  position: relative;
+}
+article .articleContainer .cardContainer .articleTable .tableTitle .alarmNotification a .circle {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  color: white;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+  text-align: center;
+  line-height: 2.25rem;
+}
+article .articleContainer .cardContainer .articleTable .tableTitle .alarmNotification a .circle_fill {
+  background-color: #FF4D4D;
+  color: white;
+}
+article .articleContainer .cardContainer .articleTable .tableTitle .alarmNotification a .circle {
+  position: absolute;
+  top: -100%;
+}
+article .articleContainer .cardContainer .articleTable .tableTitle .alarmNotificationText {
+  width: 18%;
+  font-size: 1.625rem;
+  color: #FF4D4D;
+  padding-bottom: 0.25rem;
+}
+article .articleContainer .cardContainer .articleTable .tableTitle .svgContainer {
+  display: flex;
+  align-items: center;
+  width: 5%;
+}
+article .articleContainer .cardContainer .articleTable .tableTitle .datetimeTitle {
+  flex-grow: 1;
+  padding-right: 1.5rem;
+  text-align: end;
+  font-size: 1rem;
+  color: rgba(143, 205, 204, 0.3);
+}
+article .articleContainer .cardContainer .articleTable .tableTitle .datetime {
+  animation-name: updateTime;
+  animation-timing-function: linear;
+  animation-iteration-count: initial;
+  color: rgba(143, 205, 204, 0.3);
+}
+@keyframes updateTime {
+  0% {
+    color: #8fcdcc;
+  }
+  15% {
+    color: rgba(143, 205, 204, 0.7);
+  }
+  50% {
+    color: rgba(143, 205, 204, 0.5);
+  }
+  100% {
+    color: rgba(143, 205, 204, 0.3);
+  }
+}
+article .articleContainer .cardContainer .articleTable .tableTitle .synButtonContainer {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+article .articleContainer .cardContainer .articleTable .tableTitle .synButtonContainer .synButton {
+  cursor: pointer;
+  width: auto;
+  padding: 0 1.25rem 0 1.25rem;
+  display: flex;
+}
+article .articleContainer .cardContainer .articleTable .tableTitle .synButtonContainer .synButton .svgContainer2 {
+  display: flex;
+  align-items: center;
+}
+article .articleContainer .cardContainer .articleTable .noDataContainer {
+  margin: 1rem 4.5% 1rem 2%;
+  border: 1px solid #8FCDCC;
+  text-align: center;
+  line-height: 2.4375rem;
+  font-family: Noto Sans SC, sans-serif;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable {
+  margin-left: 2%;
+  height: 80%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort {
+  margin-right: 2.5%;
+  border-bottom: 1px solid #8D97AD;
+  padding-right: 1%;
+  display: flex;
+  font-size: 1.625rem;
+  color: #8FCDCC;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .title2Text {
+  cursor: pointer;
+  border-right: solid 1px #8FCDCC;
+  padding-left: 0.8%;
+  display: flex;
+  box-sizing: border-box;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .title2Text .div_triangle {
+  margin: 0.45rem 0 0.45rem 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .title2Text .div_triangle .triangle {
+  border-left: 0.1875rem solid transparent;
+  border-right: 0.1875rem solid transparent;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .title2Text .div_triangle .triangle.triangleUp {
+  border-bottom: 0.25rem solid rgba(143, 205, 204, 0.26);
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .title2Text .div_triangle .triangle.triangleUp.active {
+  border-bottom: 0.25rem solid #05CCFF;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .title2Text .div_triangle .triangle.triangleDown {
+  border-top: 0.25rem solid rgba(143, 205, 204, 0.26);
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .title2Text .div_triangle .triangle.triangleDown.active {
+  border-top: 0.25rem solid #05CCFF;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .text1 {
+  width: 19.4%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .text2 {
+  width: 12.5%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .text3 {
+  width: 25.4%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .text4 {
+  width: 42.7%;
+  border-right: none;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .text5 {
+  width: 15%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .text6 {
+  width: 13%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .text7 {
+  width: 13%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .text8 {
+  width: 15%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .text9 {
+  width: 9%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .text10 {
+  width: 7%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .text11 {
+  width: 15%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .text12 {
+  width: 13%;
+  border-right: none;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .text13 {
+  width: 45%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .text14 {
+  width: 38%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .title2Text {
+  margin: 1% 0;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .title2Text.text1 {
+  width: 21%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .title2Text.text2 {
+  width: 13.5%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .title2Text.text3 {
+  width: 25%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableSort .title2Text.text4 {
+  width: 41.5%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents {
+  height: 87%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 88%;
+  padding-right: 1.5%;
+  margin-right: 2%;
+  /* Handle */
+  /* Handle on hover */
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table {
+  width: 100%;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+  border-spacing: 0;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr:nth-child(even) {
+  background: #033440;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr:hover {
+  background: #495B7C;
+  box-shadow: 0 0.125rem 1.25rem rgba(0, 0, 0, 0.08);
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr.active {
+  background: #495B7C;
+  box-shadow: inset 0 0 8px 3px rgba(143, 205, 204, 0.55);
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td {
+  font-family: Poppins, sans-serif;
+  height: 2.5rem;
+  padding-left: 1%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td.td1 {
+  width: 19.4%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td.td2 {
+  width: 12.5%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td.td3 {
+  width: 25.4%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td.td4 {
+  width: 42.7%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td .td4Text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td .td4Text .status {
+  flex-grow: 1;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td .td4Text .td4TextImage {
+  width: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td .td4Text .td4TextImage .div_assignJob {
+  cursor: pointer;
+  position: relative;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .operatorTitle {
+  position: absolute;
+  font-family: Noto Sans SC, sans-serif;
+  background: #8FCDCC;
+  border: 1px solid #000000;
+  border-radius: 0.125rem;
+  color: #000000;
+  width: 3.5rem;
+  height: 1.75rem;
+  line-height: 1.75rem;
+  text-align: center;
+  font-size: 1rem;
+  top: 1rem;
+  right: 0;
+  z-index: 3;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob {
+  font-family: Noto Sans SC, sans-serif;
+  z-index: 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  position: absolute;
+  top: 1.125rem;
+  right: -0.1875rem;
+  font-size: 1rem;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context {
+  width: 22.125rem;
+  height: 10.8125rem;
+  background: #033440;
+  border-radius: 5px;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title1 {
+  text-align: center;
+  color: #8FCDCC;
+  font-weight: 500;
+  height: 30%;
+  line-height: 4rem;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 {
+  font-weight: normal;
+  height: 30%;
+  line-height: 1.25rem;
+  display: flex;
+  align-items: center;
+  color: rgba(143, 205, 204, 0.35);
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 .title2Text1 {
+  padding-left: 1.5625rem;
+  width: 40%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .title2 .title2Text2 {
+  text-align: center;
+  width: 60%;
+  border-bottom: 1px solid #8FCDCC;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .div_button {
+  font-weight: 500;
+  text-align: center;
+  height: 30%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .context .div_button button {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td .td4Text .td4TextImage .div_assignJob .assignJob .triangle {
+  width: 1px;
+  border-bottom: 1.75rem solid #033440;
+  border-left: 0.875rem solid transparent;
+  border-right: 0.875rem solid transparent;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td.td5 {
+  width: 15%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td.td6 {
+  width: 13%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td.td7 {
+  width: 13%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td.td8 {
+  width: 15%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td.td9 {
+  width: 9%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td.td10 {
+  width: 7%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td.td11 {
+  width: 15%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td.td12 {
+  width: 13%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td.td13 {
+  width: 45%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td.td14 {
+  width: 38%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable::-webkit-scrollbar-track {
+  border-radius: 5%;
+  background-color: transparent;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable::-webkit-scrollbar-thumb {
+  background: #00262F;
+  border-radius: 0.625rem;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable::-webkit-scrollbar-thumb:hover {
+  background: #00191c;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable::-webkit-scrollbar-corner {
+  background: rgba(0, 0, 0, 0);
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td.td1 {
+  width: 21%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td.td2 {
+  width: 13.5%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td.td3 {
+  width: 25%;
+}
+article .articleContainer .cardContainer .articleTable .alarmTable .alarmTableEvents .showEventTable table tr td.td4 {
+  width: 41.5%;
+}
+
+.aside_open {
+  width: 16%;
+}
+
+.aside_close {
+  width: 4%;
+}
+
+aside {
+  position: relative;
+  z-index: 3;
+  justify-content: space-between;
+  background: #00262F;
+  font-family: Noto Sans SC, sans-serif;
+  height: 100%;
+}
+aside .asideUpDownContainer {
+  box-shadow: 0.25rem 0 0.75rem rgba(0, 0, 0, 0.25);
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+}
+aside .asideUpDownContainer.close {
+  width: 25%;
+}
+aside .indexSubUrl {
+  z-index: 2;
+  position: absolute;
+  background: #00262F;
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.25);
+  height: 100%;
+  left: 100%;
+  padding-top: 2.7rem;
+  width: 75%;
+}
+aside .indexSubUrl.close {
+  width: 300%;
+}
+aside .indexSubUrl .urlItemContainer {
+  line-height: 3.5rem;
+  padding-left: 1.26rem;
+  font-family: Noto Sans SC, sans-serif;
+  font-size: 1.25rem;
+  position: relative;
+}
+aside .aside_container.asideUp {
+  flex-grow: 1;
+}
+aside .aside_container a {
+  width: 100%;
+}
+aside .aside_container div {
+  display: flex;
+  align-items: center;
+}
+aside .aside_container .aside_fold {
+  height: 2.25rem;
+}
+aside .aside_container .aside_fold svg {
+  cursor: pointer;
+}
+aside .aside_container #OCMS {
+  padding-left: 1.1rem;
+}
+aside .aside_container #OCMS .DText {
+  margin-left: 7%;
+}
+aside .aside_container .asideUpItem {
+  height: 3.49rem;
+  padding-left: 0.9rem;
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+  position: relative;
+  cursor: pointer;
+}
+aside .aside_container .asideUpItem .hoverTitle {
+  z-index: 3;
+  position: absolute;
+  text-align: center;
+  line-height: 1.6875rem;
+  padding: 0 1rem;
+  font-size: 1rem;
+  color: #000000;
+  background: #8FCDCC;
+  border: 1px solid #000000;
+  left: 3.5rem;
+  width: max-content;
+}
+aside .aside_container .asideUpItem .text {
+  margin-left: 5%;
+}
+aside .aside_container .asideUpItem .div_triangle {
+  height: 1.25rem;
+  flex-grow: 1;
+  justify-content: flex-end;
+  margin-right: 8%;
+}
+aside .aside_container .asideUpItem .div_triangle .triangle {
+  border-top: 0.3125rem solid #00262F;
+  border-bottom: 0.3125rem solid #00262F;
+  border-left: 0.625rem solid #DAF1FE;
+}
+aside .aside_container.asideDown {
+  padding-bottom: 1.8rem;
+}
+aside .aside_container .aside_down {
+  padding-left: 1.3rem;
+  font-size: 0.6875rem;
+  height: 2.3rem;
+  color: #6BB6E0;
+}
+aside .aside_container .aside_down .asideDownText {
+  margin-left: 2%;
+}
+aside .asideUpContainerCommon {
+  z-index: 1;
+  font-family: Noto Sans SC, sans-serif;
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.25);
+  font-size: 1.25rem;
+  color: #8D97AD;
+  position: absolute;
+  width: 75%;
+  background: #00262F;
+  height: 100%;
+  left: 25%;
+  top: 0;
+  padding-top: 2.7rem;
+}
+aside .asideUpContainerCommon.inactive {
+  width: 0;
+}
+aside .asideUpContainerCommon .title {
+  margin-left: 7.5%;
+  margin-bottom: 0.5rem;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+}
+aside .asideUpContainerCommon .title .text {
+  width: 80%;
+}
+aside .asideUpContainerCommon .title .point {
+  cursor: pointer;
+  margin-right: 8%;
+}
+aside .asideUpContainerCommon .elementContainer {
+  position: relative;
+}
+aside .asideUpContainerCommon .elementContainer .item {
+  border-radius: 0.3125rem;
+  line-height: 1.75rem;
+  margin: 1% 1%;
+  padding: 2% 0 2% 14%;
+  cursor: pointer;
+  color: #8D97AD;
+}
+aside .asideUpContainerCommon .elementContainer .item:hover {
+  filter: blur(0);
+}
+aside .asideUpContainerCommon .elementContainer .active {
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=dashboard.css.map */

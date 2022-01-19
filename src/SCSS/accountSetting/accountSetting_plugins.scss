@@ -1,0 +1,176 @@
+@import "../mixin";
+
+.accountSettingPlugins{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: Noto Sans SC, sans-serif;
+  width: 97%;
+  height: 100%;
+  background: linear-gradient(64.4deg, #00262F 73.81%, #495B7C 122.59%);
+  border-radius: 5px;
+  color: #8FCDCC;
+  font-size: 1.625rem;
+  .pluginsFilter {
+    display: flex;
+    margin: 0 0 2rem 2%;
+    font-size: 1.25rem;
+
+    .selectFilter {
+      margin-left: 1rem;
+      margin-right: 3rem;
+      width: 12rem;
+    }
+  }
+  .pluginsLayers{
+    margin: 1rem 0 1rem 2%;
+    width: 100%;
+    overflow: scroll;
+    .link{
+      cursor: pointer;
+      color: #104fde;
+      .slash{
+        cursor: default;
+        color: #8FCDCC;
+      }
+    }
+  }
+  .scrollContainer{
+    height: 80%;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: relative;
+    .sortContainer {
+      margin-left: 1.5%;
+      padding-bottom: 0.4rem;
+      border-bottom: solid 1px #8FCDCC;
+      @include sortTitle();
+      color: white;
+      margin-right: 10px;
+      padding-right: 0;
+      .text29_1{
+        padding-left: 3.5rem;
+        width: 50%;
+      }
+      .text29_2{
+        width: 50%;
+        border-right: none;
+      }
+    }
+    .pluginsData{
+      margin-left: 1.5%;
+      @include scroll();
+      padding-right: 0;
+      margin-right: 0;
+      .pluginsTable{
+        width: 100%;
+        .td1 {
+          padding-left: 1rem;
+          width: 50%;
+
+          .td1Container {
+            display: flex;
+            align-items: center;
+            .name {
+              margin-left: 1rem;
+            }
+          }
+        }
+        .td2{
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
+.accountSettingPluginsEditor{
+  font-family: Noto Sans SC, sans-serif;
+  width: 97%;
+  height: 100%;
+  background: linear-gradient(64.4deg, #00262F 73.81%, #495B7C 122.59%);
+  border-radius: 5px;
+  color: #8FCDCC;
+  font-size: 1.625rem;
+  overflow: scroll;
+  .pluginsSchemasName{
+    display: flex;
+    margin: 2rem 0 1rem 3rem;
+    .title{
+      color: white
+    }
+    .value{
+      margin: 0 0 0 1rem;
+      width: 10rem;
+      input{
+        width: 100%;
+        color: #8FCDCC;
+        font-size: 1.625rem;
+        border: 1px solid #45547e;
+      }
+    }
+  }
+  .pluginsSchemas {
+    width: 50%;
+    margin: 0 0 0 5rem;
+
+    .schemasField {
+      margin: 0 0 0 2.5rem;
+      display: flex;
+      color: white;
+
+      div {
+        width: 50%;
+      }
+    }
+
+    .schemasRow {
+      margin: .5rem 0;
+      display: flex;
+      align-items: center;
+
+      div {
+        width: 49%;
+        input {
+          width: 90%;
+          color: #8FCDCC;
+          font-size: 1.625rem;
+          border-bottom: 1px solid #c9f1f0;
+        }
+      }
+
+      .svgContainer {
+        cursor: pointer;
+        width: fit-content;
+        margin: 0 1rem 0 0;
+      }
+    }
+
+    .addButtonContainer {
+      margin: 2.5rem 0 1.88rem 0;
+      display: flex;
+      justify-content: center;
+
+      .addButton {
+        cursor: pointer;
+        height: 2.7rem;
+        width: 2.7rem;
+        border: solid 0.45rem #00EAFF;
+        border-radius: 50%;
+        font-size: 1.9rem;
+        line-height: 2.5rem;
+        text-align: center;
+        color: #00EAFF;
+      }
+    }
+  }
+  .pluginsButton{
+    margin: 0 0 0 5rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    .button{
+      margin: 0 1rem;
+    }
+  }
+}
