@@ -39,7 +39,7 @@ function HandleTokenIndex(){
     },[handleLogin])
     return (
         <Switch>
-            {condition==="" && <Redirect to={"/"}/>}
+            {condition==="" && <Redirect to={"/login"}/>}
             {condition==="success" &&
                 <>
                     <Route path={"/fixing/:token"}>

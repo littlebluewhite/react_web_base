@@ -662,7 +662,7 @@ function useAdmin(){
     return {user, signIn, signOut}
 }
 
-function useGetIndexPicture(){
+function useGetIndexPicture(controller){
     const [indexImage, setIndexImage] = useState(null)
     function fetchIndexImage(){
         return fetch(SERVER + "/api/IBMS/Web/V1/systemSetting/logo/index", {
@@ -683,10 +683,12 @@ function useGetIndexPicture(){
             const [image] = await Promise.all([
                 fetchIndexImage()
             ])
-            setIndexImage(image)
+            if(controller.current){
+                setIndexImage(image)
+            }
         }
         initial()
-    },[])
+    },[controller])
     return indexImage
 }
 
