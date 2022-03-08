@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="fad71156-ed6a-420e-bc36-122d5baeccc0" name="nadi dev server">
+        <fileTransfer accessType="SFTP" host="20.48.113.161" port="22" sshConfigId="5994e4ad-dbba-4289-9018-91c572a815b2" sshConfig="nadi@20.48.113.161:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="72bb9b28-a45c-4ae6-b0f4-b03356ff5ab7" name="nadi alpha server">
+        <fileTransfer accessType="SFTP" host="20.188.9.63" port="22" sshConfigId="62bdeaf5-12b3-4e89-bb6c-c8a07c39e6ae" sshConfig="nadi@20.188.9.63:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
