@@ -1,0 +1,15 @@
+.settingTitle{
+  margin: 1.5rem 3.5% 1.875rem 1.8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .leftContainer{
+    display: flex;
+  }
+  .rightContainer{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    font-size: 1rem;
+  }
+}

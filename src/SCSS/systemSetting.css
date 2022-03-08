@@ -90,21 +90,6 @@
   display: flex;
   justify-content: center;
 }
-.articleSystemSettingUrl .addButtonContainer .addButton {
-  cursor: pointer;
-  height: 2.7rem;
-  width: 2.7rem;
-  border: solid 0.45rem #00EAFF;
-  border-radius: 50%;
-  font-size: 1.9rem;
-  line-height: 2.5rem;
-  text-align: center;
-  color: #00EAFF;
-}
-.articleSystemSettingUrl .addButtonContainer .addButton.inactive {
-  opacity: 0.2;
-  cursor: not-allowed;
-}
 .articleSystemSettingUrl .createButtonContainer {
   display: flex;
   justify-content: center;

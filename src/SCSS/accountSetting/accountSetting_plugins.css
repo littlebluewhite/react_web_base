@@ -20,17 +20,24 @@
   width: 12rem;
 }
 .accountSettingPlugins .pluginsLayers {
-  margin: 1rem 0 1rem 2%;
+  margin: 1rem 0 1.5rem 2%;
   width: 100%;
   overflow: scroll;
 }
+.accountSettingPlugins .pluginsLayers .photoSpan {
+  margin-right: 0.4rem;
+}
 .accountSettingPlugins .pluginsLayers .link {
   cursor: pointer;
-  color: #104fde;
+  color: rgba(0, 234, 255, 0.7);
 }
-.accountSettingPlugins .pluginsLayers .link .slash {
+.accountSettingPlugins .pluginsLayers .link:hover {
+  color: #00EAFF;
+}
+.accountSettingPlugins .pluginsLayers .slash {
   cursor: default;
-  color: #8FCDCC;
+  color: #ffffff;
+  margin: 0 0.3rem;
 }
 .accountSettingPlugins .scrollContainer {
   height: 80%;
@@ -125,12 +132,20 @@
   width: 38%;
 }
 .accountSettingPlugins .scrollContainer .sortContainer .text29_1 {
-  padding-left: 3.5rem;
-  width: 50%;
+  padding-left: 6.1rem;
+  width: 80%;
 }
 .accountSettingPlugins .scrollContainer .sortContainer .text29_2 {
-  width: 50%;
+  width: 20%;
   border-right: none;
+}
+.accountSettingPlugins .scrollContainer .noDataContainer {
+  margin: 0 1rem 1.5rem 1.5rem;
+  border: 1px solid #8FCDCC;
+  text-align: center;
+  color: white;
+  line-height: 2.5rem;
+  font-size: 1.25rem;
 }
 .accountSettingPlugins .scrollContainer .pluginsData {
   margin-left: 1.5%;
@@ -297,22 +312,74 @@
 .accountSettingPlugins .scrollContainer .pluginsData table tr td.td14 {
   width: 38%;
 }
+.accountSettingPlugins .scrollContainer .pluginsData .folderCreate {
+  width: 100%;
+  height: 3.5rem;
+}
+.accountSettingPlugins .scrollContainer .pluginsData .folderCreate form {
+  height: 100%;
+}
+.accountSettingPlugins .scrollContainer .pluginsData .folderCreate .firstLine {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 3.8rem;
+}
+.accountSettingPlugins .scrollContainer .pluginsData .folderCreate .firstLine .leftContainer {
+  display: flex;
+  height: 2rem;
+  width: 80%;
+}
+.accountSettingPlugins .scrollContainer .pluginsData .folderCreate .firstLine .leftContainer .svgContainer {
+  margin: 0 1rem 0 0;
+}
+.accountSettingPlugins .scrollContainer .pluginsData .folderCreate .firstLine .leftContainer input {
+  width: 14.5rem;
+}
+.accountSettingPlugins .scrollContainer .pluginsData .folderCreate .firstLine .rightContainer {
+  display: flex;
+  width: 20%;
+}
+.accountSettingPlugins .scrollContainer .pluginsData .folderCreate .firstLine .rightContainer .hasMargin {
+  margin: 0 0 0 1.25rem;
+}
 .accountSettingPlugins .scrollContainer .pluginsData .pluginsTable {
   width: 100%;
 }
 .accountSettingPlugins .scrollContainer .pluginsData .pluginsTable .td1 {
   padding-left: 1rem;
-  width: 50%;
+  width: 80%;
 }
 .accountSettingPlugins .scrollContainer .pluginsData .pluginsTable .td1 .td1Container {
   display: flex;
   align-items: center;
 }
-.accountSettingPlugins .scrollContainer .pluginsData .pluginsTable .td1 .td1Container .name {
-  margin-left: 1rem;
+.accountSettingPlugins .scrollContainer .pluginsData .pluginsTable .td1 .td1Container .svgContainer {
+  position: relative;
+  margin: 0 1rem;
+  display: flex;
+  height: 1.5rem;
+  width: 1.5rem;
+  justify-content: center;
+}
+.accountSettingPlugins .scrollContainer .pluginsData .pluginsTable .td1 .td1Container .svgContainer .hoverText {
+  top: 2rem;
+  left: 0;
+}
+.accountSettingPlugins .scrollContainer .pluginsData .pluginsTable .td1 .td1Container .svgContainer.folder {
+  background-image: url("../../image/svg/folder_standard.svg");
+}
+.accountSettingPlugins .scrollContainer .pluginsData .pluginsTable .td1 .td1Container .svgContainer.folder:hover {
+  background-image: url("../../image/svg/folder_hover.svg");
+}
+.accountSettingPlugins .scrollContainer .pluginsData .pluginsTable .td1 .td1Container .svgContainer.folder:active {
+  background-image: url("../../image/svg/folder_standard.svg");
+}
+.accountSettingPlugins .scrollContainer .pluginsData .pluginsTable .td1 .td1Container .svgContainer.csv {
+  background-image: url("../../image/svg/csv.svg");
 }
 .accountSettingPlugins .scrollContainer .pluginsData .pluginsTable .td2 {
-  width: 50%;
+  width: 20%;
 }
 
 .accountSettingPluginsEditor {
@@ -327,46 +394,60 @@
 }
 .accountSettingPluginsEditor .pluginsSchemasName {
   display: flex;
-  margin: 2rem 0 1rem 3rem;
+  margin: 1.6rem 0 1rem 1.875rem;
 }
 .accountSettingPluginsEditor .pluginsSchemasName .title {
+  margin: 0 2rem 0 0;
   color: white;
+  font-weight: bold;
 }
-.accountSettingPluginsEditor .pluginsSchemasName .value {
-  margin: 0 0 0 1rem;
-  width: 10rem;
+.accountSettingPluginsEditor .pluginsNameContainer {
+  margin: 1rem 3.45rem 0 3.45rem;
+  padding: 0 0 3rem 0;
+  display: flex;
+  align-items: flex-end;
+  border-bottom: solid 1px #8D97AD;
 }
-.accountSettingPluginsEditor .pluginsSchemasName .value input {
+.accountSettingPluginsEditor .pluginsNameContainer .pluginsName {
+  font-size: 1.625rem;
+}
+.accountSettingPluginsEditor .pluginsNameContainer .value {
+  margin: 0 0 0 2rem;
+  width: 25rem;
+}
+.accountSettingPluginsEditor .pluginsNameContainer .value input {
   width: 100%;
   color: #8FCDCC;
   font-size: 1.625rem;
-  border: 1px solid #45547e;
+  border-bottom: 1px solid #8FCDCC;
+}
+.accountSettingPluginsEditor .pluginsNameContainer .value input:focus {
+  box-shadow: 0 4px rgba(143, 205, 204, 0.65);
 }
 .accountSettingPluginsEditor .pluginsSchemas {
-  width: 50%;
-  margin: 0 0 0 5rem;
-}
-.accountSettingPluginsEditor .pluginsSchemas .schemasField {
-  margin: 0 0 0 2.5rem;
   display: flex;
-  color: white;
+  flex-direction: column;
+  margin: 2rem 5rem 0 5rem;
 }
-.accountSettingPluginsEditor .pluginsSchemas .schemasField div {
-  width: 50%;
+.accountSettingPluginsEditor .pluginsSchemas .column1 {
+  width: 60%;
+}
+.accountSettingPluginsEditor .pluginsSchemas .column2 {
+  width: 20%;
 }
 .accountSettingPluginsEditor .pluginsSchemas .schemasRow {
   margin: 0.5rem 0;
   display: flex;
   align-items: center;
 }
-.accountSettingPluginsEditor .pluginsSchemas .schemasRow div {
-  width: 49%;
-}
-.accountSettingPluginsEditor .pluginsSchemas .schemasRow div input {
-  width: 90%;
+.accountSettingPluginsEditor .pluginsSchemas .schemasRow input {
+  width: 97%;
   color: #8FCDCC;
   font-size: 1.625rem;
   border-bottom: 1px solid #c9f1f0;
+}
+.accountSettingPluginsEditor .pluginsSchemas .schemasRow input:focus {
+  box-shadow: 0 4px rgba(143, 205, 204, 0.65);
 }
 .accountSettingPluginsEditor .pluginsSchemas .schemasRow .svgContainer {
   cursor: pointer;
@@ -374,28 +455,15 @@
   margin: 0 1rem 0 0;
 }
 .accountSettingPluginsEditor .pluginsSchemas .addButtonContainer {
-  margin: 2.5rem 0 1.88rem 0;
+  margin: 2.6rem 0 1.88rem 0;
   display: flex;
   justify-content: center;
-}
-.accountSettingPluginsEditor .pluginsSchemas .addButtonContainer .addButton {
-  cursor: pointer;
-  height: 2.7rem;
-  width: 2.7rem;
-  border: solid 0.45rem #00EAFF;
-  border-radius: 50%;
-  font-size: 1.9rem;
-  line-height: 2.5rem;
-  text-align: center;
-  color: #00EAFF;
 }
 .accountSettingPluginsEditor .pluginsButton {
-  margin: 0 0 0 5rem;
-  width: 50%;
   display: flex;
   justify-content: center;
 }
-.accountSettingPluginsEditor .pluginsButton .button {
+.accountSettingPluginsEditor .pluginsButton .secondary_button {
   margin: 0 1rem;
 }
 

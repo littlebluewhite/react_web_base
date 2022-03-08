@@ -1,7 +1,7 @@
 import React, {useCallback, useContext, useEffect, useMemo, useReducer, useRef, useState} from "react";
 import {Link, Route, Switch, useHistory, useLocation} from "react-router-dom";
 import {HeaderTitle, Sort, SynAssignJob, UpContainerCommon} from "./common";
-import {CONNECT_SERVER, DELAY, IS_RUNNING, SERVER} from "../setting";
+import {CONNECT_SERVER, DELAY, IS_RUNNING, PHOTO_USE_DEFAULT, SERVER} from "../setting";
 import {FormattedMessage} from "react-intl";
 import {
     checkFetchResult,
@@ -29,6 +29,7 @@ import '../SCSS/common.css'
 import {equipmentName} from "../data/dashboardEquipment";
 import {convertTime} from "../function/convertFunction";
 import {dealIndexTableData} from "../function/dealDataFunction";
+import navigationPhoto from "../image/png/navigation.png"
 
 function Layout(){
     const [asideOpen, setAsideOpen] = useState(true)
@@ -126,7 +127,10 @@ function IconContainer(){
         <div className="icon item">
             <Link to={"/"}>
                 <div className="icon_svg">
-                    <img src={navigation} alt="navigation"/>
+                    {PHOTO_USE_DEFAULT ?
+                        <img src={navigationPhoto} alt="navigation"/>
+                        : <img src={navigation} alt="navigation"/>
+                    }
                 </div>
             </Link>
         </div>

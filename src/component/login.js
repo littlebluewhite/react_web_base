@@ -4,6 +4,8 @@ import {authContext} from "./mainIndex.js";
 import {Redirect, Switch, useHistory, useLocation} from "react-router-dom";
 import {useGetIndexPicture} from "../function/usePackage";
 import {fetchLogin, fetchSelfTemplate, successLogin} from "../function/loginFunction";
+import indexPhoto from "../image/png/index.png"
+import {PHOTO_USE_DEFAULT} from "../setting";
 
 function Login(){
     let storageToken = localStorage.getItem("token")
@@ -59,7 +61,10 @@ function Login(){
                 <div className={"loginContainer"}>
                     <div className="imageContainer">
                         <div className={"imageDiv"}>
-                            <img src={indexImage} alt={"index"}/>
+                            {PHOTO_USE_DEFAULT ?
+                                <img src={indexPhoto} alt={"index"}/>
+                                : <img src={indexImage} alt={"index"}/>
+                            }
                         </div>
                     </div>
                     <form onSubmit={(event)=>(handleLogin(event))}>

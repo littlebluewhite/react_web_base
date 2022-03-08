@@ -5,7 +5,7 @@ const PAGE_ACCOUNT_SETTING_GROUP_INITIAL_STATE={
     isSaveActive: false,
     isCreate: false,
     search: "",
-    sortCondition: ["GroupName", false],
+    sortCondition: ["groupName", false],
 }
 
 function groupReducer(state, action){

@@ -22,16 +22,23 @@
     }
   }
   .pluginsLayers{
-    margin: 1rem 0 1rem 2%;
+    margin: 1rem 0 1.5rem 2%;
     width: 100%;
     overflow: scroll;
+    .photoSpan{
+      margin-right: .4rem;
+    }
     .link{
       cursor: pointer;
-      color: #104fde;
-      .slash{
-        cursor: default;
-        color: #8FCDCC;
+      color: rgba(0, 234, 255, 0.7);
+      &:hover{
+        color: #00EAFF;
       }
+    }
+    .slash{
+      cursor: default;
+      color: #ffffff;
+      margin: 0 .3rem;
     }
   }
   .scrollContainer{
@@ -49,35 +56,95 @@
       margin-right: 10px;
       padding-right: 0;
       .text29_1{
-        padding-left: 3.5rem;
-        width: 50%;
+        padding-left: 6.1rem;
+        width: 80%;
       }
       .text29_2{
-        width: 50%;
+        width: 20%;
         border-right: none;
       }
+    }
+    .noDataContainer {
+      margin: 0 1rem 1.5rem 1.5rem;
+      border: 1px solid #8FCDCC;
+      text-align: center;
+      color: white;
+      line-height: 2.5rem;
+      font-size: 1.25rem;
     }
     .pluginsData{
       margin-left: 1.5%;
       @include scroll();
       padding-right: 0;
       margin-right: 0;
+      .folderCreate{
+        width: 100%;
+        height: 3.5rem;
+        form{
+          height: 100%;
+        }
+        .firstLine{
+          height: 100%;
+          display: flex;
+          align-items: center;
+          padding: 0 0 0 3.8rem;
+          .leftContainer{
+            .svgContainer{
+              margin: 0 1rem 0 0;
+            }
+            display: flex;
+            height: 2rem;
+            width: 80%;
+            input{
+              width: 14.5rem;
+            }
+          }
+          .rightContainer{
+            display: flex;
+            width: 20%;
+            .hasMargin{
+              margin: 0 0 0 1.25rem;
+            }
+          }
+        }
+      }
       .pluginsTable{
         width: 100%;
         .td1 {
           padding-left: 1rem;
-          width: 50%;
+          width: 80%;
 
           .td1Container {
             display: flex;
             align-items: center;
-            .name {
-              margin-left: 1rem;
+            .svgContainer{
+              position: relative;
+              margin: 0 1rem;
+              display: flex;
+              height: 1.5rem;
+              width: 1.5rem;
+              justify-content: center;
+              .hoverText{
+                top: 2rem;
+                left: 0;
+              }
+              &.folder{
+                background-image: url("../../image/svg/folder_standard.svg");
+                &:hover{
+                  background-image: url("../../image/svg/folder_hover.svg");
+                }
+                &:active {
+                  background-image: url("../../image/svg/folder_standard.svg");
+                }
+              }
+              &.csv{
+                background-image: url("../../image/svg/csv.svg");
+              }
             }
           }
         }
         .td2{
-          width: 50%;
+          width: 20%;
         }
       }
     }
@@ -95,33 +162,47 @@
   overflow: scroll;
   .pluginsSchemasName{
     display: flex;
-    margin: 2rem 0 1rem 3rem;
+    margin: 1.6rem 0 1rem 1.875rem;
     .title{
-      color: white
+      margin: 0 2rem 0 0;
+      color: white;
+      font-weight: bold;
+    }
+  }
+  .pluginsNameContainer{
+    margin: 1rem 3.45rem 0 3.45rem;
+    padding: 0 0 3rem 0;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: solid 1px #8D97AD;
+    .pluginsName{
+      font-size: 1.625rem;
     }
     .value{
-      margin: 0 0 0 1rem;
-      width: 10rem;
+      margin: 0 0 0 2rem;
+      width: 25rem;
       input{
         width: 100%;
         color: #8FCDCC;
         font-size: 1.625rem;
-        border: 1px solid #45547e;
+        border-bottom: 1px solid #8FCDCC;
+        &:focus{
+          box-shadow: 0 4px rgb(143 205 204 / 65%);
+        }
       }
     }
+
   }
   .pluginsSchemas {
-    width: 50%;
-    margin: 0 0 0 5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 5rem 0 5rem;
 
-    .schemasField {
-      margin: 0 0 0 2.5rem;
-      display: flex;
-      color: white;
-
-      div {
-        width: 50%;
-      }
+    .column1 {
+      width: 60%;
+    }
+    .column2 {
+      width: 20%;
     }
 
     .schemasRow {
@@ -129,13 +210,13 @@
       display: flex;
       align-items: center;
 
-      div {
-        width: 49%;
-        input {
-          width: 90%;
-          color: #8FCDCC;
-          font-size: 1.625rem;
-          border-bottom: 1px solid #c9f1f0;
+      input {
+        width: 97%;
+        color: #8FCDCC;
+        font-size: 1.625rem;
+        border-bottom: 1px solid #c9f1f0;
+        &:focus{
+          box-shadow: 0 4px rgb(143 205 204 / 65%);
         }
       }
 
@@ -147,29 +228,15 @@
     }
 
     .addButtonContainer {
-      margin: 2.5rem 0 1.88rem 0;
+      margin: 2.6rem 0 1.88rem 0;
       display: flex;
       justify-content: center;
-
-      .addButton {
-        cursor: pointer;
-        height: 2.7rem;
-        width: 2.7rem;
-        border: solid 0.45rem #00EAFF;
-        border-radius: 50%;
-        font-size: 1.9rem;
-        line-height: 2.5rem;
-        text-align: center;
-        color: #00EAFF;
-      }
     }
   }
   .pluginsButton{
-    margin: 0 0 0 5rem;
-    width: 50%;
     display: flex;
     justify-content: center;
-    .button{
+    .secondary_button{
       margin: 0 1rem;
     }
   }

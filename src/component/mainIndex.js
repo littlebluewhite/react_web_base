@@ -24,7 +24,7 @@ function App(){
     const auth = useAdmin()
     // console.log(auth.user)
 
-    const [lang, setLang] = useState('CN')
+    const [lang, setLang] = useState('EN')
     const [locale, setLocale] = useState(CN)
 
     const fetchLang = useCallback((lang, setLocale)=>{

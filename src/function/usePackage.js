@@ -729,7 +729,7 @@ function useAsideHoverTitle(asideOpen, text){
     let contain = null
     if(!asideOpen && hoverTitle) {
         contain = (
-            <div className={"hoverTitle"}>
+            <div className={"hoverText"}>
                 {text[lang]}
             </div>
         )

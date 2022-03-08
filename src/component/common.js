@@ -96,17 +96,19 @@ function DashboardTitle(){
 }
 
 function SecondTitle(){
-    const lang = useLanguage()
     const url = useUrl()
-    const firstData = mainTitleData[url.mainPath]
-    const mainTitle = firstData["title"][lang]
+    const mainTitle = mainTitleData[url.mainPath]["id"]
     const text = '/'
-    const index = firstData["subData"]["index"][url.subPath]
-    const subTitle = firstData["subData"]["data"][index]["title"][lang]
+    const index = mainTitleData[url.mainPath]["subData"]["index"][url.subPath]
+    const subTitle = mainTitleData[url.mainPath]["subData"]["data"][index]["id"]
     return(
         <Switch>
             <Route exact path={"/:mainPath/:subPath"}>
-                <div className="title item">{mainTitle}&nbsp;&nbsp;&nbsp;{text}&nbsp;&nbsp;&nbsp;{subTitle}</div>
+                <div className="title item">
+                    <FormattedMessage id={mainTitle}/>
+                    &nbsp;&nbsp;&nbsp;{text}&nbsp;&nbsp;&nbsp;
+                    <FormattedMessage id={subTitle}/>
+                </div>
             </Route>
             <Route path={"/:mainPath/:subPath/:thirdPath"}>
                 <ThirdTitle mainTitle={mainTitle} subTitle={subTitle}/>
@@ -121,9 +123,13 @@ function ThirdTitle(props){
     const index = subTitleData[`${mainPath}/${subPath}`]['thirdData']["index"][thirdPath]
     const thirdTitleId = subTitleData[`${mainPath}/${subPath}`]['thirdData']["data"][index]["id"]
     return (
-        <div className="title item">{props.mainTitle}&nbsp;&nbsp;&nbsp;{text}
-            &nbsp;&nbsp;&nbsp;{props.subTitle}
-            &nbsp;&nbsp;&nbsp;{text}&nbsp;&nbsp;&nbsp;<FormattedMessage id={thirdTitleId}/>
+        <div className="title item">
+            <FormattedMessage id={props.mainTitle}/>
+            &nbsp;&nbsp;&nbsp;{text}
+            &nbsp;&nbsp;&nbsp;
+            <FormattedMessage id={props.subTitle}/>
+            &nbsp;&nbsp;&nbsp;{text}&nbsp;&nbsp;&nbsp;
+            <FormattedMessage id={thirdTitleId}/>
         </div>
     )
 }
@@ -162,13 +168,14 @@ function UpContainerCommon(props) {
 }
 
 function AsideTitle(props){
-    const lang = useLanguage()
     const {mainPath} = useParams()
-    const title = mainTitleData[mainPath]["title"][lang]
+    const title = mainTitleData[mainPath]["id"]
 
     return(
         <div className={"title"}>
-            <div className={"text"}>{title}</div>
+            <div className={"text"}>
+                <FormattedMessage id={title}/>
+            </div>
             <div className={"point"} onClick={props.onHandleSubOpen}
                 >{props.subOpen ?
                     (<svg width="1rem" height="0.6875rem" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -184,14 +191,13 @@ function AsideTitle(props){
 }
 
 function AsideElement(){
-    const lang = useLanguage()
     const url = useUrl()
     const items = mainTitleData[url.mainPath]["subData"]["data"]
     return(
         <>
             {items.map((item, index) => (
                 <Element key={item.name} name={item.name}
-                         title={item.title[lang]} index={index}
+                         id={item.id} index={index}
                 />
             ))}
         </>
@@ -217,7 +223,9 @@ function Element(props){
         <Link to={`/${url.mainPath}/${props.name}`}>
             <div className={blockClass()}>
                 <div className={"background"}/>
-                <div className={className}>{props.title}</div>
+                <div className={className}>
+                    <FormattedMessage id={props.id}/>
+                </div>
             </div>
         </Link>
     )

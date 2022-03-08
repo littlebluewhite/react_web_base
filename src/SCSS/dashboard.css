@@ -1075,18 +1075,8 @@ aside .aside_container .asideUpItem {
   position: relative;
   cursor: pointer;
 }
-aside .aside_container .asideUpItem .hoverTitle {
-  z-index: 3;
-  position: absolute;
-  text-align: center;
-  line-height: 1.6875rem;
-  padding: 0 1rem;
-  font-size: 1rem;
-  color: #000000;
-  background: #8FCDCC;
-  border: 1px solid #000000;
+aside .aside_container .asideUpItem .hoverText {
   left: 3.5rem;
-  width: max-content;
 }
 aside .aside_container .asideUpItem .text {
   margin-left: 5%;

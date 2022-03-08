@@ -204,6 +204,23 @@ a{
   }
 }
 
+.addButton {
+  cursor: pointer;
+  height: 2.7rem;
+  width: 2.7rem;
+  border: solid 0.45rem #00EAFF;
+  border-radius: 50%;
+  font-size: 1.9rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #00EAFF;
+
+  &.inactive {
+    opacity: 0.2;
+    cursor: not-allowed;
+  }
+}
+
 .modelButton {
   width: 13.125rem;
   height: 4.375rem;
@@ -291,6 +308,18 @@ input{
   border: none;
   background: none;
   box-sizing: border-box;
+
+  &.input {
+    display: block;
+    height: 100%;
+    border: 1px solid #8FCDCC;
+    color: white;
+    font-size: 1.25rem;
+
+    &:focus {
+      box-shadow: 0 0 2px 3px rgba(143, 205, 204, 0.55);
+    }
+  }
 
   &:focus-visible{
     outline: none;
@@ -628,4 +657,22 @@ input{
   &.down{
     transform: rotate(135deg);
   }
+}
+
+.hoverText {
+  z-index: 3;
+  position: absolute;
+  text-align: center;
+  line-height: 1.6875rem;
+  padding: 0 1rem;
+  font-size: 1rem;
+  color: #000000;
+  background: #8FCDCC;
+  border: 1px solid #000000;
+  width: max-content;
+}
+
+.svgContainer {
+  background-size: contain;
+  background-repeat: no-repeat;
 }

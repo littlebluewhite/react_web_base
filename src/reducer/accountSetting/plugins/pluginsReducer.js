@@ -16,6 +16,7 @@ const PAGE_ACCOUNT_SETTING_PLUGIN_INITIAL_STATE={
         "pluginsType": "",
     },
     sortCondition: ["pluginsSchemasName", false],
+    folderCreate: false,
     pagination: ACCOUNT_PLUGIN_DEFAULT_PAGINATION,
 }
 
@@ -37,6 +38,16 @@ function pluginsReducer(state, action){
             return {
                 ...state,
                 reFetchData: !state.reFetchData
+            }
+        case "CREATE_FOLDER_MODE_OPEN":
+            return {
+                ...state,
+                folderCreate: true
+            }
+        case "CREATE_FOLDER_MODE_CLOSE":
+            return {
+                ...state,
+                folderCreate: false
             }
         default:
             return accountSettingReducer(state, action)

@@ -1,7 +1,5 @@
-# React Web Base
-'''
-npm install --global --save-dev eslint-config-react-app eslint@^8.7.0
-'''
+# Web_IBMS
+
 ### develop mode
 1. install node.js from https://nodejs.org/en/
 2. open **edit_install.bat**

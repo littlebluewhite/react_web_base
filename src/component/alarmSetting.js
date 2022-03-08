@@ -378,10 +378,10 @@ function AlarmSettingRule() {
                 <Route exact path={"/alarmSetting/rule"}>
                     <AlarmSettingRuleIndex updateData={updateData}/>
                 </Route>
-                <Route path={"/alarmSetting/rule/update"}>
+                <Route path={"/alarmSetting/rule/edit"}>
                     <AlarmSettingRuleEditor updateData={updateData}/>
                 </Route>
-                <Route path={"/alarmSetting/rule/add"}>
+                <Route path={"/alarmSetting/rule/create"}>
                     <AlarmSettingAdd/>
                 </Route>
             </Switch>

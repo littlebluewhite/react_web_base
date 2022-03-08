@@ -26,12 +26,12 @@ export const subTitleData = {
     "alarmSetting/rule": {
         "thirdData": {
             "index": {
-                "update": 0,
-                "add": 1
+                "edit": 0,
+                "create": 1
             },
             "data": [
-                {"name": "update", "id": "header.alarmSetting.rule.update"},
-                {"name": "add", "id": "header.alarmSetting.rule.add"}
+                {"name": "edit", "id": "header.alarmSetting.rule.edit"},
+                {"name": "create", "id": "header.alarmSetting.rule.create"}
             ]
         }
     }

@@ -23,6 +23,14 @@ const accountSettingModuleData = {
         handleSettingDelete,
         handlePluginsDelete
     ],
+    "createHover": [
+        "accountSetting.userList.createHover",
+        "accountSetting.plugins.createHover"
+    ],
+    "createFolderHover": [
+        "",
+        "accountSetting.plugins.createFolderHover"
+    ],
     "deleteTitle": [
         "model.delete.title.accountSetting.userList",
         "model.delete.title.accountSetting.plugins"
@@ -30,7 +38,7 @@ const accountSettingModuleData = {
     "deleteText": [
         "accountSetting.account",
         "accountSetting.plugins"
-    ]
+    ],
 }
 
 export {accountSettingIndex, accountSettingModuleData}

@@ -1,9 +1,11 @@
 const DELAY = 2000
-const IS_RUNNING = false
-const CONNECT_SERVER = false
+const IS_RUNNING = true
+const CONNECT_SERVER = true
 
 const IS_PRODUCT = true
 const IS_DEVELOP = false
+
+const PHOTO_USE_DEFAULT = true
 
 
 // console.log(window.location.host)
@@ -24,7 +26,7 @@ const SERVER = "http://20.48.113.161:9005"
 
 // Daniel
 // const SERVER = "http://220.128.216.143:9322"
-export {DELAY, IS_RUNNING, SERVER, CONNECT_SERVER, IS_PRODUCT, IS_DEVELOP}
+export {DELAY, IS_RUNNING, SERVER, CONNECT_SERVER, IS_PRODUCT, IS_DEVELOP, PHOTO_USE_DEFAULT}
 
 // 57at3klp0y192aecwc
 

@@ -19,7 +19,7 @@
     }
     .svgContainer{
       cursor: pointer;
-      margin-left: 1rem;
+      margin-left: 1.5rem;
     }
   }
   .rightContainer{
@@ -27,14 +27,22 @@
     justify-content: flex-end;
     flex-grow: 1;
     font-size: 1rem;
-    .createFolderButtonContainer{
-      cursor: pointer;
-      margin: 0 1.5rem 0;
-    }
     .createUserButtonContainer{
-      margin-right: 1rem;
-      width: 3rem;
+      position: relative;
+      margin: 0 1.7rem 0 0;
+      .hoverText{
+        top: -2rem;
+      }
+    }
+    .createFolderButtonContainer{
+      position: relative;
+      cursor: pointer;
+      padding-right: 1rem;
+      margin-right: 2rem;
       border-right: solid 1px rgba(255, 255, 255, 0.35);
+      .hoverText{
+        top: -2rem;
+      }
     }
     @include page();
   }
